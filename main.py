@@ -20,13 +20,14 @@ URLS = [
     "https://evilgodfahim.github.io/edit/daily_feed.xml"
 ]
 
-MODEL_NAME = "gemini-2.0-flash-lite"
-API_KEY = os.environ["GEM"]
+# Groq Configuration
+MODEL_NAME = "llama-3.3-70b-versatile"  # Best for analysis
+GROQ_API_KEY = os.environ["GEM"]  # Using existing secret name
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 def save_xml(data, error_message=None):
     filename = "filtered_feed.xml"
     
-    # Create directory if it doesn't exist
     os.makedirs(os.path.dirname(filename) if os.path.dirname(filename) else ".", exist_ok=True)
     
     rss = ET.Element("rss", version="2.0")
@@ -75,7 +76,7 @@ def save_xml(data, error_message=None):
             with open(filename, 'w', encoding='utf-8') as f:
                 f.write('<?xml version="1.0" encoding="utf-8"?>\n')
                 f.write('<rss version="2.0"><channel>')
-                f.write('<title>BCS/Banking Exam Priority Feed</title>')
+                f.write('<title>Elite News Feed</title>')
                 f.write('<link>https://github.com/evilgodfahim</link>')
                 f.write('<description>Emergency fallback feed</description>')
                 f.write('<item><title>System Initialization</title>')
@@ -146,11 +147,11 @@ def fetch_titles_only():
     print(f"✅ Loaded {len(all_articles)} candidate headlines", flush=True)
     return all_articles
 
-def call_gemini_elite(batch):
+def call_groq_analyzer(batch):
     prompt_list = [f"{a['id']}: {a['title']}" for a in batch]
     prompt_text = "\n".join(prompt_list)
 
-    prompt = f"""You are an ELITE intelligence analyst curating news for three distinct audiences:
+    system_prompt = """You are an ELITE intelligence analyst curating news for three distinct audiences:
 1. BCS (Bangladesh Civil Service) exam candidates
 2. Banking job exam aspirants  
 3. Geopolitical strategists & power analysts
@@ -200,112 +201,106 @@ TIER 3: STRATEGIC FORESIGHT (Competitive Edge)
 
 ═══════════════════════════════════════════════════════════════════
 
-ABSOLUTE REJECTIONS (Waste of Mental Bandwidth):
-✗ Sports: Cricket/football matches, player transfers, tournament updates (ক্রিকেট, ফুটবল)
-✗ Entertainment: Cinema releases, music, celebrity news, award shows (সিনেমা, গান)
-✗ Crime: Local murders, robberies, accidents WITHOUT systemic policy impact (অপরাধ, দুর্ঘটনা)
-✗ Human interest: Viral stories, feel-good content, personal achievements (ভাইরাল)
-✗ Lifestyle: Fashion, food trends, travel, astrology (ফ্যাশন, রাশিফল)
-✗ Generic editorials: Opinion pieces without NEW concrete facts
+ABSOLUTE REJECTIONS:
+✗ Sports: Cricket/football matches, player transfers (ক্রিকেট, ফুটবল)
+✗ Entertainment: Cinema, music, celebrity news (সিনেমা, গান)
+✗ Crime: Local incidents WITHOUT policy impact (অপরাধ, দুর্ঘটনা)
+✗ Human interest: Viral stories, feel-good content (ভাইরাল)
+✗ Lifestyle: Fashion, food trends, astrology (ফ্যাশন, রাশিফল)
+✗ Generic editorials without NEW concrete facts
 
-═══════════════════════════════════════════════════════════════════
+EDITORIAL FILTERING:
+SELECT editorials ONLY IF they contain NEW policy announcements, concrete statistics, or confirmed agreements.
+REJECT generic commentary on well-known issues.
 
-EDITORIAL/OPINION FILTERING PROTOCOL:
-Most newspaper editorials (সম্পাদকীয়) discuss existing issues but DON'T announce NEW policy.
-
-SELECT editorials ONLY IF they contain:
-✓ Specific NEW policy announcements or government decisions
-✓ Concrete economic statistics not widely reported
-✓ Confirmed international agreements or treaties
-✓ Expert analysis revealing non-public strategic implications
-
-REJECT editorials that are:
-✗ Generic commentary on well-known issues
-✗ Opinion/analysis without factual policy updates
-✗ Rehashing of old news with new perspectives
-
-═══════════════════════════════════════════════════════════════════
-
-EVALUATION FRAMEWORK (Apply to EVERY article):
-
-QUESTION 1: "Will this FACT appear in BCS/Banking exam questions next year?"
-QUESTION 2: "Does this shift power balances or reveal strategic developments?"
-QUESTION 3: "Will competitors have blind spots without this information?"
-QUESTION 4: "Is this NEW information or rehashing old news?"
+EVALUATION QUESTIONS:
+1. "Will this FACT appear in BCS/Banking exams?"
+2. "Does this shift power balances or reveal strategic developments?"
+3. "Will competitors have blind spots without this?"
+4. "Is this NEW information or rehashing old news?"
 
 If answer to ANY question is "No" → REJECT
 
-═══════════════════════════════════════════════════════════════════
+Be RUTHLESSLY selective: If <8% qualify, that's CORRECT."""
 
-INPUT ARTICLES (Bangla/English Mix):
+    user_prompt = f"""Analyze these Bangla/English newspaper headlines and return ONLY a JSON array of selected article IDs with categories and reasons.
+
+ARTICLES:
 {prompt_text}
 
-OUTPUT FORMAT (JSON ONLY):
+Return ONLY valid JSON in this exact format:
 [
-  {{"id": 15, "category": "Monetary Policy", "reason": "Bangladesh Bank rate cut to 8.5% - direct exam fact"}},
-  {{"id": 42, "category": "Indo-Pacific Geopolitics", "reason": "BD-India defense pact signals China counterbalancing"}},
-  {{"id": 73, "category": "Infrastructure", "reason": "Padma Rail Link completion date announced - exam relevant"}}
+  {{"id": 15, "category": "Monetary Policy", "reason": "BB rate cut to 8.5% - direct exam fact"}},
+  {{"id": 42, "category": "Indo-Pacific Geopolitics", "reason": "BD-India defense pact signals China counterbalancing"}}
 ]
 
-═══════════════════════════════════════════════════════════════════
+Be ruthlessly selective. Return empty array [] if nothing qualifies."""
 
-CRITICAL INSTRUCTIONS:
-• Return ONLY the JSON array, nothing else
-• Be RUTHLESSLY selective: If <8% qualify, that's CORRECT
-• Prioritize CONCRETE FACTS over abstract analysis
-• Both Bangla and English titles must be evaluated equally
-• When in doubt, ask: "Would I want to know this to outperform my competitors?"
-
-BEGIN ANALYSIS."""
-
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent?key={API_KEY}"
-    headers = {"Content-Type": "application/json"}
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    
     payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "temperature": 0.1,  # Very low for consistent, strict filtering
-            "topP": 0.8,
-            "topK": 20,
-            "responseMimeType": "application/json"
-        }
+        "model": MODEL_NAME,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ],
+        "temperature": 0.1,
+        "max_tokens": 2000,
+        "response_format": {"type": "json_object"}
     }
 
     try:
-        response = requests.post(url, headers=headers, json=payload, timeout=50)
+        response = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=60)
         
         if response.status_code == 200:
             result = response.json()
-            raw_text = result['candidates'][0]['content']['parts'][0]['text']
-            parsed = json.loads(raw_text)
-            return parsed if isinstance(parsed, list) else []
+            content = result['choices'][0]['message']['content']
+            
+            # Handle both direct array and wrapped object responses
+            try:
+                parsed = json.loads(content)
+                # If it's a dict with an array inside, extract it
+                if isinstance(parsed, dict):
+                    # Look for common keys like 'selections', 'articles', 'results'
+                    for key in ['selections', 'articles', 'results', 'selected']:
+                        if key in parsed and isinstance(parsed[key], list):
+                            return parsed[key]
+                    # If dict doesn't have expected keys, return empty
+                    return []
+                elif isinstance(parsed, list):
+                    return parsed
+                else:
+                    return []
+            except json.JSONDecodeError:
+                print(f"    ⚠️ JSON parse error", flush=True)
+                return []
         
         elif response.status_code == 429:
-            print(f"    ❌ Rate limit (429) - Daily quota exhausted. Stopping.", flush=True)
+            print(f"    ❌ Rate limit (429) - Quota exhausted", flush=True)
             return []
         
         elif response.status_code >= 500:
-            print(f"    ⚠️ Server Error {response.status_code} - Skipping batch", flush=True)
+            print(f"    ⚠️ Server Error {response.status_code}", flush=True)
             return []
         
         else:
-            print(f"    ❌ API Error {response.status_code} - Skipping batch", flush=True)
+            print(f"    ❌ API Error {response.status_code}", flush=True)
             return []
 
     except requests.exceptions.Timeout:
         print(f"    ⏱️ Timeout - Skipping batch", flush=True)
         return []
         
-    except json.JSONDecodeError:
-        print(f"    ⚠️ JSON parse error - Skipping batch", flush=True)
-        return []
-        
     except Exception as e:
-        print(f"    ⚠️ Error: {str(e)[:60]} - Skipping batch", flush=True)
+        print(f"    ⚠️ Error: {str(e)[:60]}", flush=True)
         return []
 
 def main():
     print("=" * 70, flush=True)
-    print("🎯 Elite News Curator - BCS/Banking/Geopolitics (Bangla/English)", flush=True)
+    print("🚀 Elite News Curator - Powered by Groq (Llama 3.3 70B)", flush=True)
     print("=" * 70, flush=True)
     
     if not os.path.exists("filtered_feed.xml"):
@@ -321,18 +316,16 @@ def main():
             print("\n✅ Script completed successfully (no articles to process)", flush=True)
             return
 
-        # Optimized batch size: Typical newspaper titles are 50-100 chars
-        # With 250k TPM limit and conservative estimation:
-        # - 100 articles × 75 chars avg × 2 (title+prompt) = ~15k chars ≈ 4k tokens
-        # - Plus system prompt (~2k tokens) = ~6k tokens total
-        # - Well under 250k TPM limit, so we can use batch size 100
-        BATCH_SIZE = 100
+        # Groq Free Tier: 30 RPM, 14,400 RPD, 6,000 TPM
+        # With Llama 3.3 70B: ~4k tokens input + ~500 output per batch
+        # We can process 150 articles per batch comfortably
+        BATCH_SIZE = 150
         batches = [articles[i:i + BATCH_SIZE] for i in range(0, len(articles), BATCH_SIZE)]
         
-        # With 20 RPD, process max 3 batches (300 articles) - conservative
-        MAX_BATCHES = 3
+        # Limit to 10 batches to stay well under daily limit
+        MAX_BATCHES = 10
         if len(batches) > MAX_BATCHES:
-            print(f"⚠️ Found {len(batches)} batches, limiting to {MAX_BATCHES} to respect 20 RPD quota", flush=True)
+            print(f"⚠️ Found {len(batches)} batches, limiting to {MAX_BATCHES}", flush=True)
             batches = batches[:MAX_BATCHES]
             articles_to_process = articles[:MAX_BATCHES * BATCH_SIZE]
         else:
@@ -340,8 +333,8 @@ def main():
         
         selected_articles = []
         print(f"\n🚀 Processing {len(batches)} batches (size={BATCH_SIZE}) with {MODEL_NAME}...", flush=True)
-        print(f"⚠️ API Limits: 10 RPM | 250k TPM | 20 RPD", flush=True)
-        print(f"📊 Strategy: Process up to {len(articles_to_process)} articles, use {MAX_BATCHES}/20 quota\n", flush=True)
+        print(f"⚡ Groq Free Tier: 30 RPM | 6k TPM | 14.4k RPD - Lightning fast!", flush=True)
+        print(f"📊 Strategy: Process up to {len(articles_to_process)} articles\n", flush=True)
 
         quota_exhausted = False
         batches_processed = 0
@@ -353,7 +346,7 @@ def main():
                 
             print(f"  ⚡ Batch {i+1}/{len(batches)} ({len(batch)} articles)...", flush=True)
             
-            decisions = call_gemini_elite(batch)
+            decisions = call_groq_analyzer(batch)
             
             if not decisions and i == 0:
                 print(f"  ⚠️ First batch failed - possible quota exhaustion", flush=True)
@@ -373,10 +366,10 @@ def main():
             batches_processed += 1
             print(f"    ✓ Selected {len(decisions)} from this batch", flush=True)
             
-            # Wait 10 seconds between batches (10 RPM = 6 sec minimum, use 10 for safety)
+            # Groq is FAST - only need 2 second delays (30 RPM = 2 sec minimum)
             if i < len(batches) - 1:
-                print(f"    ⏸️  Waiting 10 seconds (10 RPM compliance)...", flush=True)
-                time.sleep(10)
+                print(f"    ⏸️  Waiting 3 seconds (rate limit safety)...", flush=True)
+                time.sleep(3)
 
         selection_rate = (len(selected_articles)*100//len(articles_to_process)) if articles_to_process else 0
         print(f"\n🎯 RESULTS:", flush=True)
@@ -384,7 +377,7 @@ def main():
         print(f"   Articles analyzed: {len(articles_to_process)}", flush=True)
         print(f"   Articles selected: {len(selected_articles)} ({selection_rate}% pass rate)", flush=True)
         print(f"   Batches processed: {batches_processed}/{MAX_BATCHES}", flush=True)
-        print(f"   Daily API quota used: {batches_processed}/20 requests ({batches_processed*5}%)", flush=True)
+        print(f"   Daily quota used: ~{batches_processed}/14400 requests", flush=True)
         
         save_xml(selected_articles)
         print("\n✅ Script completed successfully!", flush=True)
