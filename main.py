@@ -259,6 +259,8 @@ Be ruthlessly selective. Return empty array [] if nothing qualifies."""
             result = response.json()
             content = result['choices'][0]['message']['content']
             
+            print(f"    📥 API Response received ({len(content)} chars)", flush=True)
+            
             # Handle both direct array and wrapped object responses
             try:
                 parsed = json.loads(content)
@@ -267,19 +269,29 @@ Be ruthlessly selective. Return empty array [] if nothing qualifies."""
                     # Look for common keys like 'selections', 'articles', 'results'
                     for key in ['selections', 'articles', 'results', 'selected']:
                         if key in parsed and isinstance(parsed[key], list):
+                            print(f"    ✓ Found {len(parsed[key])} selections in '{key}' field", flush=True)
                             return parsed[key]
                     # If dict doesn't have expected keys, return empty
+                    print(f"    ⚠️ Response is dict but no array found. Keys: {list(parsed.keys())[:3]}", flush=True)
                     return []
                 elif isinstance(parsed, list):
+                    print(f"    ✓ Got direct array with {len(parsed)} selections", flush=True)
                     return parsed
                 else:
+                    print(f"    ⚠️ Response is neither dict nor list: {type(parsed)}", flush=True)
                     return []
-            except json.JSONDecodeError:
-                print(f"    ⚠️ JSON parse error", flush=True)
+            except json.JSONDecodeError as e:
+                print(f"    ⚠️ JSON parse error: {str(e)[:50]}", flush=True)
+                print(f"    📄 Raw response preview: {content[:200]}", flush=True)
                 return []
         
         elif response.status_code == 429:
             print(f"    ❌ Rate limit (429) - Quota exhausted", flush=True)
+            try:
+                error_detail = response.json()
+                print(f"    📄 Error details: {error_detail}", flush=True)
+            except:
+                pass
             return []
         
         elif response.status_code >= 500:
@@ -288,14 +300,21 @@ Be ruthlessly selective. Return empty array [] if nothing qualifies."""
         
         else:
             print(f"    ❌ API Error {response.status_code}", flush=True)
+            try:
+                error_detail = response.json()
+                print(f"    📄 Error details: {error_detail}", flush=True)
+            except:
+                print(f"    📄 Raw response: {response.text[:200]}", flush=True)
             return []
 
     except requests.exceptions.Timeout:
-        print(f"    ⏱️ Timeout - Skipping batch", flush=True)
+        print(f"    ⏱️ Timeout after 60 seconds - Skipping batch", flush=True)
         return []
         
     except Exception as e:
-        print(f"    ⚠️ Error: {str(e)[:60]}", flush=True)
+        print(f"    ⚠️ Unexpected error: {str(e)}", flush=True)
+        import traceback
+        print(f"    📄 Traceback: {traceback.format_exc()[:300]}", flush=True)
         return []
 
 def main():
