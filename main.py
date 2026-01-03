@@ -223,18 +223,24 @@ If answer to ANY question is "No" → REJECT
 
 Be RUTHLESSLY selective: If <8% qualify, that's CORRECT."""
 
-    user_prompt = f"""Analyze these Bangla/English newspaper headlines and return ONLY a JSON array of selected article IDs with categories and reasons.
+    user_prompt = f"""Analyze these Bangla/English newspaper headlines and return a JSON array of selected article IDs.
 
 ARTICLES:
 {prompt_text}
 
-Return ONLY valid JSON in this exact format:
+You MUST return ONLY a valid JSON array (not an object) in this EXACT format:
 [
   {{"id": 15, "category": "Monetary Policy", "reason": "BB rate cut to 8.5% - direct exam fact"}},
   {{"id": 42, "category": "Indo-Pacific Geopolitics", "reason": "BD-India defense pact signals China counterbalancing"}}
 ]
 
-Be ruthlessly selective. Return empty array [] if nothing qualifies."""
+CRITICAL RULES:
+- Return a JSON array directly, NOT wrapped in an object
+- Do NOT add explanatory text before or after the JSON
+- If nothing qualifies, return: []
+- Be extremely selective - only 5-10% should qualify
+
+Begin your response with [ and end with ]"""
 
     headers = {
         "Authorization": f"Bearer {GROQ_API_KEY}",
@@ -248,8 +254,7 @@ Be ruthlessly selective. Return empty array [] if nothing qualifies."""
             {"role": "user", "content": user_prompt}
         ],
         "temperature": 0.1,
-        "max_tokens": 2000,
-        "response_format": {"type": "json_object"}
+        "max_tokens": 2000
     }
 
     try:
@@ -257,32 +262,50 @@ Be ruthlessly selective. Return empty array [] if nothing qualifies."""
         
         if response.status_code == 200:
             result = response.json()
-            content = result['choices'][0]['message']['content']
+            content = result['choices'][0]['message']['content'].strip()
             
             print(f"    📥 API Response received ({len(content)} chars)", flush=True)
+            
+            # Remove any markdown code blocks if present
+            if content.startswith("```"):
+                content = content.split("```")[1]
+                if content.startswith("json"):
+                    content = content[4:]
+                content = content.strip()
             
             # Handle both direct array and wrapped object responses
             try:
                 parsed = json.loads(content)
+                
                 # If it's a dict with an array inside, extract it
                 if isinstance(parsed, dict):
+                    # Check for error messages from the model
+                    if 'error' in parsed:
+                        print(f"    ❌ Model returned error: {parsed.get('error', 'Unknown')}", flush=True)
+                        print(f"    📄 Full response: {content[:300]}", flush=True)
+                        return []
+                    
                     # Look for common keys like 'selections', 'articles', 'results'
-                    for key in ['selections', 'articles', 'results', 'selected']:
+                    for key in ['selections', 'articles', 'results', 'selected', 'data']:
                         if key in parsed and isinstance(parsed[key], list):
                             print(f"    ✓ Found {len(parsed[key])} selections in '{key}' field", flush=True)
                             return parsed[key]
+                    
                     # If dict doesn't have expected keys, return empty
-                    print(f"    ⚠️ Response is dict but no array found. Keys: {list(parsed.keys())[:3]}", flush=True)
+                    print(f"    ⚠️ Response is dict but no array found. Keys: {list(parsed.keys())[:5]}", flush=True)
+                    print(f"    📄 Sample: {str(parsed)[:200]}", flush=True)
                     return []
+                    
                 elif isinstance(parsed, list):
                     print(f"    ✓ Got direct array with {len(parsed)} selections", flush=True)
                     return parsed
                 else:
                     print(f"    ⚠️ Response is neither dict nor list: {type(parsed)}", flush=True)
                     return []
+                    
             except json.JSONDecodeError as e:
                 print(f"    ⚠️ JSON parse error: {str(e)[:50]}", flush=True)
-                print(f"    📄 Raw response preview: {content[:200]}", flush=True)
+                print(f"    📄 Raw response preview: {content[:300]}", flush=True)
                 return []
         
         elif response.status_code == 429:
