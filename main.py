@@ -126,14 +126,11 @@ Skip always: • Crime, accidents, or scandals without institutional consequence
 • Personal narratives without systemic implication
 • Repetition of already-settled facts
 OUTPUT SPEC (strict)
-Return only a JSON array.
-Each item must contain exactly: id
-category (one of the four lenses)
-reason (one concise sentence explaining the structural significance)
+Return only a JSON array of selected IDs.
+Example: [0, 5, 12, 23]
 No markdown.
 No commentary.
-No text outside JSON.
-Start with [ and end with ]."""
+No text outside JSON."""
 
 def save_xml(data, filename, error_message=None):
     os.makedirs(os.path.dirname(filename) if os.path.dirname(filename) else ".", exist_ok=True)
@@ -251,7 +248,7 @@ def extract_json_from_text(text):
     except json.JSONDecodeError:
         pass
     try:
-        match = re.search(r'(\[.*\])', text, re.DOTALL)
+        match = re.search(r'(\[[\d,\s]*\])', text, re.DOTALL)
         if match:
             return json.loads(match.group(1))
     except json.JSONDecodeError:
@@ -511,13 +508,12 @@ def main():
 
             if decisions:
                 print(f"    [{model_info['display']}] Selected {len(decisions)} articles", flush=True)
-                for d in decisions:
-                    aid = d.get('id')
-                    if aid is not None and isinstance(aid, int) and aid < len(articles):
+                for aid in decisions:
+                    if isinstance(aid, int) and aid < len(articles):
                         if aid not in selections_map:
-                            selections_map[aid] = {'models': [], 'decisions': []}
+                            selections_map[aid] = {'models': [], 'count': 0}
                         selections_map[aid]['models'].append(model_info['display'])
-                        selections_map[aid]['decisions'].append(d)
+                        selections_map[aid]['count'] += 1
             else:
                 print(f"    [{model_info['display']}] No selections", flush=True)
 
@@ -531,9 +527,8 @@ def main():
     for aid, info in selections_map.items():
         if len(info['models']) >= 2:  # At least 2 models must agree
             original = articles[aid].copy()
-            first_dec = info['decisions'][0]
-            original['category'] = first_dec.get('category', 'Priority')
-            original['reason'] = first_dec.get('reason', 'Systemic Significance')
+            original['category'] = 'Priority'
+            original['reason'] = 'Systemic Significance'
             original['selected_by'] = info['models']
             final_articles.append(original)
     
