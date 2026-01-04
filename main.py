@@ -3,6 +3,7 @@ import json
 import requests
 import time
 import sys
+import re
 from xml.etree import ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -17,69 +18,47 @@ URLS = [
     "https://evilgodfahim.github.io/daily/daily_master.xml",
     "https://evilgodfahim.github.io/bdit/daily_feed_2.xml",
     "https://evilgodfahim.github.io/bdit/daily_feed.xml",
-    "https://evilgodfahim.github.io/edit/daily_feed.xml",
-"https://evilgodfahim.github.io/bdlb/final.xml"
+    "https://evilgodfahim.github.io/edit/daily_feed.xml"
 ]
 
-# Groq Configuration - 3 Model Ensemble with optimized batch sizes
+# Optimized Configuration - Lower batch sizes for reliability
 MODELS = [
-    {"name": "llama-3.3-70b-versatile", "display": "Llama-3.3-70B", "batch_size": 150},
-    {"name": "qwen/qwen3-32b", "display": "Qwen-3-32B", "batch_size": 50},  # Smaller for 413 errors
-    {"name": "openai/gpt-oss-120b", "display": "GPT-OSS-120B", "batch_size": 100}
+    {"name": "llama-3.3-70b-versatile", "display": "Llama-3.3-70B", "batch_size": 50}, # Reduced from 150 to prevent JSON cutoffs
+    {"name": "qwen-2.5-32b", "display": "Qwen-2.5-32B", "batch_size": 40},             # Switched to stable Qwen 2.5
+    {"name": "mixtral-8x7b-32768", "display": "Mixtral-8x7b", "batch_size": 50}        # Fallback efficient model
 ]
-GROQ_API_KEY = os.environ["GEM"]
+# Note: Ensure GROQ_API_KEY is set in your environment variables
+GROQ_API_KEY = os.environ.get("GEM")
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 SYSTEM_PROMPT = """You are a Chief Information Filter.
 Your task is to select headlines with structural and lasting significance.
+OUTPUT SPEC (strict):
+Return ONLY a valid JSON array. Do not write "Here is the JSON" or any intro text.
+Format: [{"id": 123, "category": "POWER RELATIONS", "reason": "Explains systemic change."}]
+"""
+
+FULL_SYSTEM_PROMPT = """You are a Chief Information Filter.
+Your task is to select headlines with structural and lasting significance.
 You do not evaluate importance by popularity, novelty, or emotion.
 You evaluate how information explains or alters systems.
-Judgment must rely only on linguistic structure, implied scope, and systemic consequence.
-TWO INFORMATION TYPES (internal use)
-STRUCTURAL
-— Explains how power, institutions, economies, or long-term social/strategic forces operate or change.
-EPISODIC
-— Describes isolated events, individual actions, or short-lived situations without system impact.
-Select only STRUCTURAL.
-FOUR STRUCTURAL LENSES (exclusive)
-GOVERNANCE & CONTROL
-Rules, enforcement, institutional balance, authority transfer, administrative or judicial change.
-ECONOMIC & RESOURCE FLOWS
-Capital movement, trade structure, production capacity, fiscal or monetary direction, systemic risk.
-POWER RELATIONS & STRATEGY
-Strategic alignment, coercion, deterrence, security posture, long-term rivalry or cooperation.
-IDEAS, ARGUMENTS & LONG-TERM TRENDS
-Editorial reasoning, policy debate, scientific or technological trajectories, demographic or climate forces.
-CONTEXTUAL GRAVITY RULE (KEY)
-When two or more headlines show equal structural strength, favor the one that:
-• Operates closer to the decision-making center of a society
-• Directly affects national policy formation or institutional practice
-• Originates from internal analytical or editorial discourse, not external observation
-This rule applies universally, regardless of language or country.
-SINGLE DECISION TEST (mandatory)
-Ask only:
-"Does this headline clarify how a system functions or how its future direction is being shaped, in a way that remains relevant after time passes?"
-• Yes or plausibly yes → SELECT
-• No → SKIP
-No secondary tests.
-AUTOMATIC EXCLUSIONS
-Skip always: • Crime, accidents, or scandals without institutional consequence
-• Sports, entertainment, lifestyle
-• Personal narratives without systemic implication
-• Repetition of already-settled facts
-OUTPUT SPEC (strict)
-Return only a JSON array.
-Each item must contain exactly: id
-category (one of the four lenses)
-reason (one concise sentence explaining the structural significance)
-No markdown.
-No commentary.
-No text outside JSON.
-Start with [ and end with ]."""
+
+TWO INFORMATION TYPES:
+1. STRUCTURAL (Select these): Explains how power, institutions, or economies operate/change.
+2. EPISODIC (Ignore these): Isolated events, crime, sports, individual actions.
+
+OUTPUT SPEC:
+Return ONLY a JSON array. 
+Each item must contain exactly: 
+- id (integer from input)
+- category (Governance, Economics, Power Relations, or Ideas)
+- reason (one concise sentence)
+
+Start with [ and end with ]. No markdown formatting.
+"""
 
 def save_xml(data, error_message=None):
     filename = "filtered_feed.xml"
-    
     os.makedirs(os.path.dirname(filename) if os.path.dirname(filename) else ".", exist_ok=True)
     
     rss = ET.Element("rss", version="2.0")
@@ -87,22 +66,18 @@ def save_xml(data, error_message=None):
     ET.SubElement(channel, "title").text = "Elite News Feed - 3-Model Ensemble"
     ET.SubElement(channel, "lastBuildDate").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0600")
     ET.SubElement(channel, "link").text = "https://github.com/evilgodfahim"
-    ET.SubElement(channel, "description").text = "AI-curated feed using Llama, Qwen, and GPT ensemble"
+    ET.SubElement(channel, "description").text = "AI-curated feed using Llama, Qwen, and Mixtral ensemble"
 
     if error_message:
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = "System Error"
         ET.SubElement(item, "description").text = f"Script failed: {error_message}"
         ET.SubElement(item, "pubDate").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0600")
-        ET.SubElement(item, "link").text = "https://github.com/evilgodfahim"
-    
     elif not data:
         item = ET.SubElement(channel, "item")
-        ET.SubElement(item, "title").text = "System Running - No Priority News Today"
-        ET.SubElement(item, "description").text = "Curation system working. No structurally significant articles found in the last 26 hours."
+        ET.SubElement(item, "title").text = "System Running - No Priority News"
+        ET.SubElement(item, "description").text = "No structurally significant articles found in the last 26 hours."
         ET.SubElement(item, "pubDate").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0600")
-        ET.SubElement(item, "link").text = "https://github.com/evilgodfahim"
-        
     else:
         for art in data:
             item = ET.SubElement(channel, "item")
@@ -110,7 +85,6 @@ def save_xml(data, error_message=None):
             ET.SubElement(item, "link").text = art['link']
             ET.SubElement(item, "pubDate").text = art['pubDate']
             
-            # Build description with model attribution
             models_str = ", ".join(art.get('selected_by', ['Unknown']))
             category_info = art.get('category', 'News')
             reason_info = art.get('reason', 'Selected')
@@ -126,33 +100,13 @@ def save_xml(data, error_message=None):
         tree = ET.ElementTree(rss)
         ET.indent(tree, space="  ", level=0)
         tree.write(filename, encoding="utf-8", xml_declaration=True)
-        print(f"\nSuccessfully saved {len(data) if data else 0} priority items to {filename}", flush=True)
-        
-        if os.path.exists(filename):
-            file_size = os.path.getsize(filename)
-            print(f"File created: {filename} ({file_size} bytes)", flush=True)
-            
+        print(f"\nSuccessfully saved {len(data) if data else 0} items to {filename}", flush=True)
     except Exception as e:
         print(f"::error::Failed to write XML: {e}", flush=True)
-        try:
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write('<?xml version="1.0" encoding="utf-8"?>\n')
-                f.write('<rss version="2.0"><channel>')
-                f.write('<title>Elite News Feed - Ensemble</title>')
-                f.write('<link>https://github.com/evilgodfahim</link>')
-                f.write('<description>Emergency fallback feed</description>')
-                f.write('<item><title>System Initialization</title>')
-                f.write('<description>Feed initializing. Check back shortly.</description>')
-                f.write(f'<pubDate>{datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0600")}</pubDate>')
-                f.write('</item></channel></rss>')
-            print(f"Created fallback XML", flush=True)
-        except:
-            pass
 
 def fetch_titles_only():
     all_articles = []
     seen_links = set()
-    seen_titles = set()
     now = datetime.now(timezone.utc)
     cutoff_time = now - timedelta(hours=26)
     
@@ -162,43 +116,29 @@ def fetch_titles_only():
     for url in URLS:
         try:
             r = requests.get(url, headers=headers, timeout=8)
-            if r.status_code != 200: 
-                continue
+            if r.status_code != 200: continue
             
             try:
                 root = ET.fromstring(r.content)
-            except: 
-                continue
+            except: continue
 
             for item in root.findall('.//item'):
                 pub_date = item.find('pubDate').text if item.find('pubDate') is not None else ""
-                if not pub_date: 
-                    continue
+                if not pub_date: continue
                 
                 try:
                     dt = parsedate_to_datetime(pub_date)
-                    if dt.tzinfo is None: 
-                        dt = dt.replace(tzinfo=timezone.utc)
-                    else: 
-                        dt = dt.astimezone(timezone.utc)
-                    if dt < cutoff_time: 
-                        continue
-                except: 
-                    continue
+                    if dt.tzinfo is None: dt = dt.replace(tzinfo=timezone.utc)
+                    else: dt = dt.astimezone(timezone.utc)
+                    if dt < cutoff_time: continue
+                except: continue
 
                 link = item.find('link').text or ""
-                if not link or link in seen_links: 
-                    continue
+                if not link or link in seen_links: continue
                 
                 title = item.find('title').text or "No Title"
                 title = title.strip()
-                
-                title_normalized = title.lower().strip()
-                if title_normalized in seen_titles:
-                    continue
-                
                 seen_links.add(link)
-                seen_titles.add(title_normalized)
                 
                 desc = item.find('description')
                 desc_text = desc.text if desc is not None else ""
@@ -210,14 +150,33 @@ def fetch_titles_only():
                     "description": desc_text or title,
                     "pubDate": pub_date
                 })
+        except Exception: continue
 
-        except Exception:
-            continue
-
-    print(f"Loaded {len(all_articles)} unique headlines (deduped)", flush=True)
+    print(f"Loaded {len(all_articles)} unique headlines", flush=True)
     return all_articles
 
-def call_model(model_info, batch, retry_on_429=True):
+def extract_json_from_text(text):
+    """
+    Robustly extracts JSON array from text even if the model adds conversational filler.
+    """
+    try:
+        # Attempt 1: Direct parse
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+
+    try:
+        # Attempt 2: Find the first '[' and the last ']'
+        match = re.search(r'(\[.*\])', text, re.DOTALL)
+        if match:
+            json_str = match.group(1)
+            return json.loads(json_str)
+    except json.JSONDecodeError:
+        pass
+        
+    return None
+
+def call_model(model_info, batch):
     prompt_list = [f"{a['id']}: {a['title']}" for a in batch]
     prompt_text = "\n".join(prompt_list)
 
@@ -229,14 +188,14 @@ def call_model(model_info, batch, retry_on_429=True):
     payload = {
         "model": model_info["name"],
         "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": prompt_text}
+            {"role": "system", "content": FULL_SYSTEM_PROMPT},
+            {"role": "user", "content": f"Here are the headlines to filter:\n{prompt_text}"}
         ],
-        "temperature": 0.3,
-        "max_tokens": 4000  # Increased for larger responses
+        "temperature": 0.1, # Keep strictly deterministic
+        "max_tokens": 4096
     }
 
-    max_retries = 2
+    max_retries = 3
     for attempt in range(max_retries):
         try:
             response = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=90)
@@ -245,247 +204,164 @@ def call_model(model_info, batch, retry_on_429=True):
                 result = response.json()
                 content = result['choices'][0]['message']['content'].strip()
                 
+                # CLEANUP: Remove code blocks if present
                 if content.startswith("```"):
-                    content = content.split("```")[1]
-                    if content.startswith("json"):
-                        content = content[4:]
-                    content = content.strip()
+                    content = content.replace("```json", "").replace("```", "").strip()
+
+                parsed_data = extract_json_from_text(content)
                 
-                try:
-                    parsed = json.loads(content)
-                    
-                    if isinstance(parsed, dict):
-                        if 'error' in parsed:
-                            print(f"    [{model_info['display']}] Model returned error", flush=True)
-                            return []
-                        
-                        for key in ['selections', 'articles', 'results', 'selected', 'data']:
-                            if key in parsed and isinstance(parsed[key], list):
-                                return parsed[key]
-                        
-                        return []
-                        
-                    elif isinstance(parsed, list):
-                        return parsed
-                    else:
-                        return []
-                        
-                except json.JSONDecodeError:
-                    print(f"    [{model_info['display']}] JSON parse error (attempt {attempt+1})", flush=True)
-                    if attempt < max_retries - 1:
-                        time.sleep(5)
-                        continue
-                    return []
-            
-            elif response.status_code == 429:
-                if retry_on_429 and attempt < max_retries - 1:
-                    wait_time = 30 * (attempt + 1)
-                    print(f"    [{model_info['display']}] Rate limit (429) - waiting {wait_time}s...", flush=True)
-                    time.sleep(wait_time)
-                    continue
+                if parsed_data is not None and isinstance(parsed_data, list):
+                    return parsed_data
                 else:
-                    print(f"    [{model_info['display']}] Rate limit (429) - skipping", flush=True)
-                    return []
-            
-            elif response.status_code == 413:
-                print(f"    [{model_info['display']}] Payload too large (413) - batch size too big", flush=True)
-                return []
+                    print(f"    [{model_info['display']}] JSON format error (Attempt {attempt+1})", flush=True)
+                    # Debug: Print first 50 chars to see what went wrong
+                    # print(f"DEBUG CONTENT: {content[:50]}...") 
+                    if attempt < max_retries - 1: time.sleep(2)
+                    continue
+
+            elif response.status_code == 429:
+                wait_time = 40 * (attempt + 1) # Aggressive wait: 40s, 80s, 120s
+                print(f"    [{model_info['display']}] Rate limit (429) - Waiting {wait_time}s...", flush=True)
+                time.sleep(wait_time)
+                continue
             
             elif response.status_code >= 500:
-                if attempt < max_retries - 1:
-                    print(f"    [{model_info['display']}] Server Error {response.status_code} - retrying...", flush=True)
-                    time.sleep(10)
-                    continue
-                else:
-                    print(f"    [{model_info['display']}] Server Error {response.status_code}", flush=True)
-                    return []
+                print(f"    [{model_info['display']}] Server Error {response.status_code} - Retrying...", flush=True)
+                time.sleep(5)
+                continue
             
             else:
                 print(f"    [{model_info['display']}] API Error {response.status_code}", flush=True)
                 return []
 
-        except requests.exceptions.Timeout:
-            print(f"    [{model_info['display']}] Timeout (attempt {attempt+1})", flush=True)
-            if attempt < max_retries - 1:
-                time.sleep(10)
-                continue
-            return []
-            
-        except Exception as e:
-            print(f"    [{model_info['display']}] Error: {str(e)[:60]}", flush=True)
-            return []
+        except requests.exceptions.RequestException as e:
+            print(f"    [{model_info['display']}] Network Error: {str(e)[:50]}", flush=True)
+            time.sleep(5)
     
     return []
 
+# --- Similarity / Dedup helpers ---
+def extract_key_terms(text):
+    bangla_stops = {'এ', 'এর', 'ও', 'তে', 'না', 'কে', 'যে', 'হয়', 'এবং', 'করে', 'থেকে'}
+    english_stops = {'the', 'a', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'is', 'are'}
+    words = re.split(r'\s+', text.lower())
+    all_stops = bangla_stops | english_stops
+    return {w for w in words if len(w) > 2 and w not in all_stops}
+
+def fast_similarity(terms1, terms2):
+    if not terms1 or not terms2: return 0.0
+    intersection = len(terms1 & terms2)
+    union = len(terms1 | terms2)
+    return intersection / union if union else 0.0
+
+def semantic_deduplication(articles, similarity_threshold=0.6):
+    if not articles or len(articles) < 2: return articles
+    print(f"\nSemantic deduplication (threshold={similarity_threshold})...", flush=True)
+    
+    article_terms = [extract_key_terms(art['title']) for art in articles]
+    keep = [True] * len(articles)
+    duplicates = 0
+    
+    for i in range(len(articles)):
+        if not keep[i]: continue
+        for j in range(i + 1, len(articles)):
+            if not keep[j]: continue
+            
+            if fast_similarity(article_terms[i], article_terms[j]) >= similarity_threshold:
+                # Keep the one with longer description
+                if len(articles[j].get('description', '')) > len(articles[i].get('description', '')):
+                    keep[i] = False
+                    duplicates += 1
+                    break 
+                else:
+                    keep[j] = False
+                    duplicates += 1
+    
+    result = [articles[i] for i in range(len(articles)) if keep[i]]
+    print(f"   Removed {duplicates} semantic duplicates", flush=True)
+    return result
+
 def main():
-    print("=" * 70, flush=True)
-    print("Elite News Curator - 3-Model Ensemble", flush=True)
-    print("Models: Llama-3.3-70B | Qwen-3-32B | GPT-OSS-120B", flush=True)
-    print("=" * 70, flush=True)
-    
-    if not os.path.exists("filtered_feed.xml"):
-        print("First run detected - creating initial XML file...", flush=True)
-        save_xml([], error_message=None)
-    
-    try:
-        articles = fetch_titles_only()
-        
-        if not articles:
-            print("No articles found in source feeds", flush=True)
-            save_xml([])
-            print("\nScript completed successfully (no articles to process)", flush=True)
-            return
+    print("=" * 60, flush=True)
+    print("Elite News Curator - 3-Model Ensemble (Optimized)", flush=True)
+    print("=" * 60, flush=True)
 
-        # Create model-specific batches
-        model_batches = {}
+    if not GROQ_API_KEY:
+        print("::error::GEM environment variable (API Key) is missing!", flush=True)
+        sys.exit(1)
+    
+    articles = fetch_titles_only()
+    if not articles:
+        print("No articles found.", flush=True)
+        save_xml([])
+        return
+
+    # Process batches
+    model_batches = {}
+    for model_info in MODELS:
+        bs = model_info['batch_size']
+        model_batches[model_info['name']] = [articles[i:i + bs] for i in range(0, len(articles), bs)]
+    
+    max_batch_count = max(len(batches) for batches in model_batches.values())
+    MAX_BATCHES_LIMIT = 15 # Safety limit
+    
+    selections_map = {}
+    
+    print(f"\nProcessing batches (Max {min(max_batch_count, MAX_BATCHES_LIMIT)} groups)...", flush=True)
+
+    for batch_idx in range(min(MAX_BATCHES_LIMIT, max_batch_count)):
+        print(f"  Batch Group {batch_idx+1}...", flush=True)
+        
         for model_info in MODELS:
-            batch_size = model_info['batch_size']
-            model_batches[model_info['name']] = [
-                articles[i:i + batch_size] for i in range(0, len(articles), batch_size)
-            ]
-        
-        # Use the largest number of batches (from smallest batch size model)
-        max_batch_count = max(len(batches) for batches in model_batches.values())
-        MAX_BATCHES = 10
-        
-        if max_batch_count > MAX_BATCHES:
-            print(f"Found up to {max_batch_count} batches per model, limiting to {MAX_BATCHES}", flush=True)
-        
-        # Dictionary to track selections
-        selections_map = {}
-        
-        print(f"\nProcessing articles with 3-model ensemble...", flush=True)
-        print(f"Batch sizes: Llama=150, Qwen=50, GPT=100", flush=True)
-        print(f"Strategy: Union - keep all unique selections from any model", flush=True)
-        print(f"Runtime target: ~10 minutes with extended delays\n", flush=True)
-
-        batches_processed = 0
-        
-        # Process batch by batch, all models for each batch
-        for batch_idx in range(min(MAX_BATCHES, max_batch_count)):
-            print(f"  Batch Group {batch_idx+1}...", flush=True)
+            m_name = model_info['name']
+            if batch_idx >= len(model_batches[m_name]): continue
             
-            # Call each model with its appropriate batch
-            for model_info in MODELS:
-                model_name = model_info['name']
-                model_batches_list = model_batches[model_name]
-                
-                if batch_idx >= len(model_batches_list):
-                    print(f"    [{model_info['display']}] No more batches", flush=True)
-                    continue
-                
-                batch = model_batches_list[batch_idx]
-                print(f"    [{model_info['display']}] Processing {len(batch)} articles...", flush=True)
-                
-                decisions = call_model(model_info, batch)
+            batch = model_batches[m_name][batch_idx]
+            decisions = call_model(model_info, batch)
+            
+            if decisions:
                 print(f"    [{model_info['display']}] Selected {len(decisions)} articles", flush=True)
-                
-                # Store decisions
                 for d in decisions:
-                    article_id = d.get('id')
-                    if article_id is not None and article_id < len(articles):
-                        if article_id not in selections_map:
-                            selections_map[article_id] = {
-                                'models': [],
-                                'decisions': []
-                            }
-                        selections_map[article_id]['models'].append(model_info['display'])
-                        selections_map[article_id]['decisions'].append(d)
-                
-                # Longer delay between models (10 seconds)
-                print(f"    Waiting 10 seconds...", flush=True)
-                time.sleep(10)
-            
-            batches_processed += 1
-            
-            # Extended delay between batch groups (20 seconds)
-            if batch_idx < min(MAX_BATCHES, max_batch_count) - 1:
-                print(f"    Batch group complete. Waiting 20 seconds before next group...\n", flush=True)
-                time.sleep(20)
+                    aid = d.get('id')
+                    if aid is not None and isinstance(aid, int) and aid < len(articles):
+                        if aid not in selections_map:
+                            selections_map[aid] = {'models': [], 'decisions': []}
+                        selections_map[aid]['models'].append(model_info['display'])
+                        selections_map[aid]['decisions'].append(d)
+            else:
+                 print(f"    [{model_info['display']}] No selections or error", flush=True)
 
-        # Build final article list with deduplication
-        final_articles = []
-        seen_links = set()
-        seen_titles = set()
+            # Essential delay to avoid rate limits
+            time.sleep(5) 
         
-        print(f"\nMerging selections from all models...", flush=True)
-        
-        for article_id, selection_info in selections_map.items():
-            # Find original article
-            original = next((x for x in articles if x["id"] == article_id), None)
-            if not original:
-                continue
-            
-            # Deduplicate
-            link = original['link']
-            title_normalized = original['title'].lower().strip()
-            
-            if link in seen_links or title_normalized in seen_titles:
-                continue
-            
-            seen_links.add(link)
-            seen_titles.add(title_normalized)
-            
-            # Use first model's decision for category/reason, but track all models
-            first_decision = selection_info['decisions'][0]
-            
-            original['category'] = first_decision.get('category', 'Priority')
-            original['reason'] = first_decision.get('reason', 'Structural significance')
-            original['selected_by'] = selection_info['models']
-            
-            final_articles.append(original)
-        
-        # Statistics
-        total_selections = len(selections_map)
-        unique_articles = len(final_articles)
-        duplicates_removed = total_selections - unique_articles
-        selection_rate = (unique_articles * 100 // len(articles)) if articles else 0
-        
-        # Model agreement statistics
-        model_counts = {}
-        for art in final_articles:
-            count = len(art['selected_by'])
-            model_counts[count] = model_counts.get(count, 0) + 1
-        
-        print(f"\nRESULTS:", flush=True)
-        print(f"   Total articles available: {len(articles)}", flush=True)
-        print(f"   Articles analyzed: {len(articles)}", flush=True)
-        print(f"   Total selections (all models): {total_selections}", flush=True)
-        print(f"   Unique articles selected: {unique_articles} ({selection_rate}% of analyzed)", flush=True)
-        if duplicates_removed > 0:
-            print(f"   Duplicates removed: {duplicates_removed}", flush=True)
-        
-        print(f"\n   Model Agreement:", flush=True)
-        for count in sorted(model_counts.keys(), reverse=True):
-            print(f"      {count} model(s): {model_counts[count]} articles", flush=True)
-        
-        print(f"\n   Batch groups processed: {batches_processed}/{MAX_BATCHES}", flush=True)
-        print(f"   Total API calls: ~{batches_processed * 3} ({batches_processed} groups × 3 models)", flush=True)
-        print(f"   Daily quota used: ~{batches_processed * 3}/14400 requests", flush=True)
-        
-        save_xml(final_articles)
-        print("\nScript completed successfully!", flush=True)
+        print("    Cooling down (10s)...", flush=True)
+        time.sleep(10)
 
-    except KeyError as e:
-        error_msg = f"Configuration error: {e}. Check if GEM environment variable is set."
-        print(f"::error::{error_msg}", flush=True)
-        save_xml([], error_message=error_msg)
-        print("\nScript completed with configuration error (XML file created)", flush=True)
-        sys.exit(0)
+    # Merging
+    final_articles = []
+    seen_ids = set()
+    
+    print(f"\nMerging selections...", flush=True)
+    for aid, info in selections_map.items():
+        original = articles[aid].copy()
         
-    except requests.exceptions.RequestException as e:
-        error_msg = f"Network error: {str(e)[:100]}"
-        print(f"::error::{error_msg}", flush=True)
-        save_xml([], error_message=error_msg)
-        print("\nScript completed with network error (XML file created)", flush=True)
-        sys.exit(0)
+        # Use info from the first model that selected it
+        first_dec = info['decisions'][0]
+        original['category'] = first_dec.get('category', 'Priority')
+        original['reason'] = first_dec.get('reason', 'Systemic Significance')
+        original['selected_by'] = info['models']
         
-    except Exception as e:
-        error_msg = f"Unexpected error: {str(e)[:100]}"
-        print(f"::error::{error_msg}", flush=True)
-        save_xml([], error_message=error_msg)
-        print("\nScript completed with error (XML file created)", flush=True)
-        sys.exit(0)
+        final_articles.append(original)
+
+    # Deduplication
+    final_articles = semantic_deduplication(final_articles)
+    
+    # Stats
+    print(f"\nRESULTS:", flush=True)
+    print(f"   Analyzed: {len(articles)} headlines", flush=True)
+    print(f"   Selected: {len(final_articles)} unique articles", flush=True)
+    
+    save_xml(final_articles)
 
 if __name__ == "__main__":
     main()
