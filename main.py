@@ -61,6 +61,12 @@ MODELS = [
         "display": "Mistral-Small",
         "batch_size": 40,
         "api": "mistral"
+    },
+    {
+        "name": "gemini-2.5-flash-lite",
+        "display": "Gemini-2.5-Flash-Lite",
+        "batch_size": 100,
+        "api": "google"
     }
 ]
 
@@ -69,11 +75,13 @@ GROQ_API_KEY = os.environ.get("GEM")
 OPENROUTER_API_KEY = os.environ.get("OP")
 FYRA_API_KEY = os.environ.get("FRY")
 MISTRAL_API_KEY = os.environ.get("GEM2")
+GOOGLE_API_KEY = os.environ.get("LAM")
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 FYRA_API_URL = "https://api.fyra.im/v1/chat/completions"
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
+GOOGLE_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 
 # Semantic similarity threshold for deduplication
 SIMILARITY_THRESHOLD = 0.35  # Distance threshold for hierarchical clustering (1 - cosine_similarity)
@@ -248,7 +256,7 @@ def extract_json_from_text(text):
     except json.JSONDecodeError:
         pass
     try:
-        match = re.search(r'(\[[\d,\s]*\])', text, re.DOTALL)
+        match = re.search(r'(\[.*\])', text, re.DOTALL)
         if match:
             return json.loads(match.group(1))
     except json.JSONDecodeError:
@@ -271,12 +279,28 @@ def call_model(model_info, batch):
             "HTTP-Referer": "https://github.com/evilgodfahim",
             "X-Title": "Elite News Curator"
         }
+        payload = {
+            "model": model_info["name"],
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt_text}
+            ],
+            "temperature": 0.3
+        }
     elif api_type == "fyra":
         api_url = FYRA_API_URL
         api_key = FYRA_API_KEY
         headers = {
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json"
+        }
+        payload = {
+            "model": model_info["name"],
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt_text}
+            ],
+            "temperature": 0.3
         }
     elif api_type == "mistral":
         api_url = MISTRAL_API_URL
@@ -285,6 +309,30 @@ def call_model(model_info, batch):
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json"
         }
+        payload = {
+            "model": model_info["name"],
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt_text}
+            ],
+            "temperature": 0.3
+        }
+    elif api_type == "google":
+        api_url = f"{GOOGLE_API_URL}/{model_info['name']}:generateContent?key={GOOGLE_API_KEY}"
+        api_key = GOOGLE_API_KEY
+        headers = {
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "contents": [{
+                "parts": [{
+                    "text": f"{SYSTEM_PROMPT}\n\n{prompt_text}"
+                }]
+            }],
+            "generationConfig": {
+                "temperature": 0.3
+            }
+        }
     else:  # groq
         api_url = GROQ_API_URL
         api_key = GROQ_API_KEY
@@ -292,15 +340,14 @@ def call_model(model_info, batch):
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json"
         }
-
-    payload = {
-        "model": model_info["name"],
-        "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": prompt_text}
-        ],
-        "temperature": 0.3
-    }
+        payload = {
+            "model": model_info["name"],
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt_text}
+            ],
+            "temperature": 0.3
+        }
 
     max_retries = 5
     base_wait = 30 
@@ -310,7 +357,16 @@ def call_model(model_info, batch):
             response = requests.post(api_url, headers=headers, json=payload, timeout=90)
 
             if response.status_code == 200:
-                content = response.json()['choices'][0]['message']['content'].strip()
+                # Handle Google Gemini response format
+                if api_type == "google":
+                    try:
+                        content = response.json()['candidates'][0]['content']['parts'][0]['text'].strip()
+                    except (KeyError, IndexError):
+                        print(f"    [{model_info['display']}] Invalid Google response format", flush=True)
+                        continue
+                else:
+                    content = response.json()['choices'][0]['message']['content'].strip()
+                
                 if content.startswith("```"):
                     content = content.replace("```json", "").replace("```", "").strip()
 
@@ -477,6 +533,11 @@ def main():
     if needs_mistral and not MISTRAL_API_KEY:
         print("::error::GEM2 environment variable is missing!", flush=True)
         sys.exit(1)
+    
+    needs_google = any(m.get("api") == "google" for m in MODELS)
+    if needs_google and not GOOGLE_API_KEY:
+        print("::error::LAM environment variable is missing!", flush=True)
+        sys.exit(1)
 
     articles = fetch_titles_only()
     if not articles:
@@ -508,12 +569,13 @@ def main():
 
             if decisions:
                 print(f"    [{model_info['display']}] Selected {len(decisions)} articles", flush=True)
-                for aid in decisions:
-                    if isinstance(aid, int) and aid < len(articles):
+                for d in decisions:
+                    aid = d.get('id')
+                    if aid is not None and isinstance(aid, int) and aid < len(articles):
                         if aid not in selections_map:
-                            selections_map[aid] = {'models': [], 'count': 0}
+                            selections_map[aid] = {'models': [], 'decisions': []}
                         selections_map[aid]['models'].append(model_info['display'])
-                        selections_map[aid]['count'] += 1
+                        selections_map[aid]['decisions'].append(d)
             else:
                 print(f"    [{model_info['display']}] No selections", flush=True)
 
@@ -527,8 +589,9 @@ def main():
     for aid, info in selections_map.items():
         if len(info['models']) >= 2:  # At least 2 models must agree
             original = articles[aid].copy()
-            original['category'] = 'Priority'
-            original['reason'] = 'Systemic Significance'
+            first_dec = info['decisions'][0]
+            original['category'] = first_dec.get('category', 'Priority')
+            original['reason'] = first_dec.get('reason', 'Systemic Significance')
             original['selected_by'] = info['models']
             final_articles.append(original)
     
