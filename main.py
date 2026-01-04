@@ -313,11 +313,21 @@ def call_model(model_info, batch):
     print(f"    [{model_info['display']}] Failed after {max_retries} attempts.", flush=True)
     return []
 
+def detect_language(text):
+    """Detect if text is primarily Bangla or English based on Unicode ranges"""
+    bangla_chars = sum(1 for c in text if '\u0980' <= c <= '\u09FF')
+    total_chars = sum(1 for c in text if c.isalpha())
+    
+    if total_chars == 0:
+        return 'unknown'
+    
+    bangla_ratio = bangla_chars / total_chars
+    return 'bangla' if bangla_ratio > 0.3 else 'english'
+
 def hierarchical_deduplication(articles, distance_threshold=0.35):
     """
     Uses hierarchical clustering with semantic embeddings to remove duplicates.
-    Articles in the same cluster are considered duplicates - keeps the longest title
-    and adds clustered articles to description.
+    Language-aware: uses stricter threshold for non-English content.
     
     Args:
         articles: List of article dictionaries with 'title' field
@@ -327,59 +337,88 @@ def hierarchical_deduplication(articles, distance_threshold=0.35):
     if not articles or len(articles) < 2:
         return articles
 
-    print(f"\n🧠 Hierarchical Deduplication (threshold={distance_threshold})...", flush=True)
+    print(f"\n🧠 Language-Aware Hierarchical Deduplication...", flush=True)
 
     try:
-        # Generate embeddings
-        titles = [a['title'] for a in articles]
-        embeddings = embedding_model.encode(titles, show_progress_bar=False)
-
-        # Compute pairwise cosine distances
-        from sklearn.metrics.pairwise import cosine_distances
-        distance_matrix = cosine_distances(embeddings)
-
-        # Convert to condensed form for scipy
-        condensed_distances = squareform(distance_matrix, checks=False)
-
-        # Hierarchical clustering using average linkage
-        linkage_matrix = linkage(condensed_distances, method='average')
-
-        # Cut tree at threshold to get cluster labels
-        cluster_labels = fcluster(linkage_matrix, t=distance_threshold, criterion='distance')
-
-        # Group articles by cluster
-        clusters = {}
-        for idx, label in enumerate(cluster_labels):
-            if label not in clusters:
-                clusters[label] = []
-            clusters[label].append((idx, articles[idx]))
-
-        # Keep the longest title from each cluster and store similar articles
+        # Detect language for each article
+        for article in articles:
+            article['detected_lang'] = detect_language(article['title'])
+        
+        # Separate by language
+        bangla_articles = [a for a in articles if a.get('detected_lang') == 'bangla']
+        english_articles = [a for a in articles if a.get('detected_lang') == 'english']
+        unknown_articles = [a for a in articles if a.get('detected_lang') == 'unknown']
+        
+        print(f"   📊 Language distribution: {len(bangla_articles)} Bangla, {len(english_articles)} English, {len(unknown_articles)} Unknown", flush=True)
+        
         deduplicated = []
-        duplicates_removed = 0
+        
+        # Process each language group separately
+        for lang_group, lang_name, threshold in [
+            (bangla_articles, 'Bangla', 0.15),  # Much stricter for Bangla
+            (english_articles, 'English', distance_threshold),
+            (unknown_articles, 'Unknown', 0.25)
+        ]:
+            if not lang_group:
+                continue
+            
+            if len(lang_group) == 1:
+                deduplicated.extend(lang_group)
+                continue
+            
+            print(f"   🔄 Processing {len(lang_group)} {lang_name} articles (threshold={threshold})...", flush=True)
+            
+            # Generate embeddings
+            titles = [a['title'] for a in lang_group]
+            embeddings = embedding_model.encode(titles, show_progress_bar=False)
 
-        for cluster_id, cluster_articles in clusters.items():
-            if len(cluster_articles) > 1:
-                duplicates_removed += len(cluster_articles) - 1
+            # Compute pairwise cosine distances
+            from sklearn.metrics.pairwise import cosine_distances
+            distance_matrix = cosine_distances(embeddings)
 
-            # Sort by title length (longest first)
-            cluster_articles.sort(key=lambda x: len(x[1]['title']), reverse=True)
+            # Convert to condensed form for scipy
+            condensed_distances = squareform(distance_matrix, checks=False)
 
-            # Keep the best article
-            best_article = cluster_articles[0][1].copy()
+            # Hierarchical clustering using average linkage
+            linkage_matrix = linkage(condensed_distances, method='average')
 
-            # Add clustered articles to metadata
-            if len(cluster_articles) > 1:
-                similar_articles = [art[1] for art in cluster_articles[1:]]
-                best_article['clustered_articles'] = similar_articles
+            # Cut tree at threshold to get cluster labels
+            cluster_labels = fcluster(linkage_matrix, t=threshold, criterion='distance')
 
-            deduplicated.append(best_article)
+            # Group articles by cluster
+            clusters = {}
+            for idx, label in enumerate(cluster_labels):
+                if label not in clusters:
+                    clusters[label] = []
+                clusters[label].append((idx, lang_group[idx]))
+
+            # Keep the longest title from each cluster and store similar articles
+            duplicates_removed = 0
+
+            for cluster_id, cluster_articles in clusters.items():
+                if len(cluster_articles) > 1:
+                    duplicates_removed += len(cluster_articles) - 1
+
+                # Sort by title length (longest first)
+                cluster_articles.sort(key=lambda x: len(x[1]['title']), reverse=True)
+
+                # Keep the best article
+                best_article = cluster_articles[0][1].copy()
+
+                # Add clustered articles to metadata (only if actually similar)
+                if len(cluster_articles) > 1:
+                    similar_articles = [art[1] for art in cluster_articles[1:]]
+                    best_article['clustered_articles'] = similar_articles
+
+                deduplicated.append(best_article)
+            
+            print(f"      ✅ {lang_name}: Removed {duplicates_removed} duplicates, kept {len(clusters)} unique", flush=True)
 
         # Sort back by original order (via id)
         deduplicated.sort(key=lambda x: x.get('id', 0))
 
-        print(f"   ✅ Removed {duplicates_removed} semantic duplicates", flush=True)
-        print(f"   📊 {len(clusters)} unique clusters from {len(articles)} articles", flush=True)
+        total_removed = len(articles) - len(deduplicated)
+        print(f"   ✅ Total: Removed {total_removed} semantic duplicates from {len(articles)} articles", flush=True)
 
         return deduplicated
 
