@@ -21,6 +21,12 @@ URLS = [
 
 MODELS = [
     {
+        "name": "deepseek-v3.1",
+        "display": "DeepSeek-V3.1",
+        "batch_size": 50,
+        "api": "fyra"
+    },
+    {
         "name": "meta-llama/llama-3.3-70b-instruct",
         "display": "Llama-3.3-70B",
         "batch_size": 50,
@@ -37,12 +43,6 @@ MODELS = [
         "display": "GPT-OSS-120B",
         "batch_size": 25,
         "api": "groq"
-    },
-    {
-        "name": "deepseek-v3.1",
-        "display": "DeepSeek-V3.1",
-        "batch_size": 50,
-        "api": "fyra"
     },
     {
         "name": "mistral-small-latest",
@@ -325,15 +325,31 @@ def call_model(model_info, batch):
             response = requests.post(api_url, headers=headers, json=payload, timeout=90)
 
             if response.status_code == 200:
-                # Handle Google Gemini response format
-                if api_type == "google":
-                    try:
-                        content = response.json()['candidates'][0]['content']['parts'][0]['text'].strip()
-                    except (KeyError, IndexError):
-                        print(f"    [{model_info['display']}] Invalid Google response format", flush=True)
-                        continue
-                else:
-                    content = response.json()['choices'][0]['message']['content'].strip()
+                # Handle different API response formats
+                try:
+                    response_data = response.json()
+                    
+                    if api_type == "google":
+                        content = response_data['candidates'][0]['content']['parts'][0]['text'].strip()
+                    elif api_type == "fyra":
+                        # DeepSeek via Fyra might have different structure
+                        if 'choices' in response_data:
+                            content = response_data['choices'][0]['message']['content'].strip()
+                        elif 'message' in response_data:
+                            content = response_data['message']['content'].strip()
+                        elif 'content' in response_data:
+                            content = response_data['content'].strip()
+                        else:
+                            print(f"    [{model_info['display']}] Unknown response format: {list(response_data.keys())}", flush=True)
+                            continue
+                    else:
+                        # Standard OpenAI format
+                        content = response_data['choices'][0]['message']['content'].strip()
+                    
+                except (KeyError, IndexError) as e:
+                    print(f"    [{model_info['display']}] Response parse error: {e}", flush=True)
+                    print(f"    Response keys: {list(response.json().keys())}", flush=True)
+                    continue
 
                 if content.startswith("```"):
                     content = content.replace("```json", "").replace("```", "").strip()
