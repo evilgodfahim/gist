@@ -3,20 +3,17 @@ import requests
 import json
 import time
 
-# --- CONFIGURATION ---
-# Correct URL from your PDF (No 'api.' subdomain)
-BASE_URL = "https://fyra.im"
-CHAT_ENDPOINT = f"{BASE_URL}/v1/chat/completions"
+# --- CONFIGURATION FROM PDF ---
+# Base URL: https://fyra.im/ (Page 4 of your PDF)
+BASE_URL = "https://fyra.im" 
 MODELS_ENDPOINT = f"{BASE_URL}/v1/models"
+CHAT_ENDPOINT = f"{BASE_URL}/v1/chat/completions"
 
-# The specific ID you asked for
-TARGET_MODEL = "deepseek-v3.1"
 API_KEY = os.environ.get("FRY")
+USER_CLAIMED_ID = "deepseek-v3.1"
 
 def debug_fyra():
-    print(f"--- FYRA.IM DIAGNOSTIC ---")
-    print(f"Target URL:   {CHAT_ENDPOINT}")
-    print(f"Target Model: {TARGET_MODEL}")
+    print(f"--- FYRA.IM DEEPSEEK DIAGNOSTIC ---")
     
     if not API_KEY:
         print("::error:: FRY environment variable is missing!")
@@ -27,59 +24,75 @@ def debug_fyra():
         "Content-Type": "application/json"
     }
 
-    # --- TEST 1: Direct Chat Attempt ---
-    print(f"\n[1] Testing Model '{TARGET_MODEL}'...")
-    payload = {
-        "model": TARGET_MODEL,
-        "messages": [{"role": "user", "content": "Hello, simply say 'Online'."}],
-        "temperature": 0.5
-    }
-
-    try:
-        start_time = time.time()
-        # Note: PDF implies standard OpenAI format
-        response = requests.post(CHAT_ENDPOINT, headers=headers, json=payload, timeout=30)
-        elapsed = time.time() - start_time
-        
-        print(f"   Status: {response.status_code}")
-        print(f"   Time:   {elapsed:.2f}s")
-        
-        if response.status_code == 200:
-            try:
-                data = response.json()
-                content = data['choices'][0]['message']['content']
-                print(f"   ✅ SUCCESS: {content}")
-                return # Exit if successful
-            except Exception as e:
-                print(f"   ⚠️ Response 200 but parse failed: {e}")
-                print(f"   Raw: {response.text[:200]}")
-        else:
-            print(f"   ❌ Failed. HTTP {response.status_code}")
-            print(f"   Raw Error: {response.text}")
-
-    except Exception as e:
-        print(f"   ❌ Connection Error: {e}")
-
-    # --- TEST 2: List Models (Fallback) ---
-    # If the above failed, let's see what the API actually calls this model
-    print(f"\n[2] Fetching available model IDs...")
+    # --- STEP 1: FETCH THE ACTUAL API MODEL LIST ---
+    # This is the most important step. It tells us what the API *actually* calls the model.
+    print(f"\n[1] Querying API for valid Model IDs ({MODELS_ENDPOINT})...")
+    valid_deepseek_id = None
+    
     try:
         r = requests.get(MODELS_ENDPOINT, headers=headers, timeout=10)
+        
         if r.status_code == 200:
             data = r.json()
-            # Try to find deepseek related IDs
-            all_ids = [m['id'] for m in data.get('data', [])]
-            deepseek_ids = [mid for mid in all_ids if 'deepseek' in mid.lower()]
+            all_models = [m['id'] for m in data.get('data', [])]
             
-            print(f"   Found {len(all_ids)} total models.")
-            print(f"   DeepSeek variants found: {deepseek_ids}")
+            # Filter for any model containing 'deepseek'
+            deepseek_models = [m for m in all_models if 'deepseek' in m.lower()]
             
-            if TARGET_MODEL not in all_ids:
-                print(f"   ⚠️ NOTICE: '{TARGET_MODEL}' was not found in the list. Check spelling above.")
+            print(f"   ✅ API Connected.")
+            print(f"   📋 All DeepSeek IDs found in API: {json.dumps(deepseek_models, indent=2)}")
+            
+            if USER_CLAIMED_ID in deepseek_models:
+                print(f"   ✅ Your ID '{USER_CLAIMED_ID}' IS present in the API list.")
+                valid_deepseek_id = USER_CLAIMED_ID
+            elif deepseek_models:
+                valid_deepseek_id = deepseek_models[0]
+                print(f"   ⚠️ Your ID '{USER_CLAIMED_ID}' is NOT in the list.")
+                print(f"   👉 We will test with the valid ID found: '{valid_deepseek_id}'")
+            else:
+                print("   ❌ No models with 'deepseek' in the name found. (Hidden?)")
+                valid_deepseek_id = USER_CLAIMED_ID # Force try anyway
         else:
-            print(f"   ❌ Could not list models: {r.status_code}")
+            print(f"   ❌ Failed to list models: HTTP {r.status_code}")
+            print(f"   Raw: {r.text}")
+            valid_deepseek_id = USER_CLAIMED_ID
+
     except Exception as e:
-        print(f"   ❌ Model list failed: {e}")
+        print(f"   ❌ Connection failed: {e}")
+        return
+
+    # --- STEP 2: TEST CHAT (With User ID vs Valid ID) ---
+    ids_to_test = [USER_CLAIMED_ID]
+    if valid_deepseek_id and valid_deepseek_id != USER_CLAIMED_ID:
+        ids_to_test.append(valid_deepseek_id)
+
+    for model_id in ids_to_test:
+        print(f"\n[2] Testing Chat with ID: '{model_id}'...")
+        payload = {
+            "model": model_id,
+            "messages": [{"role": "user", "content": "Test."}],
+            "temperature": 0.5
+        }
+
+        try:
+            r = requests.post(CHAT_ENDPOINT, headers=headers, json=payload, timeout=30)
+            
+            print(f"   Status Code: {r.status_code}")
+            
+            # Fyra sometimes returns 200 OK containing an error object
+            if r.status_code == 200:
+                resp = r.json()
+                if 'error' in resp:
+                    print(f"   ❌ API ERROR (inside 200 OK): {resp['error']}")
+                elif 'choices' in resp:
+                    print(f"   ✅ SUCCESS! Model '{model_id}' works.")
+                    print(f"   Output: {resp['choices'][0]['message']['content']}")
+                    break # Stop if we found a working one
+            else:
+                print(f"   ❌ HTTP ERROR: {r.text}")
+
+        except Exception as e:
+            print(f"   ❌ Request Error: {e}")
 
 if __name__ == "__main__":
     debug_fyra()
