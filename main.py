@@ -21,6 +21,12 @@ URLS = [
 
 MODELS = [
     {
+        "name": "claude-sonnet-4-20250514",
+        "display": "Claude-Sonnet-4",
+        "batch_size": 50,
+        "api": "claude"
+    },
+    {
         "name": "kimi-k2-instruct-0905",
         "display": "Kimi-K2-Instruct",
         "batch_size": 50,
@@ -64,12 +70,14 @@ OPENROUTER_API_KEY = os.environ.get("OP")
 FYRA_API_KEY = os.environ.get("FRY")
 MISTRAL_API_KEY = os.environ.get("GEM2")
 GOOGLE_API_KEY = os.environ.get("LAM")
+CLAUDE_API_KEY = os.environ.get("CLA")
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 FYRA_API_URL = "https://fyra.im/v1/chat/completions"
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 GOOGLE_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
+CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
 
 # --- SYSTEM PROMPT ---
 SYSTEM_PROMPT = """You are a Chief Information Filter.
@@ -260,6 +268,21 @@ def call_model(model_info, batch):
             ],
             "temperature": 0.3
         }
+    elif api_type == "claude":
+        api_url = CLAUDE_API_URL
+        api_key = CLAUDE_API_KEY
+        headers = {
+            "x-api-key": api_key,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json"
+        }
+        payload = {
+            "model": model_info["name"],
+            "max_tokens": 4096,
+            "messages": [
+                {"role": "user", "content": f"{SYSTEM_PROMPT}\n\n{prompt_text}"}
+            ]
+        }
     elif api_type == "fyra":
         api_url = FYRA_API_URL
         api_key = FYRA_API_KEY
@@ -339,6 +362,8 @@ def call_model(model_info, batch):
                     
                     if api_type == "google":
                         content = response_data['candidates'][0]['content']['parts'][0]['text'].strip()
+                    elif api_type == "claude":
+                        content = response_data['content'][0]['text'].strip()
                     else:
                         content = response_data['choices'][0]['message']['content'].strip()
                     
@@ -403,6 +428,11 @@ def main():
     needs_google = any(m.get("api") == "google" for m in MODELS)
     if needs_google and not GOOGLE_API_KEY:
         print("::error::LAM environment variable is missing!", flush=True)
+        sys.exit(1)
+    
+    needs_claude = any(m.get("api") == "claude" for m in MODELS)
+    if needs_claude and not CLAUDE_API_KEY:
+        print("::error::CLA environment variable is missing!", flush=True)
         sys.exit(1)
 
     articles = fetch_titles_only()
