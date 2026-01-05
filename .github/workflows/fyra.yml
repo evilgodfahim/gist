@@ -1,0 +1,55 @@
+name: Debug Fyra API
+
+on:
+  workflow_dispatch: # Allows you to run this manually from the Actions tab
+
+jobs:
+  debug-api:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install Dependencies
+      run: |
+        pip install requests
+
+    - name: Run Diagnostic Script
+      env:
+        FRY: ${{ secrets.FRY }}  # Maps your repo secret 'FRY' to the env var
+      run: |
+        # Create the script on the fly if you don't want to commit the python file
+        cat <<EOF > debug_fyra.py
+        import os
+        import requests
+        import json
+        
+        # URL might differ for Fyra, sometimes it's just https://api.fyra.im/v1
+        API_URL = "https://api.fyra.im/v1/chat/completions"
+        API_KEY = os.environ.get("FRY")
+        
+        # TEST 1: Try standard name
+        MODEL = "deepseek-chat" 
+        
+        print(f"Testing Model: {MODEL} with Key: {API_KEY[:4]}***")
+        
+        try:
+            r = requests.post(
+                API_URL,
+                headers={"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"},
+                json={"model": MODEL, "messages": [{"role": "user", "content": "hi"}]}
+            )
+            print(f"Status: {r.status_code}")
+            print(f"Raw Output: {r.text}")
+        except Exception as e:
+            print(f"Error: {e}")
+        EOF
+        
+        # Run it
+        python debug_fyra.py
