@@ -31,7 +31,7 @@ jobs:
         import json
         
         # URL might differ for Fyra, sometimes it's just https://api.fyra.im/v1
-        API_URL = "https://api.fyra.im/v1/chat/completions"
+        API_URL = "https://fyra.im/v1/chat/completions"
         API_KEY = os.environ.get("FRY")
         
         # TEST 1: Try standard name
