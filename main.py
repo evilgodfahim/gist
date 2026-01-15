@@ -114,6 +114,11 @@ No markdown.
 No commentary.
 No text outside JSON."""
 
+def is_bangla(text):
+    """Check if text contains Bangla characters"""
+    bangla_range = range(0x0980, 0x09FF)
+    return any(ord(char) in bangla_range for char in text)
+
 def save_xml(data, filename, error_message=None):
     os.makedirs(os.path.dirname(filename) if os.path.dirname(filename) else ".", exist_ok=True)
 
@@ -122,7 +127,9 @@ def save_xml(data, filename, error_message=None):
 
     feed_title = "Elite News Feed"
     if "overflow" in filename:
-        feed_title += " (Overflow)"
+        feed_title += " (English)"
+    else:
+        feed_title += " (Bangla)"
 
     ET.SubElement(channel, "title").text = feed_title
     ET.SubElement(channel, "lastBuildDate").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0600")
@@ -448,29 +455,37 @@ def main():
 
     # Merging - only keep articles selected by at least 2 models
     final_articles = []
-    print(f"\nMerging (2+ model consensus required)...", flush=True)
+    print(f"\nMerging (3+ model consensus required)...", flush=True)
     for aid, info in selections_map.items():
-        if len(info['models']) >= 3:  # At least 2 models must agree
+        if len(info['models']) >= 3:  # At least 3 models must agree
             original = articles[aid].copy()
             original['category'] = 'Priority'
             original['reason'] = 'Systemic Significance'
             original['selected_by'] = info['models']
             final_articles.append(original)
 
-    print(f"   ✅ {len(final_articles)} articles passed 2+ model consensus from {len(selections_map)} total selections", flush=True)
+    print(f"   ✅ {len(final_articles)} articles passed 3+ model consensus from {len(selections_map)} total selections", flush=True)
+
+    # Split by language
+    bangla_articles = []
+    english_articles = []
+    
+    for article in final_articles:
+        if is_bangla(article['title']):
+            bangla_articles.append(article)
+        else:
+            english_articles.append(article)
 
     # Results
     print(f"\nRESULTS:", flush=True)
     print(f"   Analyzed: {len(articles)} headlines", flush=True)
     print(f"   Selected: {len(final_articles)} unique articles", flush=True)
+    print(f"   Bangla: {len(bangla_articles)} articles", flush=True)
+    print(f"   English: {len(english_articles)} articles", flush=True)
 
-    if len(final_articles) > MAX_FEED_ITEMS:
-        print(f"   [!] Feed Limit Exceeded ({len(final_articles)} > {MAX_FEED_ITEMS}). Splitting output.", flush=True)
-        save_xml(final_articles[:MAX_FEED_ITEMS], "filtered_feed.xml")
-        save_xml(final_articles[MAX_FEED_ITEMS:], "filtered_feed_overflow.xml")
-    else:
-        save_xml(final_articles, "filtered_feed.xml")
-        save_xml([], "filtered_feed_overflow.xml")
+    # Save Bangla to main feed, English to overflow
+    save_xml(bangla_articles, "filtered_feed.xml")
+    save_xml(english_articles, "filtered_feed_overflow.xml")
 
 if __name__ == "__main__":
     main()
