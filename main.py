@@ -57,7 +57,6 @@ def save_xml(data, filename, error_message=None):
     ET.SubElement(channel, "lastBuildDate").text = datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0600")
     ET.SubElement(channel, "link").text = "https://github.com/evilgodfahim"
     ET.SubElement(channel, "description").text = "AI-curated structural news feed"
-
     if error_message:
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = "System Error"
@@ -135,26 +134,72 @@ def fetch_titles_only():
     print(f"Loaded {len(all_articles)} unique headlines", flush=True)
     return all_articles
 
+# robust extractor reused
 def extract_json_from_text(text):
     if not text:
         return None
-    text = re.sub(r'```(?:json)?', '', text).strip()
+    text = re.sub(r'```(?:json)?', '', text, flags=re.IGNORECASE).strip()
     try:
         return json.loads(text)
     except Exception:
         pass
-    m = re.search(r'(\[.*\]|\{.*\})', text, re.DOTALL)
-    if m:
-        cand = m.group(1)
+    start_idx = None
+    for i, ch in enumerate(text):
+        if ch in '[{':
+            start_idx = i
+            break
+    if start_idx is None:
+        return None
+    i = start_idx
+    stack = []
+    in_str = None
+    esc = False
+    while i < len(text):
+        ch = text[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == '\\':
+                esc = True
+            elif ch == in_str:
+                in_str = None
+        else:
+            if ch == '"' or ch == "'":
+                in_str = ch
+            elif ch == '[':
+                stack.append(']')
+            elif ch == '{':
+                stack.append('}')
+            elif ch == ']' or ch == '}':
+                if not stack:
+                    break
+                expected = stack.pop()
+                if ch != expected:
+                    break
+                if not stack:
+                    end_idx = i + 1
+                    candidate = text[start_idx:end_idx]
+                    try:
+                        return json.loads(candidate)
+                    except Exception:
+                        cleaned = re.sub(r',\s*([}\]])', r'\1', candidate)
+                        try:
+                            return json.loads(cleaned)
+                        except Exception:
+                            return None
+        i += 1
+    s = text.find('[')
+    e = text.rfind(']')
+    if s != -1 and e != -1 and e > s:
+        candidate = text[s:e+1]
         try:
-            return json.loads(cand)
+            return json.loads(candidate)
         except Exception:
-            s = text.find('['); e = text.rfind(']')
-            if s != -1 and e != -1 and e > s:
-                try:
-                    return json.loads(text[s:e+1])
-                except Exception:
-                    return None
+            try:
+                cleaned = re.sub(r',\s*([}\]])', r'\1', candidate)
+                return json.loads(cleaned)
+            except Exception:
+                return None
     return None
 
 def call_model(model_info, batch):
@@ -181,7 +226,6 @@ def call_model(model_info, batch):
         api_url = GROQ_API_URL; api_key = GROQ_API_KEY
         headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
         payload = {"model": model_info['name'], "messages": [{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": prompt_text}], "temperature": 0.3}
-
     max_retries = 5
     base_wait = 30
     for attempt in range(max_retries):
@@ -192,7 +236,6 @@ def call_model(model_info, batch):
                     response_data = response.json()
                 except Exception:
                     continue
-                # robust content extraction
                 content = None
                 if isinstance(response_data, dict):
                     cand = response_data.get('candidates') or response_data.get('outputs') or []
@@ -282,7 +325,6 @@ def main():
     print("=" * 60, flush=True)
     print("Elite News Curator - Multi-API Ensemble + Clustering", flush=True)
     print("=" * 60, flush=True)
-
     if not GROQ_API_KEY:
         print("::error::GEM environment variable is missing!", flush=True)
         sys.exit(1)
@@ -302,22 +344,18 @@ def main():
     if needs_google and not GOOGLE_API_KEY:
         print("::error::LAM environment variable is missing!", flush=True)
         sys.exit(1)
-
     articles = fetch_titles_only()
     if not articles:
         save_xml([], "filtered_feed.xml")
         save_xml([], "filtered_feed_overflow.xml")
         return
-
     model_batches = {}
     for model_info in MODELS:
         bs = model_info['batch_size']
         model_batches[model_info['name']] = [articles[i:i + bs] for i in range(0, len(articles), bs)]
-
     max_batch_count = max(len(b) for b in model_batches.values())
     MAX_BATCHES_LIMIT = 20
     selections_map = {}
-
     for batch_idx in range(min(MAX_BATCHES_LIMIT, max_batch_count)):
         for model_info in MODELS:
             m_name = model_info['name']
@@ -333,7 +371,6 @@ def main():
             time.sleep(8)
         if batch_idx < min(MAX_BATCHES_LIMIT, max_batch_count) - 1:
             time.sleep(20)
-
     final_articles = []
     for aid, info in selections_map.items():
         if info['count'] >= 2:
@@ -342,12 +379,10 @@ def main():
             art['category'] = 'BCS/Bank/GK'
             art['reason'] = 'Selected by multi-model consensus'
             final_articles.append(art)
-
     if not final_articles:
         save_xml([], "filtered_feed.xml")
         save_xml([], "filtered_feed_overflow.xml")
         return
-
     clusters = call_gemini_cluster(final_articles, model_name="gemini-2.5-flash-lite", min_similarity=0.5)
     if not clusters:
         bangla_articles = [a for a in final_articles if is_bangla(a['title'])]
@@ -355,7 +390,6 @@ def main():
         save_xml(bangla_articles, "filtered_feed.xml")
         save_xml(english_articles, "filtered_feed_overflow.xml")
         return
-
     cluster_map = {}
     used_ids = set()
     for c in clusters:
@@ -365,13 +399,11 @@ def main():
         if main is None: continue
         cluster_map[cid] = {"main": main, "members": members}
         used_ids.update(members)
-
     next_cid = max(cluster_map.keys()) + 1 if cluster_map else 0
     for art in final_articles:
         if art['id'] not in used_ids:
             cluster_map[next_cid] = {"main": art['id'], "members": [art['id']]}
             next_cid += 1
-
     clustered_items = []
     for cid, info in cluster_map.items():
         main_id = info['main']
@@ -393,7 +425,6 @@ def main():
         new_item['description'] = (new_item.get('description','') or '') + "<hr/>" + similar_html
         new_item['cluster_id'] = cid
         clustered_items.append(new_item)
-
     bangla_articles = [a for a in clustered_items if is_bangla(a['title'])]
     english_articles = [a for a in clustered_items if not is_bangla(a['title'])]
     save_xml(bangla_articles, "filtered_feed.xml")
