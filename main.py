@@ -44,6 +44,8 @@ SYSTEM_PROMPT = """You are a Chief Information Filter.
 Your task is to select headlines with structural and lasting significance.
 Return only a JSON array of selected IDs (e.g. [0,5,12])."""
 
+DEBUG = False
+
 def is_bangla(text):
     return any(0x0980 <= ord(c) <= 0x09FF for c in (text or ""))
 
@@ -305,7 +307,21 @@ def call_gemini_cluster(all_articles, model_name="gemini-2.5-flash-lite", min_si
         if text.startswith("```"):
             text = text.replace("```json", "").replace("```", "").strip()
         parsed = extract_json_from_text(text)
+        
+        # Handle wrapped responses
+        if isinstance(parsed, dict):
+            # Try common wrapper keys
+            for key in ['clusters', 'data', 'result', 'output']:
+                if key in parsed and isinstance(parsed[key], list):
+                    parsed = parsed[key]
+                    break
+        
         if not isinstance(parsed, list):
+            if DEBUG:
+                print("Gemini cluster returned invalid format (expected JSON list).", flush=True)
+                print("Response text:", text[:2000], flush=True)
+                print("Parsed type:", type(parsed), flush=True)
+                print("Parsed value:", parsed, flush=True)
             return None
         validated = []
         for i, c in enumerate(parsed):
@@ -419,7 +435,7 @@ def main():
                 if art:
                     safe_title = art['title']
                     safe_link = art.get('link', '#')
-                    similar_html += f"<li><a href=\\\"{safe_link}\\\">{safe_title}</a></li>"
+                    similar_html += f"<li><a href=\"{safe_link}\">{safe_title}</a></li>"
             similar_html += "</ul>"
         new_item = main_art.copy()
         new_item['description'] = (new_item.get('description','') or '') + "<hr/>" + similar_html
