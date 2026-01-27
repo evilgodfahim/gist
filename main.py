@@ -108,6 +108,10 @@ Skip always: • Crime, accidents, or scandals without institutional consequence
 • Personal narratives without systemic implication
 • Repetition of already-settled facts
 OUTPUT SPEC (strict)
+
+Most importantly: Does this headline signal real power, policy, or systemic impact to a mechanism-focused reader? 
+
+
 Return only a JSON array of selected IDs.
 Example: [0, 5, 12, 23]
 No markdown.
