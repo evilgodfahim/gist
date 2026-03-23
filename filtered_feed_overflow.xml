@@ -2,14 +2,38 @@
 <rss version="2.0">
   <channel>
     <title>Elite News Feed (English)</title>
-    <lastBuildDate>Sun, 22 Mar 2026 05:47:34 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 06:06:25 +0600</lastBuildDate>
     <link>https://github.com/evilgodfahim</link>
     <description>AI-curated structural news feed</description>
     <item>
-      <title>Bangladesh rushes to secure $2 billion loan amid energy crisis. [ thehindu ]</title>
-      <link>https://www.thehindu.com/news/international/bangladesh-rushes-to-secure-2-billion-loan-amid-energy-crisis/article70770108.ece</link>
-      <pubDate>Sat, 21 Mar 2026 16:43:06 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Mistral-Small, Gemini-2.5-Flash-Lite, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Bangladesh — which imports 95% of its oil and gas needs — has not raised electricity and fuel prices despite the global surge&lt;/p&gt;</description>
+      <title>RTI Act: Right to information, wrong in practice. [ tbsnews ]</title>
+      <link>https://www.tbsnews.net/features/panorama/rti-act-right-information-wrong-practice-1389711</link>
+      <pubDate>Sun, 22 Mar 2026 18:00:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Mistral-Small, Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Bangladesh’s RTI framework ranks highly in global legal ratings, but the prolonged vacancy in the Information Commission has left the law without its central enforcement mechanism&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Geopolitical turbulence in India’s North-East. [ tob ]</title>
+      <link>https://tob.news/geopolitical-turbulence-in-indias-north-east/</link>
+      <pubDate>Sun, 22 Mar 2026 19:04:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Mistral-Small, Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;India’s north-eastern state of Mizoram and the Chin State of northern Myanmar have a history of tribal unrest, armed rebellion and secessionism. While the…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Arab states should beware of Israel’s hegemonic energy expansion. [ bangladeshpost ]</title>
+      <link>https://bangladeshpost.net/posts/arab-states-should-beware-of-israel-s-hegemonic-energy-expansion-167925</link>
+      <pubDate>Sun, 22 Mar 2026 10:13:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Mistral-Small, Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Arab states should beware of Israel’s hegemonic energy expansion. [ bangladeshpost ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>US ties emerge in alleged ‘Christian State’ plot in India. [ tob ]</title>
+      <link>https://tob.news/us-ties-emerge-in-alleged-christian-state-plot-in-india/</link>
+      <pubDate>Sun, 22 Mar 2026 08:53:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Mistral-Small, Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;The arrest of Matthew VanDyke, a high-profile American mercenary, alongside…&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grim logic of Ann: Why Myanmar junta is killing its own soldiers. [ tob ]</title>
+      <link>https://tob.news/grim-logic-of-ann-why-myanmar-junta-is-killing-its-own-soldiers/</link>
+      <pubDate>Sun, 22 Mar 2026 07:22:58 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;For three hours on 8 March, the skies over Rakhine State bore witness to a devastating paradox – the Myanmar military systematically bombing its…&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
