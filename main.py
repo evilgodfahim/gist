@@ -51,7 +51,7 @@ MODELS = [
     {
         "name": "gemini-2.5-flash",
         "display": "Gemini-2.5-Flash-Lite",
-        "batch_size": 100,
+        "batch_size": 500,
         "api": "google"
     }
 ]
