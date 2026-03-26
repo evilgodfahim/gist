@@ -93,10 +93,6 @@ STEP 2 — IS BANGLADESH DIRECTLY THE SUBJECT?
 
 WHEN IN DOUBT → reject.
 
-Return only the selected IDs in valid JSON.
-No markdown.
-No explanation.
-No extra text.
 
 Return only a JSON array of selected IDs.
 Example: [0, 5, 12, 23]
