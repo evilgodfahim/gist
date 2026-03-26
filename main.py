@@ -332,7 +332,7 @@ def call_model(model_info, batch):
         }
 
     max_retries = 5
-    base_wait = 30 
+    base_wait = 30
 
     for attempt in range(max_retries):
         try:
@@ -373,6 +373,14 @@ def call_model(model_info, batch):
             elif response.status_code >= 500:
                 print(f"    [{model_info['display']}] Server Error {response.status_code}. Retrying...", flush=True)
                 time.sleep(10)
+                continue
+
+            else:
+                print(f"    [{model_info['display']}] HTTP {response.status_code}: {response.text[:300]}", flush=True)
+                if 400 <= response.status_code < 500:
+                    print(f"    [{model_info['display']}] Client error — breaking retry loop.", flush=True)
+                    break
+                time.sleep(5)
                 continue
 
         except requests.exceptions.RequestException as e:
