@@ -249,7 +249,8 @@ def call_model(model_info, batch):
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": prompt_text}
             ],
-            "temperature": 0.3
+            "temperature": 0.3,
+            "max_tokens": 256  # Output is just a short JSON array of IDs
         }
     elif api_type == "fyra":
         api_url = FYRA_API_URL
