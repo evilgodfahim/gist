@@ -70,7 +70,7 @@ MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 GOOGLE_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 
 # --- SYSTEM PROMPT ---
-SYSTEM_PROMPT = """You are a strict editorial classification engine. Every input is an op-ed, essay, or editorial — no hard news. The bar is SUPER HIGH.
+SYSTEM_PROMPT = """You are a strict editorial classification engine. Every input is an op-ed, essay, or editorial — no hard news. The bar is HIGH.
 
 STEP 1 — INSTANT NOISE. Reject immediately if the piece is any of:
   Sports · entertainment · celebrity · lifestyle · human interest · tribute or hagiography · praise of a person, party, or institution · isolated local incident (one district, one institution, one community) · vague moral or political sentiment with no named domain or concrete subject (e.g. "Hope for a Better Tomorrow", "We Must Do Better", "The Road Ahead")
