@@ -27,7 +27,7 @@ MODELS = [
     {
         "name": "meta-llama/llama-3.3-70b-instruct",
         "display": "Llama-3.3-70B",
-        "batch_size": 25,
+        "batch_size": 50,
         "api": "openrouter"
     },
     {
