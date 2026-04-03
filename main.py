@@ -21,13 +21,13 @@ MODELS = [
     {
         "name": "moonshotai/kimi-k2-instruct",
         "display": "Kimi-K2-Instruct",
-        "batch_size": 50,
+        "batch_size": 25,
         "api": "groq"
     },
     {
         "name": "llama-3.3-70b-versatile",
         "display": "Llama-3.3-70B",
-        "batch_size": 50,
+        "batch_size": 25,
         "api": "groq"
     },
     {
@@ -45,7 +45,7 @@ MODELS = [
     {
         "name": "compound-beta",
         "display": "Groq-Compound",
-        "batch_size": 40,
+        "batch_size": 25,
         "api": "groq"
     },
     {
