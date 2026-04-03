@@ -12,23 +12,23 @@ from email.utils import parsedate_to_datetime
 MAX_FEED_ITEMS = 100
 
 URLS = [
-     "https://evilgodfahim.github.io/bdit/daily_feed_2.xml",
+    "https://evilgodfahim.github.io/bdit/daily_feed_2.xml",
     "https://evilgodfahim.github.io/bdit/daily_feed.xml",
     "https://evilgodfahim.github.io/edit/daily_feed.xml"
 ]
 
 MODELS = [
     {
-        "name": "kimi-k2-instruct-0905",
+        "name": "moonshotai/kimi-k2-instruct",
         "display": "Kimi-K2-Instruct",
         "batch_size": 50,
-        "api": "fyra"
+        "api": "groq"
     },
     {
-        "name": "meta-llama/llama-3.3-70b-instruct",
+        "name": "llama-3.3-70b-versatile",
         "display": "Llama-3.3-70B",
         "batch_size": 50,
-        "api": "openrouter"
+        "api": "groq"
     },
     {
         "name": "qwen/qwen3-32b",
@@ -58,14 +58,10 @@ MODELS = [
 
 # API Keys and URLs
 GROQ_API_KEY = os.environ.get("GEM")
-OPENROUTER_API_KEY = os.environ.get("OP")
-FYRA_API_KEY = os.environ.get("FRY")
 MISTRAL_API_KEY = os.environ.get("GEM2")
 GOOGLE_API_KEY = os.environ.get("LAM")
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-FYRA_API_URL = "https://fyra.im/v1/chat/completions"
 MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 GOOGLE_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 
@@ -189,7 +185,6 @@ def fetch_titles_only():
 
                 link = item.find('link').text or ""
                 if not link:
-                    # Fallback to guid if link is missing or empty
                     guid = item.find('guid')
                     link = guid.text if guid is not None else ""
 
@@ -231,43 +226,9 @@ def call_model(model_info, batch):
     prompt_list = [f"{a['id']}: {a['title']}" for a in batch]
     prompt_text = "\n".join(prompt_list)
 
-    # Select API based on model config
     api_type = model_info.get("api", "groq")
 
-    if api_type == "openrouter":
-        api_url = OPENROUTER_API_URL
-        api_key = OPENROUTER_API_KEY
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-            "HTTP-Referer": "https://github.com/evilgodfahim",
-            "X-Title": "Elite News Curator"
-        }
-        payload = {
-            "model": model_info["name"],
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": prompt_text}
-            ],
-            "temperature": 0.3,
-            "max_tokens": 256  # Output is just a short JSON array of IDs
-        }
-    elif api_type == "fyra":
-        api_url = FYRA_API_URL
-        api_key = FYRA_API_KEY
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json"
-        }
-        payload = {
-            "model": model_info["name"],
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": prompt_text}
-            ],
-            "temperature": 0.3
-        }
-    elif api_type == "mistral":
+    if api_type == "mistral":
         api_url = MISTRAL_API_URL
         api_key = MISTRAL_API_KEY
         headers = {
@@ -298,7 +259,7 @@ def call_model(model_info, batch):
                 "temperature": 0.3
             }
         }
-    else:  # groq
+    else:  # groq (all remaining models)
         api_url = GROQ_API_URL
         api_key = GROQ_API_KEY
         headers = {
@@ -380,19 +341,8 @@ def main():
     print("Elite News Curator - Multi-API Ensemble", flush=True)
     print("=" * 60, flush=True)
 
-    # Validate API keys
     if not GROQ_API_KEY:
         print("::error::GEM environment variable is missing!", flush=True)
-        sys.exit(1)
-
-    needs_openrouter = any(m.get("api") == "openrouter" for m in MODELS)
-    if needs_openrouter and not OPENROUTER_API_KEY:
-        print("::error::OP environment variable is missing!", flush=True)
-        sys.exit(1)
-
-    needs_fyra = any(m.get("api") == "fyra" for m in MODELS)
-    if needs_fyra and not FYRA_API_KEY:
-        print("::error::FRY environment variable is missing!", flush=True)
         sys.exit(1)
 
     needs_mistral = any(m.get("api") == "mistral" for m in MODELS)
@@ -448,11 +398,11 @@ def main():
 
         time.sleep(30)  # Delay between batch groups
 
-    # Merging - only keep articles selected by at least 2 models
+    # Merging - only keep articles selected by at least 3 models
     final_articles = []
     print(f"\nMerging (3+ model consensus required)...", flush=True)
     for aid, info in selections_map.items():
-        if len(info['models']) >= 3:  # At least 3 models must agree
+        if len(info['models']) >= 3:
             original = articles[aid].copy()
             original['category'] = 'Priority'
             original['reason'] = 'Systemic Significance'
