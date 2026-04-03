@@ -21,13 +21,13 @@ MODELS = [
     {
         "name": "moonshotai/kimi-k2-instruct",
         "display": "Kimi-K2-Instruct",
-        "batch_size": 25,
+        "batch_size": 50,
         "api": "groq"
     },
     {
         "name": "llama-3.3-70b-versatile",
         "display": "Llama-3.3-70B",
-        "batch_size": 25,
+        "batch_size": 50,
         "api": "groq"
     },
     {
@@ -43,10 +43,10 @@ MODELS = [
         "api": "groq"
     },
     {
-        "name": "mistral-small-latest",
-        "display": "Mistral-Small",
+        "name": "compound-beta",
+        "display": "Groq-Compound",
         "batch_size": 40,
-        "api": "mistral"
+        "api": "groq"
     },
     {
         "name": "gemini-2.5-flash-lite",
@@ -58,11 +58,9 @@ MODELS = [
 
 # API Keys and URLs
 GROQ_API_KEY = os.environ.get("GEM")
-MISTRAL_API_KEY = os.environ.get("GEM2")
 GOOGLE_API_KEY = os.environ.get("LAM")
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
 GOOGLE_API_URL = "https://generativelanguage.googleapis.com/v1beta/models"
 
 # --- SYSTEM PROMPT ---
@@ -228,22 +226,7 @@ def call_model(model_info, batch):
 
     api_type = model_info.get("api", "groq")
 
-    if api_type == "mistral":
-        api_url = MISTRAL_API_URL
-        api_key = MISTRAL_API_KEY
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json"
-        }
-        payload = {
-            "model": model_info["name"],
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": prompt_text}
-            ],
-            "temperature": 0.3
-        }
-    elif api_type == "google":
+    if api_type == "google":
         api_url = f"{GOOGLE_API_URL}/{model_info['name']}:generateContent?key={GOOGLE_API_KEY}"
         api_key = GOOGLE_API_KEY
         headers = {
@@ -343,11 +326,6 @@ def main():
 
     if not GROQ_API_KEY:
         print("::error::GEM environment variable is missing!", flush=True)
-        sys.exit(1)
-
-    needs_mistral = any(m.get("api") == "mistral" for m in MODELS)
-    if needs_mistral and not MISTRAL_API_KEY:
-        print("::error::GEM2 environment variable is missing!", flush=True)
         sys.exit(1)
 
     needs_google = any(m.get("api") == "google" for m in MODELS)
