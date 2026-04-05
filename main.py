@@ -43,8 +43,8 @@ MODELS = [
         "api": "groq"
     },
     {
-        "name": "compound-beta",
-        "display": "Groq-Compound",
+        "name": "whisper-large-v3",
+        "display": "Whisper Large",
         "batch_size": 25,
         "api": "groq"
     },
