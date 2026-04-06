@@ -43,8 +43,8 @@ MODELS = [
         "api": "groq"
     },
     {
-        "name": "whisper-large-v3",
-        "display": "Whisper Large",
+        "name": "openai/gpt-oss-20b",
+        "display": "GPT-OSS-20",
         "batch_size": 25,
         "api": "groq"
     },
