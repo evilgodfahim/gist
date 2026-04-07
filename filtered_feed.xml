@@ -2,358 +2,478 @@
 <rss version="2.0">
   <channel>
     <title>Elite News Feed (Bangla)</title>
-    <lastBuildDate>Mon, 06 Apr 2026 05:12:59 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 05:01:57 +0600</lastBuildDate>
     <link>https://github.com/evilgodfahim</link>
     <description>AI-curated structural news feed</description>
     <item>
-      <title>বন্দর /সিঅ্যান্ডএফ লাইসেন্সে বিদেশি অংশীদারিত্ব কেন?. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/345733/%E0%A6%B8%E0%A6%BF%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%8F%E0%A6%AB-%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%85%E0%A6%82%E0%A6%B6%E0%A7%80%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%95%E0%A7%87%E0%A6%A8-</link>
-      <pubDate>Sun, 05 Apr 2026 05:26:52 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বন্দর /সিঅ্যান্ডএফ লাইসেন্সে বিদেশি অংশীদারিত্ব কেন?. [ samakal ]&lt;/p&gt;</description>
+      <title>শ্রমশক্তি পুনর্বাসনে সরকারের কর্মপরিকল্পনা জরুরি. [ khaborerkagoj ]</title>
+      <link>https://www.khaborerkagoj.com/opinion/912312</link>
+      <pubDate>Mon, 06 Apr 2026 08:01:42 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;শ্রমশক্তি পুনর্বাসনে সরকারের কর্মপরিকল্পনা জরুরি. [ khaborerkagoj ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>মশক যন্ত্রণা /হুমকিতে জনস্বাস্থ্য ও জনজীবন. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/345734/%E0%A6%B9%E0%A7%81%E0%A6%AE%E0%A6%95%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%9C%E0%A6%A8%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%93-%E0%A6%9C%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8</link>
-      <pubDate>Sun, 05 Apr 2026 05:26:52 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মশক যন্ত্রণা /হুমকিতে জনস্বাস্থ্য ও জনজীবন. [ samakal ]&lt;/p&gt;</description>
+      <title>আন্তর্জাতিক /হরমুজ অবরোধ উপসাগরীয় সরবরাহ ব্যবস্থার বাঁক বদল করছে. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/345969/%E0%A6%B9%E0%A6%B0%E0%A6%AE%E0%A7%81%E0%A6%9C-%E0%A6%85%E0%A6%AC%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%89%E0%A6%AA%E0%A6%B8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A7%80%E0%A6%AF%E0%A6%BC-%E0%A6%B8%E0%A6%B0%E0%A6%AC%E0%A6%B0%E0%A6%BE%E0%A6%B9-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%81%E0%A6%95-%E0%A6%AC%E0%A6%A6%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A6%9B%E0%A7%87</link>
+      <pubDate>Mon, 06 Apr 2026 08:01:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আন্তর্জাতিক /হরমুজ অবরোধ উপসাগরীয় সরবরাহ ব্যবস্থার বাঁক বদল করছে. [ samakal ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>মানব পাচার /অভিবাসনের অধিকার বনাম পাচারের ফাঁদ. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/345735/%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%A8%E0%A6%BE%E0%A6%AE-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%A6%C2%A0</link>
-      <pubDate>Sun, 05 Apr 2026 05:26:52 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মানব পাচার /অভিবাসনের অধিকার বনাম পাচারের ফাঁদ. [ samakal ]&lt;/p&gt;</description>
+      <title>বাংলাদেশ-ভারত সম্পর্ক সামনে কেমন হবে?. [ bd-pratidin ]</title>
+      <link>https://www.bd-pratidin.com/open-air-theater/2026/04/06/1235447</link>
+      <pubDate>Mon, 06 Apr 2026 08:01:24 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://cdn.bd-pratidin.com/public/news_images/2026/04/06/1775461438-c6b965815c1c91e1f9485da7be7c560f.jpg" /&gt;&lt;br /&gt;পররাষ্ট্রমন্ত্রী খলিলুর রহমান ৭ এপ্রিল ভারত সফরে যাচ্ছেন। বিএনপি সরকার গঠিত হবার পর, এটিই পররাষ্ট্রমন্ত্রীর প্রথম ভারত সফর। নানা কারণে এই সফর...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>তৃতীয় মেরু
-                                                            /মিয়ানমারে ‘নতুন’ প্রেসিডেন্ট, বাংলাদেশের পুরোনো কর্তব্য. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/345737/%E0%A6%AE%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%87-%E2%80%98%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8%E2%80%99-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A6%BF%E0%A6%A1%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%8B%E0%A6%A8%E0%A7%8B-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A7%8D%E0%A6%AF</link>
-      <pubDate>Sun, 05 Apr 2026 05:26:52 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মিয়ানমারের সামরিক জান্তা মিন অং হ্লাইং বেসামরিক প্রেসিডেন্ট হিসেবে দায়িত্ব নিয়েছেন। সন্দেহ নেই, দেশটির ‘পিদংশু লুত্য’ বা ফেডারেল আইনসভার প্রথম অধিবেশনে তিনি ‘গোপন ব্যালটে নির্বাচিত’&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>যেকোনো মূল্যে জ্বালানি সরবরাহ নিশ্চিত করতে হবে. [ dailyinqilab ]</title>
-      <link>https://dailyinqilab.com/editorial/article/880624</link>
-      <pubDate>Mon, 06 Apr 2026 00:03:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;যেকোনো মূল্যে জ্বালানি সরবরাহ নিশ্চিত করতে হবে. [ dailyinqilab ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>মূল্যস্ফীতি নিয়ন্ত্রণে অগ্রাধিকার দিতে হবে. [ dailyinqilab ]</title>
-      <link>https://dailyinqilab.com/editorial/article/880623</link>
-      <pubDate>Mon, 06 Apr 2026 00:03:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মূল্যস্ফীতি নিয়ন্ত্রণে অগ্রাধিকার দিতে হবে. [ dailyinqilab ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>খাল পুনরুদ্ধারে প্রয়োজন সমন্বিত পরিকল্পনা ও টেকসই ব্যবস্থাপনা. [ kalerkantho ]</title>
-      <link>https://www.kalerkantho.com/print-edition/sub-editorial/2026/04/06/1667905</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;খাল পুনরুদ্ধারে প্রয়োজন সমন্বিত পরিকল্পনা ও টেকসই ব্যবস্থাপনা. [ kalerkantho ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>রমজান মাস /নিত্যপণ্যের বাজার নিয়ন্ত্রণ বাঞ্ছনীয়. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/338947/%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A6%A3%E0%A7%8D%E0%A6%AF%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%AC%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9B%E0%A6%A8%E0%A7%80%E0%A7%9F</link>
-      <pubDate>Sun, 05 Apr 2026 05:26:52 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;রমজান মাস /নিত্যপণ্যের বাজার নিয়ন্ত্রণ বাঞ্ছনীয়. [ samakal ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>সংকট মোকাবিলায় ভুল পথ : অনলাইন ক্লাস কি সমাধান?. [ jagonews24 ]</title>
-      <link>https://www.jagonews24.com/m/opinion/article/1107470</link>
-      <pubDate>Sun, 05 Apr 2026 05:12:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সংকট মোকাবিলায় ভুল পথ : অনলাইন ক্লাস কি সমাধান?. [ jagonews24 ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>অতীত অভিজ্ঞতার কারণে সংস্কার নিয়ে সন্দেহ তৈরি হচ্ছে. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/interview/9jl5vutlzk</link>
-      <pubDate>Sun, 05 Apr 2026 05:02:24 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সুপ্রিম কোর্ট সচিবালয় অধ্যাদেশ বাতিল হওয়াটা ব্যক্তিগতভাবে আমাকে হতাশ করেছে। এটি দীর্ঘদিনের দাবি ছিল, এমনকি ২০২৪ সালের আদালতের রায়েও এটার নির্দেশনা রয়েছে।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>বিনিয়োগবান্ধব পরিবেশ আসুক. [ kalerkantho ]</title>
-      <link>https://www.kalerkantho.com/print-edition/editorial/2026/04/06/1667907</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বিনিয়োগবান্ধব পরিবেশ আসুক. [ kalerkantho ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>প্রান্তিক চিকিৎসায় গুরুত্ব দিন. [ kalerkantho ]</title>
-      <link>https://www.kalerkantho.com/print-edition/editorial/2026/04/06/1667908</link>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;প্রান্তিক চিকিৎসায় গুরুত্ব দিন. [ kalerkantho ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ইরান যুদ্ধে হেরে গেলেও ট্রাম্পের ক্ষতি নেই. [ kalerkantho ]</title>
-      <link>https://www.kalerkantho.com/online/opinion/2026/04/05/1667787</link>
-      <pubDate>Sun, 05 Apr 2026 23:02:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Gemini-2.5-Flash-Lite, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ইরান যুদ্ধে হেরে গেলেও ট্রাম্পের ক্ষতি নেই. [ kalerkantho ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>সুন্দরবনে বনদস্যুদের বিরুদ্ধে কঠোর হোন. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/editorial/2s1uapv4lt</link>
-      <pubDate>Sun, 05 Apr 2026 03:23:09 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সুন্দরবনের মধু কেবল মৌয়ালদের জীবিকা নয়, এটি জাতীয় অর্থনীতির একটি গুরুত্বপূর্ণ অংশ এবং সরকারের রাজস্বের বড় উৎস।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>সিভিল সোসাইটি ও আমলাতন্ত্রের দ্বন্দ্ব. [ dailyamardesh ]</title>
-      <link>https://www.dailyamardesh.com/op-ed/sub-editorial/amdetustntiq1</link>
-      <pubDate>Sun, 05 Apr 2026 03:03:54 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সিভিল সোসাইটি ও আমলাতন্ত্রের দ্বন্দ্ব. [ dailyamardesh ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>সৌরবিদ্যুৎ ব্যবহার বাড়াতে হবে. [ alokitobangladesh ]</title>
-      <link>https://www.alokitobangladesh.com/print-edition/editorial/327720/%E0%A6%B8%E0%A7%8C%E0%A6%B0%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A7%8E-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B9%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%AC%E0%A7%87</link>
-      <pubDate>Sun, 05 Apr 2026 21:28:45 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সৌরবিদ্যুৎ ব্যবহার বাড়াতে হবে. [ alokitobangladesh ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>যুবশক্তির কর্মসংস্থানেই বদলাবে বাংলাদেশ. [ alokitobangladesh ]</title>
-      <link>https://www.alokitobangladesh.com/print-edition/editorial/327721/%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%AC%E0%A6%A6%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6</link>
-      <pubDate>Sun, 05 Apr 2026 21:13:45 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;যুবশক্তির কর্মসংস্থানেই বদলাবে বাংলাদেশ. [ alokitobangladesh ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>কৃষক কার্ড : কৃষি খাতে আনবে বৈপ্লবিক পরিবর্তন. [ kalerkantho ]</title>
-      <link>https://www.kalerkantho.com/online/opinion/2026/04/05/1667752</link>
-      <pubDate>Sun, 05 Apr 2026 21:04:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;কৃষক কার্ড : কৃষি খাতে আনবে বৈপ্লবিক পরিবর্তন. [ kalerkantho ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>সংঘাত ও প্রাকৃতিক দুর্যোগের মুখে বিশ্বব্যাপী বাড়ছে অভ্যন্তরীণ বাস্তুচ্যুতির সংখ্যা. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/editorial/pROl1R3k1IavRrhS</link>
-      <pubDate>Sun, 05 Apr 2026 21:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মানুষের স্থানান্তরের ঘটনাকে সাধারণত আন্তর্জাতিক অভিবাসন হিসেবে দেখা হয়—অর্থাৎ এক দেশ ছেড়ে অন্য দেশে, আন্তর্জাতিক সীমান্ত অতিক্রম করে যাওয়া। কিন্তু মানুষ তাদের নিজের দেশের ভেতরেও এক স্থান থেকে অন্য স্থানে যেতে বাধ্য হয়।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>অর্থনৈতিক উন্নয়ন ও আইনশৃঙ্খলা একই মুদ্রার দুই পিঠ. [ alokitobangladesh ]</title>
-      <link>https://www.alokitobangladesh.com/print-edition/editorial/327722/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%88%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A7%9F%E0%A6%A8-%E0%A6%93-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%B6%E0%A7%83%E0%A6%99%E0%A7%8D%E0%A6%96%E0%A6%B2%E0%A6%BE-%E0%A6%8F%E0%A6%95%E0%A6%87-%E0%A6%AE%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%AA%E0%A6%BF%E0%A6%A0</link>
-      <pubDate>Sun, 05 Apr 2026 20:58:45 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;অর্থনৈতিক উন্নয়ন ও আইনশৃঙ্খলা একই মুদ্রার দুই পিঠ. [ alokitobangladesh ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ব্যবসায়ী সিন্ডিকেটের কারসাজি বন্ধ করা হোক. [ rupalibangladesh ]</title>
-      <link>https://www.rupalibangladesh.com/ajkerpatrika/opinion/131442</link>
-      <pubDate>Sun, 05 Apr 2026 20:41:53 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ব্যবসায়ী সিন্ডিকেটের কারসাজি বন্ধ করা হোক. [ rupalibangladesh ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ঘূর্ণিঝড়ের মৌসুমে উপকূলে প্রস্তুতি প্রয়োজন. [ rupalibangladesh ]</title>
-      <link>https://www.rupalibangladesh.com/ajkerpatrika/opinion/131441</link>
-      <pubDate>Sun, 05 Apr 2026 20:41:52 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ঘূর্ণিঝড়ের মৌসুমে উপকূলে প্রস্তুতি প্রয়োজন. [ rupalibangladesh ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>যুদ্ধের ভেতরে রাষ্ট্র, জাতি ও প্রতিরোধের বাস্তবতা. [ kalbela ]</title>
-      <link>https://www.kalbela.com/ajkerpatrika/joto-mot-toto-path/279710</link>
-      <pubDate>Sun, 05 Apr 2026 20:27:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;যুদ্ধের ভেতরে রাষ্ট্র, জাতি ও প্রতিরোধের বাস্তবতা. [ kalbela ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>সাদামাটা কথা / হামে হাবুডুবু: স্বাস্থ্য খাতই যেন অস্বাস্থ্যকর!. [ kalbela ]</title>
-      <link>https://www.kalbela.com/ajkerpatrika/joto-mot-toto-path/279708</link>
-      <pubDate>Sun, 05 Apr 2026 20:27:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সাদামাটা কথা / হামে হাবুডুবু: স্বাস্থ্য খাতই যেন অস্বাস্থ্যকর!. [ kalbela ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>কৃষিভূমিতে বাড়ি বা শিল্প-কারখানা নির্মাণ কি অবাধে চলবে. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/editorial/gcGhPESKnhhNd7JR</link>
-      <pubDate>Sun, 05 Apr 2026 20:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাংলাদেশের কৃষিনির্ভর অর্থনীতিতে খাদ্য উৎপাদন ও ব্যবস্থাপনার বিষয়টি সর্বাধিক গুরুত্বপূর্ণ। দেশের জনগণ তাদের আয়ের বড় একটি অংশ খাদ্যের জন্য ব্যয় করে।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>জেলে ও মৎস্য চাষিরা কেন উপেক্ষিত?. [ protidinersangbad ]</title>
-      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/562333</link>
-      <pubDate>Sun, 05 Apr 2026 19:48:25 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জেলে ও মৎস্য চাষিরা কেন উপেক্ষিত?. [ protidinersangbad ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>মধ্যপ্রাচ্যের আগুনের ছেঁকা বাংলার হাঁড়িতে!. [ protidinersangbad ]</title>
-      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/562335</link>
-      <pubDate>Sun, 05 Apr 2026 19:48:25 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মধ্যপ্রাচ্যের আগুনের ছেঁকা বাংলার হাঁড়িতে!. [ protidinersangbad ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>পোল্ট্রিশিল্পে সংকট নিরসনে চাই যথাযথ পদক্ষেপ. [ protidinersangbad ]</title>
-      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/562336</link>
-      <pubDate>Sun, 05 Apr 2026 19:48:25 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;পোল্ট্রিশিল্পে সংকট নিরসনে চাই যথাযথ পদক্ষেপ. [ protidinersangbad ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>র‌্যাব বিলুপ্তির দাবি কতটা যৌক্তিক. [ bd-pratidin ]</title>
-      <link>https://www.bd-pratidin.com/editorial/2026/04/06/1235264</link>
-      <pubDate>Sun, 05 Apr 2026 19:03:01 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;র‌্যাব বিলুপ্তির দাবি কতটা যৌক্তিক. [ bd-pratidin ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>উন্নয়ন ও কর্মসংস্থান. [ bd-pratidin ]</title>
-      <link>https://www.bd-pratidin.com/editorial/2026/04/06/1235270</link>
-      <pubDate>Sun, 05 Apr 2026 19:03:01 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;উন্নয়ন ও কর্মসংস্থান. [ bd-pratidin ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>নবায়নযোগ্য জ্বালানির সম্ভাবনা কাজে লাগানো টেকসই অর্থনৈতিক উন্নয়নের পূর্বশর্ত. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/editorial/kiShbsFtrhGWFa8o</link>
-      <pubDate>Sun, 05 Apr 2026 19:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মধ্যপ্রাচ্যে চলমান যুদ্ধের অভিঘাত বহু দেশকে অস্থিতিশীল বৈশ্বিক জ্বালানি তেল ও গ্যাসের বাজারের দিকে ঠেলে দিয়েছে। এ সংকট থেকে মুক্ত নয় বাংলাদেশও।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>এলডিসি উত্তরণের পথে দেশ, দেরি কেন?. [ jatiyoarthoniti ]</title>
-      <link>https://jatiyoarthoniti.com/2026/04/05/eldisi-uttrner-pthe-des-deri-ken</link>
-      <pubDate>Sun, 05 Apr 2026 17:12:01 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নতুন নির্বাচিত সরকারের যাত্রা শুরু হয়েছে। নানা ধরনের প্রতিশ্রুতি ও প্রত্যাশার মধ্য দিয়ে সরকার এগিয়ে চলেছে। বিশেষ করে অর্থনৈতিক ক্ষেত্রে গতি ফেরানোর বিশেষ তাগিদ রয়েছে সরকারের। রাজনীতিকে স্থিতিশীল রেখে কীভাবে...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>টিকাদান কর্মসূচিতে নতুন গতি, জনস্বাস্থ্যে স্বস্তির বার্তা. [ dailynayadiganta ]</title>
-      <link>https://dailynayadiganta.com/opinions/opinion/XT5iEyJzvsnZ</link>
-      <pubDate>Sun, 05 Apr 2026 16:56:35 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;টিকাদান কর্মসূচিতে নতুন গতি, জনস্বাস্থ্যে স্বস্তির বার্তা. [ dailynayadiganta ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>রাজস্ব আহরণ অবকাঠামোর ধারণাগত সীমাবদ্ধতা. [ dailynayadiganta ]</title>
-      <link>https://dailynayadiganta.com/opinions/sub-editorial/PEIZaqD2UEpn</link>
-      <pubDate>Sun, 05 Apr 2026 15:16:04 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;রাজস্ব আহরণ অবকাঠামোর ধারণাগত সীমাবদ্ধতা. [ dailynayadiganta ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>জ্বালানি সংকট, সময় ব্যবস্থাপনা ও টেকসই অর্থনীতি: বাস্তবতার আলোকে বাংলাদেশের করণীয়. [ rupalibangladesh ]</title>
-      <link>https://www.rupalibangladesh.com/opinion/131346</link>
-      <pubDate>Sun, 05 Apr 2026 14:41:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জ্বালানি সংকট, সময় ব্যবস্থাপনা ও টেকসই অর্থনীতি: বাস্তবতার আলোকে বাংলাদেশের করণীয়. [ rupalibangladesh ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>খাল খননের প্রাসঙ্গিকতা. [ dailynayadiganta ]</title>
-      <link>https://dailynayadiganta.com/opinions/sub-editorial/TCZEwDnepFKc</link>
-      <pubDate>Sun, 05 Apr 2026 14:39:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;খাল খননের প্রাসঙ্গিকতা. [ dailynayadiganta ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>জাহাজ রিসাইক্লিং শিল্প কি স্বচ্ছতা হারাচ্ছে. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/kga0tag6ls</link>
-      <pubDate>Sun, 05 Apr 2026 12:00:01 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাংলাদেশের এ শিল্প তুলনামূলকভাবে ছোট এবং অর্থনৈতিকভাবে বেশ ঘনীভূত। মালিকানার সংখ্যা সীমিত এবং নিয়ন্ত্রক সিদ্ধান্তগুলো সরাসরি নির্দিষ্ট ব্যবসাপ্রতিষ্ঠানের ওপর প্রভাব ফেলতে পারে।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>যুদ্ধের আগুনে জ্বালানি  /হরমুজ থেকে ঢাকায় ছড়িয়ে পড়া বৈশ্বিক সংকটের অর্থনীতি. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/345839/%E0%A6%B9%E0%A6%B0%E0%A6%AE%E0%A7%81%E0%A6%9C-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%9B%E0%A7%9C%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AA%E0%A7%9C%E0%A6%BE-%E0%A6%AC%E0%A7%88%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%BF%E0%A6%95-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF</link>
-      <pubDate>Sun, 05 Apr 2026 11:57:55 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সংঘাতের কারণে হরমুজ প্রণালী কার্যত ঝুঁকিপূর্ণ হয়ে ওঠায় জ্বালানিবাহী ট্যাংকার চলাচল মারাত্মকভাবে ব্যাহত হয়েছে। বহু জাহাজ মাঝপথে আটকে পড়ছে, আবার অনেক জাহাজকে আফ্রিকার কেপ অব গুড হোপ ঘুরে দীর্ঘ বিকল্প পথে যাত্রা করতে হচ্ছে। এতে পরিবহন সময় কয়েক সপ্তাহ পর্যন্ত বাড়ছে এবং খরচ বহুগুণে বৃদ্ধি পাচ্ছে। শুধু তাই নয়, যুদ্ধঝুঁকির কারণে বীমা ব্যয়ও উল্লেখযোগ্যভাবে বেড়েছে, যা আন্তর্জাতিক বাণিজ্যের সামগ্রিক ব্যয় কাঠামোকে আরও জটিল করে তুলছে। এর ফলে সরবরাহ শৃঙ্খলে একটি ‘ডমিনো ইফেক্ট’ তৈরি হয়েছে, যেখানে জ্বালানি সংকট ধীরে ধীরে খাদ্য, শিল্পপণ্য এবং ভোক্তা পণ্যের বাজারেও চাপ সৃষ্টি করছে।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>‘জ্বালানি সংকট, বৈশ্বিক অস্থিরতা এবং আমাদের সম্মিলিত দায়িত্ব’. [ bd-pratidin ]</title>
-      <link>https://www.bd-pratidin.com/open-air-theater/2026/04/05/1235110</link>
-      <pubDate>Sun, 05 Apr 2026 11:38:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://cdn.bd-pratidin.com/public/news_images/2026/04/05/1775387169-c7ad993c188a3a387528493da5ed1bd7.jpg" /&gt;&lt;br /&gt;মধ্যপ্রাচ্যের চলমান যুদ্ধ আজ আর কেবল একটি আঞ্চলিক সংঘাত নয়; এটি পরিণত হয়েছে বৈশ্বিক শক্তির রাজনীতির এক নির্মম খেলায়, যার বলি হচ্ছে বিশ্বের...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>চট্টগ্রাম মহানগরীর জলাবদ্ধতা নিরসনে সমন্বিত ব্যবস্থা নিন. [ jatiyoarthoniti ]</title>
-      <link>https://jatiyoarthoniti.com/2026/04/05/%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A6%97%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%9C%E0%A6%B2%E0%A6%BE%E0%A6%AC%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%A4%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%B8%E0%A6%A8%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%AC%E0%A6%BF%E0%A6%A4</link>
-      <pubDate>Sun, 05 Apr 2026 09:48:24 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাংলাদেশের বাণিজ্যিক রাজধানী চট্টগ্রাম মহানগরী বর্ষা এলেই এক পরিচিত দুর্ভোগের শহরে পরিণত হয়। সামান্য বৃষ্টিতেই নগরীর প্রধান সড়ক, অলিগলি, বাজার, শিক্ষাপ্রতিষ্ঠান ও আবাসিক এলাকা পানিতে তলিয়ে যায়। এতে জনজীবন বিপর্যস্ত...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>জ্বালানি সংকটের বাস্তবতায় সংসদ হোক ব্যয়সাশ্রয়ী. [ jatiyoarthoniti ]</title>
-      <link>https://jatiyoarthoniti.com/2026/04/05/%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A6%A4%E0%A6%BE%E0%A7%9F-%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A6%A6-%E0%A6%B9%E0%A7%8B%E0%A6%95</link>
-      <pubDate>Sun, 05 Apr 2026 09:37:57 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মধ্যপ্রাচ্যে ক্রমবর্ধমান সংঘাত আবারও প্রমাণ করছে— বিশ্ব অর্থনীতি এখনো জ্বালানিনির্ভর এক ভঙ্গুর কাঠামোর ওপর দাঁড়িয়ে আছে। ভূ-রাজনৈতিক অস্থিরতার ঢেউ তেলের নিরবচ্ছিন্ন সরবরাহে আঘাত হানার ফলে সর্বত্র এর অভিঘাত ছড়িয়ে পড়েছে-...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>জলবায়ু পরিবর্তনের প্রেক্ষাপটে জিয়াউর রহমানের নদী ও উপকূলকেন্দ্রিক উন্নয়ন চিন্তা এখন আরো প্রাসঙ্গিক. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/editorial/CkAO1fkFomeqCB4i</link>
-      <pubDate>Sun, 05 Apr 2026 09:14:34 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সত্তরের দশকের শেষভাগে জিয়াউর রহমান পরিবেশের ভারসাম্য রক্ষায় দূরদর্শী কিছু পদক্ষেপ নিয়েছিলেন। এর মধ্যে উল্লেখযোগ্য হলো উপকূলীয় সবুজবেষ্টনী। দেশের দীর্ঘ উপকূলীয় অঞ্চল ঘূর্ণিঝড় ও জলোচ্ছ্বাসের মোকাবেলায় কতটা অসহায়, ১৯৭০ সালের প্রলংকরী ঘূর্ণিঝড় দেখে তা তিনি ভালোভাবেই উপলব্ধি করেছিলেন। এজন্যই দুর্যোগ মোকাবেলায় তিনি উপকূলীয় বনায়নের সূচনা করেন।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>হরমুজের প্রভাবে বিশ্বজুড়ে তেলের হাহাকার. [ jatiyoarthoniti ]</title>
-      <link>https://jatiyoarthoniti.com/2026/04/05/%E0%A6%B9%E0%A6%B0%E0%A6%AE%E0%A7%81%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A7%81%E0%A7%9C%E0%A7%87-%E0%A6%A4%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0</link>
-      <pubDate>Sun, 05 Apr 2026 08:32:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ইরান, যুক্তরাষ্ট্র ও ইসরাইল যুদ্ধের দামামা যেন থামছেই না। প্রথমে মনে হচ্ছিল, উত্তেজনা হয়তো দ্রুত কমে আসবে, কূটনৈতিক তৎপরতায় পরিস্থিতি নিয়ন্ত্রণে চলে আসবে। কিন্তু বাস্তবতা হয়েছে ঠিক উল্টো। দিন যত...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>দীর্ঘায়িত হচ্ছে মশার প্রজনন মৌসুম
-                                                                বিস্তার রোধে কার্যকর পদক্ষেপ নিন. [ khaborerkagoj ]</title>
-      <link>https://khaborerkagoj.com/index.php/editorial/912140</link>
-      <pubDate>Sun, 05 Apr 2026 08:24:11 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;দীর্ঘায়িত হচ্ছে মশার প্রজনন মৌসুম
-                                                                বিস্তার রোধে কার্যকর পদক্ষেপ নিন. [ khaborerkagoj ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>বিদ্যুৎ-জ্বালানি খাত: বিপদ ধেয়ে আসছে ভোক্তার দিকে. [ chaarcha ]</title>
-      <link>https://www.chaarcha.com/analysis/chfyv4flbqmr</link>
-      <pubDate>Sun, 05 Apr 2026 07:41:57 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;&lt;img alt="বিদ্যুৎ-জ্বালানি খাত: বিপদ ধেয়ে আসছে ভোক্তার দিকে" src="https://images.chaarcha.com/original_images/Long_lines_for_oil_1.jpg" /&gt;&lt;br /&gt;&lt;small&gt;জ্বালানি তেলের জন্য মোটরসাইকেল চালকদের ভিড়। ছবি: চরচা&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;বিদ্যুৎ-জ্বালানি খাত: বিপদ ধেয়ে আসছে ভোক্তার দিকে গত ১৮ মার্চ জেট ফুয়েলের দাম লিটারে ৮২ টাকা বাড়িয়ে প্রজ্ঞাপন জারির ঘণ্টাখানেকের মধ্যেই প্রত্যাহার করে নিয়েছিল বাংলাদেশ এনার্জি রেগুলেটরি কমিশন (বিইআরসি)। কিন্তু, এ অবস্থা ধরে রাখা যায়নি। এক সপ্তাহেরও কম সময় পরে শতকরা ৮০ শতাংশ বা লিটারে প্রায় ৯০ টাকা বাড়িয়ে ২০২ টাকা ২৯ পয়সা নির্ধারণ করে কমিশন। এই বৃদ্&lt;/p&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>কৃষি ও জনস্বাস্থ্যের জন্য হুমকি, নজর দিন. [ protidinerbangladesh ]</title>
-      <link>https://protidinerbangladesh.com/opinion/165082/কৃষি-ও-জনস্বাস্থ্যের-জন্য-হুমকি-নজর-দিন</link>
-      <pubDate>Sun, 05 Apr 2026 07:41:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿যেহেতু প্রকৃতির ওপর মানুষের কোনো হাত নেই, তাই এর খেয়ালখুশি ...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>খাল খনন নয়, প্রয়োজন নদী পুনঃখনন. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/column/6c1c065z1a</link>
-      <pubDate>Sun, 05 Apr 2026 07:00:42 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নদীবিশেষজ্ঞ এবং প্রকৃতিবিদের পরামর্শ নিয়ে জিয়াউর রহমান একক উদ্যোগ ও প্রচেষ্টায় তিনি শুরু করেছিলেন মৃত ও অর্ধমৃত নদ–নদী পুনঃখননের কাজ।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>টিকা কেন জরুরি, কখন কোনটি দিতে হবে. [ bbc ]</title>
-      <link>https://www.bbc.com/bengali/articles/ckgedzl0ldlo?at_medium=RSS&amp;at_campaign=rss</link>
-      <pubDate>Sun, 05 Apr 2026 07:00:28 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;টিকাদানে বাংলাদেশে মূলত দুই ধরনের ব্যবস্থা চালু আছে: সরকারি টিকা এবং বেসরকারি টিকা। বিশ্ব স্বাস্থ্য সংস্থার মান ও নির্দেশনা অনুযায়ী এসব টিকা শিশুর যথাযথ বয়সে যথাযথ ডোজ দিতে হয়।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>নীতিকথার বদলে বাস্তব নীতিমালা বেশি জরুরি. [ protidinerbangladesh ]</title>
-      <link>https://protidinerbangladesh.com/opinion/165076/নীতিকথার-বদলে-বাস্তব-নীতিমালা-বেশি-জরুরি</link>
-      <pubDate>Sun, 05 Apr 2026 06:42:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿সামাজিক ক্ষয় থামাতে হলে ‘ভালো মানুষ হও’ বলার চেয়ে বেশি ...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>সংস্কারের সঙ্গে করকাঠামোর সামঞ্জস্য থাকা প্রয়োজন. [ protidinerbangladesh ]</title>
-      <link>https://protidinerbangladesh.com/opinion/165078/সংস্কারের-সঙ্গে-করকাঠামোর-সামঞ্জস্য-থাকা-প্রয়োজন</link>
-      <pubDate>Sun, 05 Apr 2026 06:42:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿উন্নয়নের এক গুরুত্বপূর্ণ সন্ধিক্ষণে দাঁড়িয়ে আছে বাংলাদেশ। টানা কয়েক দশক ...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>অনলাইন ক্লাস জ্বালানিসংকট মোকাবিলার সমাধান নয়. [ dainikamadershomoy ]</title>
-      <link>https://www.dainikamadershomoy.com/details/019d599073111</link>
-      <pubDate>Sun, 05 Apr 2026 06:42:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;অনলাইন ক্লাস জ্বালানিসংকট মোকাবিলার সমাধান নয়. [ dainikamadershomoy ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>মধ্যপ্রাচ্য ইস্যুতে বাংলাদেশের অর্থনীতির চ্যালেঞ্জ. [ dainikamadershomoy ]</title>
-      <link>https://www.dainikamadershomoy.com/details/019d599078e62</link>
-      <pubDate>Sun, 05 Apr 2026 06:42:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মধ্যপ্রাচ্য ইস্যুতে বাংলাদেশের অর্থনীতির চ্যালেঞ্জ. [ dainikamadershomoy ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ঈদযাত্রায় শিশুমৃত্যু যেভাবে কমতে পারে. [ dainikamadershomoy ]</title>
-      <link>https://www.dainikamadershomoy.com/details/019d5990793f3</link>
-      <pubDate>Sun, 05 Apr 2026 06:42:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ঈদযাত্রায় শিশুমৃত্যু যেভাবে কমতে পারে. [ dainikamadershomoy ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>জ্বালানি-দুশ্চিন্তা ও তথ্যের প্রবাহ. [ dhakapost ]</title>
-      <link>https://www.dhakapost.com/opinion/442283</link>
-      <pubDate>Sun, 05 Apr 2026 06:41:49 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জ্বালানি-দুশ্চিন্তা ও তথ্যের প্রবাহ. [ dhakapost ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>নারীর ক্ষমতায়ন: সংখ্যা নয়, চাই সত্যিকারের ক্ষমতা. [ banglatribune ]</title>
-      <link>https://www.banglatribune.com/columns/940450/%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A8-%E0%A6%B8%E0%A6%82%E0%A6%96%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%A8%E0%A6%AF%E0%A6%BC-%E0%A6%9A%E0%A6%BE%E0%A6%87-%E0%A6%B8%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE</link>
-      <pubDate>Sun, 05 Apr 2026 06:10:51 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;
-												&lt;img src="https://cdn.banglatribune.net/contents/cache/images/300x300x1/uploads/media/2021/03/25/69a9040bfca6a93cf0453d6dcef88fb4-605c261d7db5b.jpg?jadewits_media_id=718991" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+      <title>ক্যাডার বৈষম্য ও স্বায়ত্তশাসনের সংকট: পিছিয়ে পড়ছে শিক্ষা-স্বাস্থ্য. [ banglatribune ]</title>
+      <link>https://www.banglatribune.com/columns/940568/%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A1%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A7%88%E0%A6%B7%E0%A6%AE%E0%A7%8D%E0%A6%AF-%E0%A6%93-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F-%E0%A6%AA%E0%A6%BF%E0%A6%9B%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AA%E0%A7%9C%E0%A6%9B%E0%A7%87</link>
+      <pubDate>Mon, 06 Apr 2026 08:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;
+												&lt;img src="https://cdn.banglatribune.net/contents/cache/images/300x300x1/uploads/media/2025/09/18/-5e94f8329c57d3bddd2f9f7e3e3d847d.jpg?jadewits_media_id=993744" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
 												
-						নেপালে সদ্য গঠিত সরকার একটি ঐতিহাসিক নজির স্থাপন করেছে। র‍্যাপার থেকে রাজনীতিবিদ হওয়া বালেন্দ্র শাহ প্রধানমন্ত্রী হিসেবে শপথ নেওয়ার পর তার ১৫ সদস্যের মন্ত্রিসভায় পাঁচজন নারীকে স্থান দিয়েছেন, যা মোট মন্ত্রিসভার ঠিক ৩৩ শতাংশ। এটি নেপালের ইতিহাসে প্রথমবারের মতো সাংবিধানিক বিধান কেবল কাগজে নয়, মন্ত্রিসভার টেবিলেও বাস্তবে প্রতিফলিত হলো। এই ঘটনা শুধু নেপালের জন্য নয়, বাংলাদেশসহ গোটা দক্ষিণ...						&lt;a class="more_link" href="https://www.banglatribune.com/columns/940450/%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A8-%E0%A6%B8%E0%A6%82%E0%A6%96%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%A8%E0%A6%AF%E0%A6%BC-%E0%A6%9A%E0%A6%BE%E0%A6%87-%E0%A6%B8%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE"&gt;বিস্তারিত&lt;/a&gt;
+						বাংলাদেশের রাষ্ট্রীয় কাঠামোর ভেতরে দীর্ঘদিন ধরে একটি সূক্ষ্ম কিন্তু গভীর বৈষম্য নীরবে কাজ করে যাচ্ছে, যার প্রভাব ধীরে ধীরে স্পষ্ট হয়ে উঠছে শিক্ষা ও স্বাস্থ্যের মতো গুরুত্বপূর্ণ খাতে। এর মূলে রয়েছে পদোন্নতি ও মর্যাদা প্রাপ্তিতে চরম আন্তঃক্যাডার বৈষম্য। একদিকে যেখানে একই প্রতিযোগিতামূলক পরীক্ষার মাধ্যমে দেশের মেধাবীরা রাষ্ট্রীয় সেবায় প্রবেশ করেন, অপরদিকে কর্মজীবনের অগ্রগতিতে তাদের জন্য নির্ধারিত...						&lt;a class="more_link" href="https://www.banglatribune.com/columns/940568/%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A1%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A7%88%E0%A6%B7%E0%A6%AE%E0%A7%8D%E0%A6%AF-%E0%A6%93-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F-%E0%A6%AA%E0%A6%BF%E0%A6%9B%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AA%E0%A7%9C%E0%A6%9B%E0%A7%87"&gt;বিস্তারিত&lt;/a&gt;
 					&lt;/p&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>রাজহাঁসের সোনার ডিম ও সংবিধান সংস্কার পরিষদ. [ jagonews24 ]</title>
-      <link>https://www.jagonews24.com/m/opinion/news/1107472</link>
-      <pubDate>Sun, 05 Apr 2026 05:27:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;রাজহাঁসের সোনার ডিম ও সংবিধান সংস্কার পরিষদ. [ jagonews24 ]&lt;/p&gt;</description>
+      <title>জ্বালানি নিরাপত্তা ও মনস্তাত্ত্বিক চ্যালেঞ্জ. [ dainikamadershomoy ]</title>
+      <link>https://www.dainikamadershomoy.com/details/019d5ed659ae2</link>
+      <pubDate>Mon, 06 Apr 2026 06:10:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জ্বালানি নিরাপত্তা ও মনস্তাত্ত্বিক চ্যালেঞ্জ. [ dainikamadershomoy ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>চারদিক /ফসল রক্ষার বাঁধ, না ফসলহানির ফাঁদ. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/345732/%E0%A6%AB%E0%A6%B8%E0%A6%B2-%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%81%E0%A6%A7-%E0%A6%A8%E0%A6%BE-%E0%A6%AB%E0%A6%B8%E0%A6%B2%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%B0-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%A6</link>
-      <pubDate>Sun, 05 Apr 2026 05:26:52 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;দেশের উত্তর-পূর্বাঞ্চলের হাওর আবারও এক দুঃস্বপ্নের ভেতর দিয়ে যাচ্ছে। টানা বৃষ্টি, উজানের ঢল এবং নদীর পানির অস্বাভাবিক আচরণ মিলিয়ে কৃষকের চোখের সামনে ডুবে যাচ্ছে বোরো ধানের সোনালি&lt;/p&gt;</description>
+      <title>নগর সবুজায়ন ব্যবস্থাপনা জরুরি. [ dainikamadershomoy ]</title>
+      <link>https://www.dainikamadershomoy.com/details/019d5ed4b1c91</link>
+      <pubDate>Mon, 06 Apr 2026 06:10:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নগর সবুজায়ন ব্যবস্থাপনা জরুরি. [ dainikamadershomoy ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>আসছে ঘূর্ণিঝড়ের মৌসুম, প্রস্তুত তো উপকূল?. [ dainikamadershomoy ]</title>
+      <link>https://www.dainikamadershomoy.com/details/019d5ed65fef3</link>
+      <pubDate>Mon, 06 Apr 2026 06:10:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আসছে ঘূর্ণিঝড়ের মৌসুম, প্রস্তুত তো উপকূল?. [ dainikamadershomoy ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>১৩৩ অধ্যাদেশ যাচাই-বাছাই /সরকারের ক্ষমতা নহে, জবাবদিহি বাড়ুক. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/345918/%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE-%E0%A6%A8%E0%A6%B9%E0%A7%87-%E0%A6%9C%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%A6%E0%A6%BF%E0%A6%B9%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A7%81%E0%A6%95</link>
+      <pubDate>Mon, 06 Apr 2026 04:15:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;১৩৩ অধ্যাদেশ যাচাই-বাছাই /সরকারের ক্ষমতা নহে, জবাবদিহি বাড়ুক. [ samakal ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>আন্তর্জাতিক /ন্যায়সংগত যুদ্ধ বলে কিছু আছে?. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/345915/%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%B8%E0%A6%82%E0%A6%97%E0%A6%A4-%E0%A6%AF%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%AC%E0%A6%B2%E0%A7%87-%E0%A6%95%E0%A6%BF%E0%A6%9B%E0%A7%81-%E0%A6%86%E0%A6%9B%E0%A7%87-</link>
+      <pubDate>Mon, 06 Apr 2026 04:15:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আন্তর্জাতিক /ন্যায়সংগত যুদ্ধ বলে কিছু আছে?. [ samakal ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>লটারিতে ভর্তি প্রক্রিয়া বাতিল নয়, দরকার সংস্কার. [ banglatribune ]</title>
+      <link>https://www.banglatribune.com/columns/940567/%E0%A6%B2%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2-%E0%A6%A8%E0%A7%9F-%E0%A6%A6%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A6%BE%E0%A6%B0</link>
+      <pubDate>Mon, 06 Apr 2026 06:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;
+												&lt;img src="https://cdn.banglatribune.net/contents/cache/images/300x300x1/uploads/media/2020/05/18/3ed1a6986411d8bcfe1aa36c6f6466e5-5ec264ecef885.png?jadewits_media_id=669697" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+												
+						বাংলাদেশে স্কুলভর্তির পদ্ধতি নিয়ে সময় সময় বিতর্ক সৃষ্টি হয়। বিশেষ করে সরকারি বা জনপ্রিয় বিদ্যালয়গুলোতে ভর্তির ক্ষেত্রে লটারিভিত্তিক পদ্ধতি চালু হওয়ার পর থেকে অনেকেই প্রশ্ন তুলেছেন—এতে কী সত্যিই শিক্ষার মান নিশ্চিত হচ্ছে, নাকি এটি মেধাকে ক্রমাগত অবমূল্যায়ন করছে? অপরদিকে অনেকেই মনে করেন, প্রাথমিক স্তরে লটারিভিত্তিক ভর্তিপদ্ধতি শিশুদের জন্য তুলনামূলকভাবে ন্যায্য ও মানবিক ব্যবস্থা। বিষয়টি গভীরভাবে...						&lt;a class="more_link" href="https://www.banglatribune.com/columns/940567/%E0%A6%B2%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2-%E0%A6%A8%E0%A7%9F-%E0%A6%A6%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A6%BE%E0%A6%B0"&gt;বিস্তারিত&lt;/a&gt;
+					&lt;/p&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সংবিধান সংশোধন: এবারও কী ২০১০ সালের পুনরাবৃত্তি হবে. [ jagonews24 ]</title>
+      <link>https://www.jagonews24.com/m/opinion/article/1107785</link>
+      <pubDate>Mon, 06 Apr 2026 04:16:11 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সংবিধান সংশোধন: এবারও কী ২০১০ সালের পুনরাবৃত্তি হবে. [ jagonews24 ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>অন্তর্বর্তী সরকারের ‘ডিপ স্টেট’ কতটা গভীর ছিল. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/dqv3oc31w9</link>
+      <pubDate>Mon, 06 Apr 2026 04:39:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;অন্তর্বর্তী সরকারের ‘ডিপ স্টেট’ কতটা গভীর ছিল. [ prothomalo ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>আইন-আদালত /‘অ্যাটর্নি অ্যাট লার্জ’ হয়ে ওঠার চ্যালেঞ্জ. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/345916/%E2%80%98%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9F%E0%A6%B0%E0%A7%8D%E0%A6%A8%E0%A6%BF-%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9F-%E0%A6%B2%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9C%E2%80%99-%E0%A6%B9%E0%A7%9F%E0%A7%87-%E0%A6%93%E0%A6%A0%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%9E%E0%A7%8D%E0%A6%9C%C2%A0</link>
+      <pubDate>Mon, 06 Apr 2026 04:15:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আইন-আদালত /‘অ্যাটর্নি অ্যাট লার্জ’ হয়ে ওঠার চ্যালেঞ্জ. [ samakal ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>চালক ও আরোহীর নিরাপত্তা নিশ্চিত করুন. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/editorial/ay0w8lz2gx</link>
+      <pubDate>Mon, 06 Apr 2026 04:14:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B, GPT-OSS-20, Gemini-2.5-Flash-Lite&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;চালক ও আরোহীর নিরাপত্তা নিশ্চিত করুন. [ prothomalo ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>হরমুজ প্রণালি না খুললে বিশ্বে দুর্ভিক্ষ কেন আসন্ন. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/o8f0dhwhaq</link>
+      <pubDate>Mon, 06 Apr 2026 03:59:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;হরমুজ প্রণালি না খুললে বিশ্বে দুর্ভিক্ষ কেন আসন্ন. [ prothomalo ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>১৯৭৩-২০২৬ : তেল অস্ত্র এখনো কার্যকর. [ dailyamardesh ]</title>
+      <link>https://www.dailyamardesh.com/op-ed/sub-editorial/amdfpmx02lkx5</link>
+      <pubDate>Mon, 06 Apr 2026 03:19:19 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;১৯৭৩-২০২৬ : তেল অস্ত্র এখনো কার্যকর. [ dailyamardesh ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>পানি: ইরান যুদ্ধের দৃশ্যমান টার্গেট, অদৃশ্য সংকট. [ chaarcha ]</title>
+      <link>https://www.chaarcha.com/analysis/chcoxiywyzdm</link>
+      <pubDate>Mon, 06 Apr 2026 03:11:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;&lt;img alt="পানি: ইরান যুদ্ধের দৃশ্যমান টার্গেট, অদৃশ্য সংকট" src="https://images.chaarcha.com/original_images/desalination-project.jpg" /&gt;&lt;br /&gt;&lt;small&gt;ছবি: এআই দিয়ে তৈরি&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;পানি: ইরান যুদ্ধের দৃশ্যমান টার্গেট, অদৃশ্য সংকট মধ্যপ্রাচ্যের চলমান সংঘাতের প্রেক্ষাপটে একটি নতুন ও ভয়াবহ বাস্তবতা ধীরে ধীরে স্পষ্ট হয়ে উঠছে– এই যুদ্ধ শুধু তেল বা সামরিক ঘাঁটি ঘিরে নয়, বরং জীবনধারণের মৌলিক অবকাঠামো, বিশেষ করে পানির উৎসকে কেন্দ্র করেও বিস্তৃত হতে পারে। পারস্য উপসাগরীয় অঞ্চল, যেখানে প্রকৃতির নিজস্ব মিঠা পানির উৎস প্রায় অনুপস্থিত, স&lt;/p&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>পত্রিকা: 'জ্বালানি সংকটে বিপর্যস্ত অর্থনীতি, বেশি প্রভাব দশ খাতে'. [ bbc ]</title>
+      <link>https://www.bbc.com/bengali/articles/c62jlxj71xyo?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Mon, 06 Apr 2026 02:55:10 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ঢাকায় প্রকাশিত আজকের পত্রিকাগুলোয় প্রধান্য পেয়েছে ইরান যুদ্ধের কারণে জ্বালানি সংকট এবং বিদ্যুতের লোডশেডিংসহ বিভিন্ন ক্ষেত্রে এর প্রভাবের খবর। এছাড়া সরকারি চাকরিতে প্রবেশের বয়স বৃদ্ধি, পহেলা বৈশাখ শোভাযাত্রার নাম পরিবর্তন এবং  জুলাই জাতীয় সনদ বাস্তবায়ন প্রশ্নে বিতর্ক নিয়ে খবরাখবর গুরুত্ব পেয়েছে।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>জ্বালানি সংকটে হঠকারী সিদ্ধান্ত নয়, চাই কৌশল. [ rupalibangladesh ]</title>
+      <link>https://www.rupalibangladesh.com/ajkerpatrika/opinion/131745</link>
+      <pubDate>Tue, 07 Apr 2026 01:05:25 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জ্বালানি সংকটে হঠকারী সিদ্ধান্ত নয়, চাই কৌশল. [ rupalibangladesh ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সম্পাদকীয়স্বর্ণ চোরাচালান সিন্ডিকেটের বিরুদ্ধে কঠোর ব্যবস্থা নিতে হবে. [ rupalibangladesh ]</title>
+      <link>https://www.rupalibangladesh.com/ajkerpatrika/opinion/131743</link>
+      <pubDate>Tue, 07 Apr 2026 00:50:23 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সম্পাদকীয়স্বর্ণ চোরাচালান সিন্ডিকেটের বিরুদ্ধে কঠোর ব্যবস্থা নিতে হবে. [ rupalibangladesh ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সরকারকে শিক্ষা ও অন্যান্য খাতে যেসব চ্যালেঞ্জ মোকাবেলা করতে হবে. [ kalerkantho ]</title>
+      <link>https://www.kalerkantho.com/print-edition/sub-editorial/2026/04/07/1668357</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সরকারকে শিক্ষা ও অন্যান্য খাতে যেসব চ্যালেঞ্জ মোকাবেলা করতে হবে. [ kalerkantho ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>টিকা সংকটের বিপদ লইয়া গত বৎসরই বলা হইয়াছিল. [ ittefaq ]</title>
+      <link>https://www.ittefaq.com.bd/783068/%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A6%BE-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%AA%E0%A6%A6-%E0%A6%B2%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%BE-%E0%A6%97%E0%A6%A4-%E0%A6%AC%E0%A7%8E%E0%A6%B8%E0%A6%B0%E0%A6%87-%E0%A6%AC%E0%A6%B2%E0%A6%BE-%E0%A6%B9%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%9B%E0%A6%BF%E0%A6%B2</link>
+      <pubDate>Mon, 06 Apr 2026 22:52:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;যাহাদের উদ্দেশ্য করিয়া সাধারণত সম্পাদকীয় লেখা হয়, তাহারা কি কখনো পড়িয়া দেখেন? সম্ভবত তৃতীয় বিশ্বের অধিকাংশ দেশের ক্ষেত্রে ইহার উত্তর নেতিবাচক...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>খাল খনন অর্থনৈতিক প্রবৃদ্ধির চাবিকাঠি. [ kalerkantho ]</title>
+      <link>https://www.kalerkantho.com/online/opinion/2026/04/06/1668280</link>
+      <pubDate>Mon, 06 Apr 2026 22:35:42 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;খাল খনন অর্থনৈতিক প্রবৃদ্ধির চাবিকাঠি. [ kalerkantho ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>হরমুজ প্রণালি ঘিরে ক্ষমতার নতুন সমীকরণ. [ kalbela ]</title>
+      <link>https://www.kalbela.com/ajkerpatrika/joto-mot-toto-path/280006</link>
+      <pubDate>Mon, 06 Apr 2026 21:34:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;হরমুজ প্রণালি ঘিরে ক্ষমতার নতুন সমীকরণ. [ kalbela ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>জ্বালানি নিয়ে তথ্যের স্বচ্ছতা প্রয়োজন. [ kalbela ]</title>
+      <link>https://www.kalbela.com/ajkerpatrika/joto-mot-toto-path/280005</link>
+      <pubDate>Mon, 06 Apr 2026 21:34:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জ্বালানি নিয়ে তথ্যের স্বচ্ছতা প্রয়োজন. [ kalbela ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>জনশক্তি সরবরাহ নাকি মানব পুঁজি উন্নয়ন অগ্রাধিকার পাওয়া উচিত. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/9WpUYHdDLuwVlTT0</link>
+      <pubDate>Mon, 06 Apr 2026 21:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;শিক্ষাকে দীর্ঘকাল জাতীয় উন্নয়নের ভিত্তিপ্রস্তর হিসেবে স্বীকৃতি দেয়া হয়েছে। দ্রুত নগরায়ণ, জনতাত্ত্বিক রূপান্তর এবং বৈশ্বিক অর্থনৈতিক একীভূতকরণের মতো জটিলতার মাঝে চলছে দেশ।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>অর্থবছর পরিবর্তন ও বিকল্প-শক্তির ব্যবহার জরুরি. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/562514</link>
+      <pubDate>Mon, 06 Apr 2026 20:55:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;অর্থবছর পরিবর্তন ও বিকল্প-শক্তির ব্যবহার জরুরি. [ protidinersangbad ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>শিক্ষকদের পেশাগত ডিগ্রি অর্জন ও রাষ্ট্রের দায়. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/562515</link>
+      <pubDate>Mon, 06 Apr 2026 20:55:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;শিক্ষকদের পেশাগত ডিগ্রি অর্জন ও রাষ্ট্রের দায়. [ protidinersangbad ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>নারীর প্রতি সহিংসতা : সংকট না মহাসংকট. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/562516</link>
+      <pubDate>Mon, 06 Apr 2026 20:55:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নারীর প্রতি সহিংসতা : সংকট না মহাসংকট. [ protidinersangbad ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বাণিজ্যিক বাজার বৃদ্ধিতে মনোযোগী হতে হবে. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/562517</link>
+      <pubDate>Mon, 06 Apr 2026 20:55:54 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাণিজ্যিক বাজার বৃদ্ধিতে মনোযোগী হতে হবে. [ protidinersangbad ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সরকারি চাকরিতে বয়সের দেয়াল থাকবে, নাকি জয় হবে যোগ্যতার. [ kalerkantho ]</title>
+      <link>https://www.kalerkantho.com/online/opinion/2026/04/06/1668242</link>
+      <pubDate>Mon, 06 Apr 2026 20:18:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সরকারি চাকরিতে বয়সের দেয়াল থাকবে, নাকি জয় হবে যোগ্যতার. [ kalerkantho ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>পথশিশুদের চোখে রাষ্ট্রের দায়  একটি মানবিক আহ্বান. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/327883/%E0%A6%AA%E0%A6%A5%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A7%8B%E0%A6%96%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A7%9F--%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%BF%E0%A6%95-%E0%A6%86%E0%A6%B9%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A8</link>
+      <pubDate>Mon, 06 Apr 2026 20:12:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;পথশিশুদের চোখে রাষ্ট্রের দায়  একটি মানবিক আহ্বান. [ alokitobangladesh ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বৈজ্ঞানিক স্বাস্থ্য ব্যবস্থাপনার ক্ষেত্রে দেশে সুনির্দিষ্ট পথনকশার অভাব আছে. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/3hxnQj87oXq9aehm</link>
+      <pubDate>Mon, 06 Apr 2026 20:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;দেশের স্বাস্থ্য খাত ধারাবাহিকভাবে জটিল সময় পার করছে। অবকাঠামোগত ব্যবস্থাপনায় ত্রুটি-বিচ্যুতির পাশাপাশি এ খাতে বৈদেশিক সহায়তা নির্ভরতা নানা ধরনের জটিলতা সবসময়ই তৈরি করে রাখে।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ভোজ্যতেলের বাজারে ফের অস্থিরতা, সিন্ডিকেট ও কারসাজি থামবে কবে. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/327884/%E0%A6%AD%E0%A7%8B%E0%A6%9C%E0%A7%8D%E0%A6%AF%E0%A6%A4%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%B0%E0%A6%A4%E0%A6%BE-%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%9F-%E0%A6%93-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF-%E0%A6%A5%E0%A6%BE%E0%A6%AE%E0%A6%AC%E0%A7%87-%E0%A6%95%E0%A6%AC%E0%A7%87</link>
+      <pubDate>Mon, 06 Apr 2026 19:57:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভোজ্যতেলের বাজারে ফের অস্থিরতা, সিন্ডিকেট ও কারসাজি থামবে কবে. [ alokitobangladesh ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>টিকাদান কর্মসূচি. [ jugantor ]</title>
+      <link>https://www.jugantor.com/tp-editorial/1085925</link>
+      <pubDate>Mon, 06 Apr 2026 19:53:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;টিকাদান কর্মসূচি. [ jugantor ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সার নিয়ে অশনিসংকেত. [ jugantor ]</title>
+      <link>https://www.jugantor.com/tp-editorial/1085924</link>
+      <pubDate>Mon, 06 Apr 2026 19:53:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সার নিয়ে অশনিসংকেত. [ jugantor ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>জনস্বাস্থ্যের সুরক্ষায় রোগ প্রতিরোধের ওপরই সর্বোচ্চ মনোযোগ দিতে হবে. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/u4IYGLTlEbJdlt9e</link>
+      <pubDate>Mon, 06 Apr 2026 19:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;প্রতি বছর ৭ এপ্রিল স্থানীয় ও আন্তর্জাতিক পরিসরে পালন হয়ে আসছে স্বাস্থ্য দিবস। এর লক্ষ্য হলো স্বাস্থ্য সুরক্ষার বিভিন্ন দিক সম্পর্কে জনসচেতনতা বৃদ্ধি।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ডলার সংকটের সময় রেমিটেন্স অর্থনীতির লাইফ সাপোর্ট. [ dailysangram ]</title>
+      <link>https://www.dailysangram.com/opinion/column/vcX6iNK0SwKF</link>
+      <pubDate>Mon, 06 Apr 2026 18:58:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ডলার সংকটের সময় রেমিটেন্স অর্থনীতির লাইফ সাপোর্ট. [ dailysangram ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>নতুন প্রকল্পের আগে দরকার তদন্ত. [ dailynayadiganta ]</title>
+      <link>https://dailynayadiganta.com/opinions/editorial/ufWNjYwISGHz</link>
+      <pubDate>Mon, 06 Apr 2026 18:58:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নতুন প্রকল্পের আগে দরকার তদন্ত. [ dailynayadiganta ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>প্রাকৃতিক ভারসাম্য রক্ষায় দরকার আনুপাতিক বনায়ন. [ dailynayadiganta ]</title>
+      <link>https://dailynayadiganta.com/opinions/sub-editorial/bB2E5kLWQEU0</link>
+      <pubDate>Mon, 06 Apr 2026 18:43:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;প্রাকৃতিক ভারসাম্য রক্ষায় দরকার আনুপাতিক বনায়ন. [ dailynayadiganta ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>আইন, বৈধতা ও নিয়ন্ত্রণের সীমা. [ kalerkantho ]</title>
+      <link>https://www.kalerkantho.com/online/opinion/2026/04/06/1668203</link>
+      <pubDate>Mon, 06 Apr 2026 18:42:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আইন, বৈধতা ও নিয়ন্ত্রণের সীমা. [ kalerkantho ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সঠিক পরিসংখ্যান নিশ্চিত করতে হবে. [ dailyinqilab ]</title>
+      <link>https://dailyinqilab.com/editorial/article/881029</link>
+      <pubDate>Mon, 06 Apr 2026 18:39:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বিভিন্ন সংস্থা ও অর্থনীতিবিদদের মতে, স্বৈরাচারের দেড় দশকে পরিসংখ্যান ও অর্থনৈতিক সূচকে ভুয়া ও অতিরঞ্জিত তথ্য উপস্থাপন করা হয়েছে। এটা করা হয়েছে মূলত এলডিসি থেকে উত্তরণ ও উন্নয়নচিত্র তুলে ধরার জন্য। পক্ষান্তরে সব সময় জনগণের প্রকৃত অবস্থা গোপন করতে পরিসংখ্যানকেই হাতিয়ার হিসাবে ব্যবহার করা হয়েছে। জিডিপির আকার অত্যন্ত ফুলিয়ে ফাঁপিয়ে দেখানো হয়েছে, যা সরকারের ঋণ সহায়তা পেতে সাহায্য করেছে। অন্যদিকে...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ইসলামী ব্যাংক : সুদমুক্ত স্বপ্নের বাস্তবতা. [ dailynayadiganta ]</title>
+      <link>https://dailynayadiganta.com/opinions/sub-editorial/VmCqascf6mP4</link>
+      <pubDate>Mon, 06 Apr 2026 18:28:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ইসলামী ব্যাংক : সুদমুক্ত স্বপ্নের বাস্তবতা. [ dailynayadiganta ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>জুলাই সনদ- বৈধতা, প্রয়োজন,  না জনমতের রূপান্তর. [ dailynayadiganta ]</title>
+      <link>https://dailynayadiganta.com/opinions/sub-editorial/0cFJzvF1TA7M</link>
+      <pubDate>Mon, 06 Apr 2026 18:13:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জুলাই সনদ- বৈধতা, প্রয়োজন,  না জনমতের রূপান্তর. [ dailynayadiganta ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>মডেল লুবাবার বিয়ে-বিতর্ক: শিশুবিবাহের প্রচার-অপপ্রচার, বাস্তবতা-অবাস্তবতা. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/ft89hyowib</link>
+      <pubDate>Mon, 06 Apr 2026 16:07:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;শিশুবিবাহ অথবা সার্বিকভাবে বিবাহকে কেবল যৌনমিলন বা সন্তানধারণের জায়গা থেকে দেখলে বিবাহের ধারণাকে ছোট করে দেখা হবে।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>জ্বালানি নিরাপত্তা নিশ্চিতে সরকারের বহুমুখী পদক্ষেপ. [ banglanews24 ]</title>
+      <link>https://www.banglanews24.com/opinion/news/bd/1646906.details</link>
+      <pubDate>Mon, 06 Apr 2026 16:01:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মধ্যপ্রাচ্যে চলমান যুদ্ধ পরিস্থিতি বৈশ্বিক জ্বালানি সরবরাহ ব্যবস্থায় যে অস্থিরতা তৈরি করেছে, তার প্রভাব বাংলাদেশেও স্পষ্ট হয়ে উঠেছে। আমদানিনির্ভর...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বাংলাদেশ-ভারত
+                                                            /নতুন-পুরনো সম্পর্ক কোন পথে?. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/346037/%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%A8%E0%A7%8B-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A6%95%E0%A7%8B%E0%A6%A8-%E0%A6%AA%E0%A6%A5%E0%A7%87-</link>
+      <pubDate>Mon, 06 Apr 2026 15:28:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাংলাদেশের পররাষ্ট্রমন্ত্রী ড. খলিলুর রহমান আগামী ৭ এপ্রিল ভারত সফরে যাচ্ছেন। ১৭ ফেব্রুয়ারি ২০২৬ তারিখে বর্তমান সরকার গঠিত হওয়ার পর পররাষ্ট্রমন্ত্রীর এটি প্রথম দ্বি-পাক্ষিক সফর।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ন্যাটো জোটে ভাঙনের ছায়া. [ chaarcha ]</title>
+      <link>https://www.chaarcha.com/analysis/chzavsgzkqpc</link>
+      <pubDate>Mon, 06 Apr 2026 14:18:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;&lt;img alt="ন্যাটো জোটে ভাঙনের ছায়া" src="https://images.chaarcha.com/original_images/nato-logo.jpg" /&gt;&lt;br /&gt;&lt;small&gt;ব্রাসেলসে ন্যাটো সদর দপ্তর। ছবি: রয়টার্স&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;ন্যাটো জোটে ভাঙনের ছায়া ইরান যুদ্ধ শুধু একটি সামরিক সংঘাত নয়; এটি পশ্চিমা জোটব্যবস্থার ভিত্তিকেই নাড়িয়ে দিচ্ছে। ন্যাটোর সামনে এখন যে সংকট তৈরি হয়েছে, তা হয়ত তার ইতিহাসের সবচেয়ে কঠিন পরীক্ষা। এই পরীক্ষায় জোট টিকে থাকবে, নাকি ভেঙে পড়বে– তার উত্তর নির্ভর করছে মূলত ওয়াশিংটনের সিদ্ধান্ত এবং ইউরোপের প্রস্তুতির ওপর।&lt;/p&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>নতুন দিগন্তের খোঁজে প্রবাসী শ্রমবাজার: ছাঁটাই ও অনিশ্চয়তায় করণীয়. [ jagonews24 ]</title>
+      <link>https://www.jagonews24.com/m/opinion/article/1107797</link>
+      <pubDate>Mon, 06 Apr 2026 13:45:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নতুন দিগন্তের খোঁজে প্রবাসী শ্রমবাজার: ছাঁটাই ও অনিশ্চয়তায় করণীয়. [ jagonews24 ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>গতি আনতে হবে অর্থনীতিতে. [ bd-pratidin ]</title>
+      <link>https://www.bd-pratidin.com/open-air-theater/2026/04/03/1234244</link>
+      <pubDate>Mon, 06 Apr 2026 13:43:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://cdn.bd-pratidin.com/public/news_images/2026/04/03/thumbnails/1775188506-a4dba9b67cf54c1c9da7b162dfbc1b74.jpg" /&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ভারত-বাংলাদেশ সম্পর্ক সামনে কেমন হবে?. [ kalerkantho ]</title>
+      <link>https://www.kalerkantho.com/online/opinion/2026/04/06/1668071</link>
+      <pubDate>Mon, 06 Apr 2026 13:38:58 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভারত-বাংলাদেশ সম্পর্ক সামনে কেমন হবে?. [ kalerkantho ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>রূপপুর বিদ্যুৎকেন্দ্র দ্রুত চালু করা কেন জরুরি. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/icwjtc1arh</link>
+      <pubDate>Mon, 06 Apr 2026 13:38:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মনে রাখতে হবে, ফুয়েল লোডিং মানেই সঙ্গে সঙ্গে বিদ্যুৎ উৎপাদন শুরু নয়। এটি একটি গুরুত্বপূর্ণ প্রযুক্তিগত মাইলফলক মাত্র।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সিসিটিভি'র হার্ডড্রাইভ পরিবর্তনের অভিযোগ, কী হয়েছে আন্তর্জাতিক অপরাধ ট্রাইব্যুনালে. [ bbc ]</title>
+      <link>https://www.bbc.com/bengali/articles/cy0147ed6deo?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Mon, 06 Apr 2026 13:36:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আন্তর্জাতিক অপরাধ ট্রাইব্যুনালের একটি ক্লোজ সার্কিট টেলিভিশন বা সিসিটিভির ফুটেজ থাকা একটি হার্ডড্রাইভ পরিবর্তনের অভিযোগ নিয়ে নতুন করে আলোচনা তৈরি হয়েছে। সেখানে আসলে কী ঘটেছে?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>রাষ্ট্রীয় জ্বালানি খাতে লুণ্ঠন. [ jugantor ]</title>
+      <link>https://www.jugantor.com/editorial/1084192</link>
+      <pubDate>Mon, 06 Apr 2026 13:06:44 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;রাষ্ট্রীয় জ্বালানি খাতে লুণ্ঠন. [ jugantor ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>চলমান জ্বালানি সংকট মোকাবেলায় বাণিজ্যিক ব্যাংকসমূহের করণীয়. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/04/06/clman-jwalani-sngkt-mokabelay-banijzik-bzangksmuuher-krneey</link>
+      <pubDate>Mon, 06 Apr 2026 12:59:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;চলমান ইরান-ইসরায়েল-আমেরিকা যুদ্ধকে কেন্দ্র করে বিশ্বজুড়ে ভূরাজনৈতিক উত্তেজনা ছড়িয়ে পড়েছে। মধ্যপ্রাচ্যে অস্থিরতার কারণে বৈশ্বিক জ্বালানি তেল সরবরাহ শৃঙ্খলের বিঘ্ন এবং জ্বালানি বাজারের অস্থিরতা—সব মিলিয়ে আন্তর্জাতিক বাজারে তেলের দাম অস্বাভাবিকভাবে বেড়েছে।...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>হাম রহস্য: স্বাস্থ্য ব্যবস্থাপনা বেহাল. [ khaborerkagoj ]</title>
+      <link>https://www.khaborerkagoj.com/opinion/912393</link>
+      <pubDate>Mon, 06 Apr 2026 12:07:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;হাম রহস্য: স্বাস্থ্য ব্যবস্থাপনা বেহাল. [ khaborerkagoj ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>নারীর ক্ষমতায়নে নতুন দিগন্ত ফ্যামিলি কার্ড. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%a8%e0%a6%be%e0%a6%b0%e0%a7%80%e0%a6%b0-%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%ae%e0%a6%a4%e0%a6%be%e0%a6%af%e0%a6%bc%e0%a6%a8%e0%a7%87-%e0%a6%a8%e0%a6%a4%e0%a7%81%e0%a6%a8-%e0%a6%a6%e0%a6%bf</link>
+      <pubDate>Mon, 06 Apr 2026 11:58:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নারীর ক্ষমতায়নে নতুন দিগন্ত ফ্যামিলি কার্ড. [ sharebiz ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ভূমিকম্পে কাঁপল দেশ, উৎপত্তি সাতক্ষীরায়. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%ad%e0%a7%82%e0%a6%ae%e0%a6%bf%e0%a6%95%e0%a6%ae%e0%a7%8d%e0%a6%aa%e0%a7%87-%e0%a6%95%e0%a6%be%e0%a6%81%e0%a6%aa%e0%a6%b2-%e0%a6%a6%e0%a7%87%e0%a6%b6-%e0%a6%89%e0%a7%8e%e0%a6%aa%e0%a6%a4</link>
+      <pubDate>Mon, 06 Apr 2026 11:58:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভূমিকম্পে কাঁপল দেশ, উৎপত্তি সাতক্ষীরায়. [ sharebiz ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বাংলাদেশের রাজনৈতিক ইতিহাসের নতুন অধ্যায়. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%ac%e0%a6%be%e0%a6%82%e0%a6%b2%e0%a6%be%e0%a6%a6%e0%a7%87%e0%a6%b6%e0%a7%87%e0%a6%b0-%e0%a6%b0%e0%a6%be%e0%a6%9c%e0%a6%a8%e0%a7%88%e0%a6%a4%e0%a6%bf%e0%a6%95-%e0%a6%87%e0%a6%a4%e0%a6%bf%e0%a6%b9</link>
+      <pubDate>Mon, 06 Apr 2026 11:58:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাংলাদেশের রাজনৈতিক ইতিহাসের নতুন অধ্যায়. [ sharebiz ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>পুঁজিবাজারের বিদ্যুৎ ও জ্বালানি খাতে আস্থা ফেরাতে হবে. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%aa%e0%a7%81%e0%a6%81%e0%a6%9c%e0%a6%bf%e0%a6%ac%e0%a6%be%e0%a6%9c%e0%a6%be%e0%a6%b0%e0%a7%87%e0%a6%b0-%e0%a6%ac%e0%a6%bf%e0%a6%a6%e0%a7%8d%e0%a6%af%e0%a7%81%e0%a7%8e-%e0%a6%93-%e0%a6%9c</link>
+      <pubDate>Mon, 06 Apr 2026 11:58:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;পুঁজিবাজারের বিদ্যুৎ ও জ্বালানি খাতে আস্থা ফেরাতে হবে. [ sharebiz ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>পুলিশ তুমি কার : জনগণের নাকি শাসকের. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%aa%e0%a7%81%e0%a6%b2%e0%a6%bf%e0%a6%b6-%e0%a6%a4%e0%a7%81%e0%a6%ae%e0%a6%bf-%e0%a6%95%e0%a6%be%e0%a6%b0-%e0%a6%9c%e0%a6%a8%e0%a6%97%e0%a6%a3%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%95</link>
+      <pubDate>Mon, 06 Apr 2026 11:58:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;পুলিশ তুমি কার : জনগণের নাকি শাসকের. [ sharebiz ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>জাতীয় স্বার্থ কি ইজারার চেয়েও ছোট. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%9c%e0%a6%be%e0%a6%a4%e0%a7%80%e0%a6%af%e0%a6%bc-%e0%a6%b8%e0%a7%8d%e0%a6%ac%e0%a6%be%e0%a6%b0%e0%a7%8d%e0%a6%a5-%e0%a6%95%e0%a6%bf-%e0%a6%87%e0%a6%9c%e0%a6%be%e0%a6%b0%e0%a6%be%e0%a6%b0</link>
+      <pubDate>Mon, 06 Apr 2026 11:58:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জাতীয় স্বার্থ কি ইজারার চেয়েও ছোট. [ sharebiz ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>গ্যাস ঘাটতির বহুমাত্রিক অভিঘাতে বাংলাদেশ. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%97%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b8-%e0%a6%98%e0%a6%be%e0%a6%9f%e0%a6%a4%e0%a6%bf%e0%a6%b0-%e0%a6%ac%e0%a6%b9%e0%a7%81%e0%a6%ae%e0%a6%be%e0%a6%a4%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%95</link>
+      <pubDate>Mon, 06 Apr 2026 11:58:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;গ্যাস ঘাটতির বহুমাত্রিক অভিঘাতে বাংলাদেশ. [ sharebiz ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ত্রয়োদশ জাতীয় সংসদ নির্বাচন ও ইশতেহারের হালচাল. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%a4%e0%a7%8d%e0%a6%b0%e0%a6%af%e0%a6%bc%e0%a7%8b%e0%a6%a6%e0%a6%b6-%e0%a6%9c%e0%a6%be%e0%a6%a4%e0%a7%80%e0%a6%af%e0%a6%bc-%e0%a6%b8%e0%a6%82%e0%a6%b8%e0%a6%a6-%e0%a6%a8%e0%a6%bf%e0%a6%b0-4</link>
+      <pubDate>Mon, 06 Apr 2026 11:58:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ত্রয়োদশ জাতীয় সংসদ নির্বাচন ও ইশতেহারের হালচাল. [ sharebiz ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ভূ-রাজনীতির অস্থিরতায় বাংলাদেশের পর্যটন হতে পারে রিজার্ভ সমৃদ্ধির বড় হাতিয়ার. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%ad%e0%a7%82-%e0%a6%b0%e0%a6%be%e0%a6%9c%e0%a6%a8%e0%a7%80%e0%a6%a4%e0%a6%bf%e0%a6%b0-%e0%a6%85%e0%a6%b8%e0%a7%8d%e0%a6%a5%e0%a6%bf%e0%a6%b0%e0%a6%a4%e0%a6%be%e0%a6%af%e0%a6%bc-%e0%a6%ac</link>
+      <pubDate>Mon, 06 Apr 2026 11:58:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভূ-রাজনীতির অস্থিরতায় বাংলাদেশের পর্যটন হতে পারে রিজার্ভ সমৃদ্ধির বড় হাতিয়ার. [ sharebiz ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>চালবাজারের ‘মাফিয়া’ চক্র ও ব্যাংকিং ব্যবস্থায় নৈতিক সংকট কাম্য নয়. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%9a%e0%a6%be%e0%a6%b2%e0%a6%ac%e0%a6%be%e0%a6%9c%e0%a6%be%e0%a6%b0%e0%a7%87%e0%a6%b0-%e0%a6%ae%e0%a6%be%e0%a6%ab%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a6%be-%e0%a6%9a%e0%a6%95%e0%a7%8d</link>
+      <pubDate>Mon, 06 Apr 2026 11:58:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;চালবাজারের ‘মাফিয়া’ চক্র ও ব্যাংকিং ব্যবস্থায় নৈতিক সংকট কাম্য নয়. [ sharebiz ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>জাল টাকার বিরুদ্ধে ব্যবস্থা নিতে হবে. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/04/06/jal-takar-biruddhe-bzbstha-nite-hbe</link>
+      <pubDate>Mon, 06 Apr 2026 10:58:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাংলাদেশে অপরাধের বহুমুখী বৈচিত্র্য রয়েছে। অঞ্চলভেদে এবং ঋতুভেদে এ দেশে অপরাধের রকমফের হয়ে থাকে। তবে অপরাধের একটি অভিন্ন বৈশিষ্ট্য হচ্ছে প্রত্যেক অপরাধে ক্ষয়ক্ষতি থাকে। আবার বাংলাদেশের অধিকাংশ অপরাধের ক্ষেত্রে অর্থনৈতিক...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বাংলাদেশের নদী ও পানিসম্পদ ব্যবস্থাপনায় খাল খনন কর্মসূচির বাস্তবতা ও করণীয়. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/04/06/bangladeser-ndee-oo-panismpd-bzbsthapnay-khal-oo-jladhar-khnn-krmsuucir-bastbta-oo-asu-krneey</link>
+      <pubDate>Mon, 06 Apr 2026 10:39:16 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বর্তমান সরকার গত ১৬ মার্চ দিনাজপুরের কাহারোল উপজেলার সাহাপাড়ায় খাল খননের মাধ্যমে ‘খাল খনন কর্মসূচি-২০২৬’ কর্মসূচির উদ্বোধন করেছে। একই সঙ্গে এ সময় ভার্চুয়ালি দেশের অন্যান্য ৫৩টি জেলার খাল খনন কর্মসূচিরও...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>অবহেলায় শ্রমিকের মৃত্যু কাম্য নয়. [ protidinerbangladesh ]</title>
+      <link>https://protidinerbangladesh.com/opinion/165158/fire-lighter-factory-worker-death-unacceptable</link>
+      <pubDate>Mon, 06 Apr 2026 10:34:52 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿সবচেয়ে গুরুত্বপূর্ণ বিষয় হলো জবাবদিহিতা নিশ্চিত করা। প্রতিটি দুর্ঘটনার পর ...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>দায়মুক্তি অধ্যাদেশের পরিণতি কী হতে পারে. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/8ght50whev</link>
+      <pubDate>Mon, 06 Apr 2026 10:26:57 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;দায়মুক্তি অধ্যাদেশের পরিণতি কী হতে পারে. [ prothomalo ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>মানুষ-হাতি দ্বন্দ্ব নিরসনে দরকার পরিকল্পনা ও জনসচেতনতা. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/04/06/manush-hati-dwndw-nirsne-drkar-priklpna-oo-jnscetnta</link>
+      <pubDate>Mon, 06 Apr 2026 09:54:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;দেশে মানুষ-হাতি সংঘাত বেড়েই চলছে, এটি এখন গুরুতর উদ্বেগের বিষয়। বিশেষ করে বৃহত্তর ময়মনসিংহের বিস্তীর্ণ গারো পাহাড়, চট্টগ্রাম, কক্সবাজার এবং পার্বত্য চট্টগ্রাম অঞ্চলে এ সংঘাত বেড়েই চলছে। বনাঞ্চলে মানুষের অনুপ্রবেশ...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>আমেরিকা-ইসরায়েলের হামলায় ইরানের সামরিক গোয়েন্দা প্রধান নিহত. [ bbc ]</title>
+      <link>https://www.bbc.co.uk/bengali/live/c80mgg183v3t?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Mon, 06 Apr 2026 09:19:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ইরানের ইসলামিক রেভল্যুশনারি গার্ড কোর বা আইআরজিসি জানিয়েছে যে, ইসরায়েল ও যুক্তরাষ্ট্রের যৌথ হামলায় আইআরজিসির গোয়েন্দা প্রধান মেজর জেনারেল মাজিদ খাদেমি নিহত হয়েছেন। নিহত হওয়ার খবর জানিয়ে কর একটি বিজ্ঞপ্তি ইরানি সংবাদ মাধ্যমেও প্রকাশ করা হয়েছে। আরও খবর ও বিশ্লেষণ জানতে চোখ রাখুন বিবিসি বাংলার লাইভ পাতায়...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বিশ্বের বর্তমান অশান্তির মূল ক্ষমতার ভারসাম্যহীনতা. [ chaarcha ]</title>
+      <link>https://www.chaarcha.com/thoughts/chdj3hcgtsh1</link>
+      <pubDate>Mon, 06 Apr 2026 08:10:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;&lt;img alt="বিশ্বের বর্তমান অশান্তির মূল ক্ষমতার ভারসাম্যহীনতা" src="https://images.chaarcha.com/original_images/ballance.jpg" /&gt;&lt;br /&gt;&lt;small&gt;এআই দিয়ে তৈরি প্রতীকী ছবি&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;বিশ্বের বর্তমান অশান্তির মূল ক্ষমতার ভারসাম্যহীনতা অনিরাপদ বিশ্ব নিরাপদ হবে না যতদিন একচ্ছত্র ক্ষমতার অধিকারীর ক্ষমতা খর্ব না হয়। সেটি সম্ভব-যদি Balance of Terror প্রতিষ্ঠিত হতো। ভারতের প্রাক্তন রাষ্ট্রপতি ভারতের পারমাণবিক শক্তি অর্জনের সমর্থনে বলেছিলেন, ‘Strength respects strength’। জানি না কতদিনে বিশ্বের এই একতরফা ক্ষমতার অবাসন হবে?&lt;/p&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>জ্বালানি তেলের তীব্র সংকট
+                                                                পরিস্থিতি নিয়ন্ত্রণে সমন্বিত পদক্ষেপ নিন. [ khaborerkagoj ]</title>
+      <link>https://khaborerkagoj.com/index.php/editorial/912275</link>
+      <pubDate>Mon, 06 Apr 2026 08:02:08 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-2.5-Flash-Lite, Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জ্বালানি তেলের তীব্র সংকট
+                                                                পরিস্থিতি নিয়ন্ত্রণে সমন্বিত পদক্ষেপ নিন. [ khaborerkagoj ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সুনাগরিক তৈরির পথ উন্মোচন করে প্রাথমিক শিক্ষা. [ bangladesherkhabor ]</title>
+      <link>https://www.bangladesherkhabor.net/opinion/43471</link>
+      <pubDate>Mon, 06 Apr 2026 11:12:27 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সভ্যতার প্রধান উপাদান হলো শিক্ষা। যে জাতি যত শিক্ষিত, সে জাতি তত উন্নত। কোনো জাতি ও সভ্যতার উত্থান-পতনের সঙ্গে শিক্ষা ...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ভারত-বাংলাদেশ সম্পর্ক সামনে কেমন হবে?. [ banglanews24 ]</title>
+      <link>https://www.banglanews24.com/opinion/news/bd/1646794.details</link>
+      <pubDate>Mon, 06 Apr 2026 09:41:39 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Kimi-K2-Instruct, Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভারত-বাংলাদেশ সম্পর্ক সামনে কেমন হবে?. [ banglanews24 ]&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
