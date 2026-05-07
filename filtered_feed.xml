@@ -2,208 +2,322 @@
 <rss version="2.0">
   <channel>
     <title>Elite News Feed (Bangla)</title>
-    <lastBuildDate>Wed, 06 May 2026 06:13:05 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 06:06:23 +0600</lastBuildDate>
     <link>https://github.com/evilgodfahim</link>
     <description>AI-curated structural news feed</description>
     <item>
-      <title>‘সাইলেজ’ প্রাণিখাদ্যের একটি সম্ভাবনাময় খাত. [ ajkerpatrika ]</title>
-      <link>https://www.ajkerpatrika.com/op-ed/column/ajpibo4slkshu</link>
-      <pubDate>Tue, 05 May 2026 04:51:41 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মুন্সিগঞ্জের শ্রীনগর উপজেলার বালাশুর গ্রামের একটি সাধারণ খামার। খামারি জি এম খালিদ পরম মমতায় তাঁর গবাদিপশুগুলোর পরিচর্যা করছেন। শখের বশে শুরু করা এই খামারটি আজ তাঁর জীবন-জীবিকার প্রধান অবলম্বন হয়ে উঠেছে।&lt;/p&gt;</description>
+      <title>অন্যদৃষ্টি /জ্বালানি সংকটে বিকল্প বৈদ্যুতিক যান. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/350575/%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA-%E0%A6%AC%E0%A7%88%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%AF%E0%A6%BE%E0%A6%A8</link>
+      <pubDate>Wed, 06 May 2026 04:44:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;অন্যদৃষ্টি /জ্বালানি সংকটে বিকল্প বৈদ্যুতিক যান. [ samakal ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>অধিকার /বাণিজ্য চুক্তির চাপে বিপর্যয়ের মুখে কৃষি. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/350395/%E0%A6%AC%E0%A6%BE%E0%A6%A3%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%AF-%E0%A6%9A%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%AA%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF</link>
-      <pubDate>Tue, 05 May 2026 04:28:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;অধিকার /বাণিজ্য চুক্তির চাপে বিপর্যয়ের মুখে কৃষি. [ samakal ]&lt;/p&gt;</description>
+      <title>বন্দর /সিঅ্যান্ডএফ লাইসেন্সে বিদেশি অংশীদারিত্ব কেন?. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/345733/%E0%A6%B8%E0%A6%BF%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%8F%E0%A6%AB-%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%85%E0%A6%82%E0%A6%B6%E0%A7%80%E0%A6%A6%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%95%E0%A7%87%E0%A6%A8-</link>
+      <pubDate>Wed, 06 May 2026 04:44:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বন্দর /সিঅ্যান্ডএফ লাইসেন্সে বিদেশি অংশীদারিত্ব কেন?. [ samakal ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>জাতীয় সক্ষমতা
-                                                            /অনুসন্ধানহীন নীতিতে জ্বালানি নিরাপত্তা ঝুঁকিতে. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/350397/%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%B9%E0%A7%80%E0%A6%A8-%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%9D%E0%A7%81%E0%A6%81%E0%A6%95%E0%A6%BF%E0%A6%A4%E0%A7%87</link>
-      <pubDate>Tue, 05 May 2026 04:28:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;একসময় বাংলাদেশে গ্যাসকে প্রায় অফুরন্ত সম্পদ ধরা হতো। বর্তমান বাস্তবতা হলো, দেশের ২৯টি গ্যাসক্ষেত্রে মোট উত্তোলনযোগ্য মজুত প্রায় ২৯ টিসিএফ। ইতোমধ্যে প্রায় ২০ টিসিএফ গ্যাস উত্তোলন&lt;/p&gt;</description>
+      <title>বর্জ্য ব্যবস্থাপনা /সংকট থেকে সার্কুলার অর্থনীতি. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/343363/%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A6%9F-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF</link>
+      <pubDate>Wed, 06 May 2026 04:44:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বর্জ্য ব্যবস্থাপনা /সংকট থেকে সার্কুলার অর্থনীতি. [ samakal ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>বাংলাদেশি সুগন্ধি চালের সুঘ্রাণ ছড়িয়ে পড়ুক সারা বিশ্বে. [ jatiyoarthoniti ]</title>
-      <link>https://jatiyoarthoniti.com/2026/05/06/bangladesi-sugndhi-caler-sughran-chriye-pruk-sara-biswe</link>
-      <pubDate>Wed, 06 May 2026 02:28:30 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সুদীর্ঘকাল থেকে গ্রাম বা শহরে ধনী কিংবা গরিব সকলের ঘরোয়া কোনো উৎসবে, অতিথি আপ্যায়নে সুগন্ধি চালের তৈরি নানা মুখরোচক খাবার আমাদের ঐতিহ্যে ও সংস্কৃতির অংশ। সুজলা সুফলা শস্য শ্যামলা বাংলাদেশে...&lt;/p&gt;</description>
+      <title>রাজনীতি
+                                                            /রাষ্ট্র সংস্কার প্রশ্নে মতভিন্নতা মিটুক আলোচনায়. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/343366/%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A7%8D%E0%A6%A8%E0%A7%87-%E0%A6%AE%E0%A6%A4%E0%A6%AD%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%A4%E0%A6%BE-%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A7%81%E0%A6%95-%E0%A6%86%E0%A6%B2%E0%A7%8B%E0%A6%9A%E0%A6%A8%E0%A6%BE%E0%A7%9F</link>
+      <pubDate>Wed, 06 May 2026 04:44:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;প্রথম অধিবেশনের দ্বিতীয় দিনে ‘সংবিধান সংস্কার পরিষদ’ বিষয়ে বিরোধীদলীয় নেতা যে বিধিতেই বক্তব্য রাখুন না কেন, সেটা প্রত্যাশিত ছিল। দিনটি ছিল ওই পরিষদের অধিবেশন আহ্বানের শেষ দিন। এ&lt;/p&gt;</description>
     </item>
     <item>
-      <title>আগামী বাজেট হতে হবে প্রবৃদ্ধি, সংস্কার ও আস্থা পুনর্গঠনের সমন্বয়. [ jatiyoarthoniti ]</title>
-      <link>https://jatiyoarthoniti.com/2026/05/06/agamee-bajet-hte-hbe-prbrriddhi-sngskar-oo-astha-punrgthner-smnwy</link>
-      <pubDate>Wed, 06 May 2026 02:23:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ড. ফাহমিদা খাতুন, সেন্টার ফর পলিসি ডায়ালগের (সিপিডি) নির্বাহী পরিচালক। ব্র্যাকের গভর্নিং বোর্ডের সদস্য। যুক্তরাষ্ট্রের গবেষণা প্রতিষ্ঠান আটলান্টিক কাউন্সিলের নন-রেসিডেন্ট সিনিয়র ফেলো। তিনি যুক্তরাজ্যের ইউনিভার্সিটি কলেজ লন্ডন থেকে অর্থনীতিতে স্নাতকোত্তর...&lt;/p&gt;</description>
+      <title>সীমানায় শত্রু এবং আমাদের প্রস্তুতি. [ dailyamardesh ]</title>
+      <link>https://www.dailyamardesh.com/op-ed/sub-editorial/amdas7nrt4jqf</link>
+      <pubDate>Wed, 06 May 2026 04:03:14 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সীমানায় শত্রু এবং আমাদের প্রস্তুতি. [ dailyamardesh ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>আইন বাতিল হলেও চুক্তি কেন দায়মুক্তি পাবে. [ jatiyoarthoniti ]</title>
-      <link>https://jatiyoarthoniti.com/2026/05/06/ain-batil-hleoo-cukti-ken-daymukti-pabe</link>
-      <pubDate>Wed, 06 May 2026 01:46:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সম্প্রতি বাংলাদেশে বহুল আলোচিত ‘বিদ্যুৎ ও জ্বালানির দ্রুত সরবরাহ বৃদ্ধি (বিশেষ বিধান) আইন ২০১০’ (যা দায়মুক্তি আইন হিসেবে পরিচিত) হাইকোর্ট কর্তৃক অবৈধ ও বাতিল ঘোষিত হয়েছে। দায়মুক্তি আইনখ্যাত বিদ্যুৎ ও...&lt;/p&gt;</description>
+      <title>মব সন্ত্রাস প্রতিহতে ব্যবস্থা নিন. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/05/07/mb-sntras-prtihte-bzbstha-nin</link>
+      <pubDate>Thu, 07 May 2026 02:39:27 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মব (mob) অর্থ উত্তাল জনতা বা উচ্ছৃঙ্খল জনতা। জাস্টিস (Justice) অর্থ বিচার বা ন্যায়বিচার। ‘মব জাস্টিস’ অর্থ উত্তাল জনতা বা উচ্ছৃঙ্খল জনতার বিচার। মব জাস্টিস অনুৎসাহিত করতে প্রায়ই বলা হয়ে...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>খাদ্যে ট্রান্স ফ্যাট : মানবস্বাস্থ্যের এক নীরব ঘাতক. [ dailysangram ]</title>
-      <link>https://dailysangram.com/opinion/readers-opinion/hDnkYatJwskt</link>
-      <pubDate>Tue, 05 May 2026 22:44:17 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;চর্বি আমাদের খাদ্যের একটি অপরিহার্য উপাদান, তবে সব ধরনের চর্বি স্বাস্থ্যের জন্য উপকারী নয়। চর্বি প্রধানত ট্রাইগ্লিসারাইড আকারে থাকে&lt;/p&gt;</description>
+      <title>প্রবাসী কল্যাণ ব্যাংকের গ্রাহক হয়রানি বন্ধে পদক্ষেপ নেওয়া হোক. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/05/07/prbasee-klzan-bzangker-grahk-hzrani-bndhe-pdkshep-newa-hok</link>
+      <pubDate>Thu, 07 May 2026 02:30:05 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাংলাদেশের অর্থনীতিতে প্রবাসীদের অবদান তুলনাহীন। প্রতি বছর তারা দেশে পাঠান কোটি কোটি ডলার রেমিট্যান্স যা আমাদের বৈদেশিক মুদ্রার অন্যতম প্রধান উৎস। তাদের উপার্জনে হয়ে উঠেছে অনেক পরিবারের বেঁচে থাকার অবলম্বন।...&lt;/p&gt;</description>
     </item>
     <item>
-      <title>সমকালীন প্রসঙ্গ /শ্রমিকের স্বাস্থ্য রাষ্ট্রের সম্পদ. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/350393/%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%A6</link>
-      <pubDate>Tue, 05 May 2026 04:28:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সমকালীন প্রসঙ্গ /শ্রমিকের স্বাস্থ্য রাষ্ট্রের সম্পদ. [ samakal ]&lt;/p&gt;</description>
+      <title>বন্যা ও বাংলাদেশ : প্রস্তুতির ত্রিমাত্রিক চ্যালেঞ্জ. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/567355</link>
+      <pubDate>Wed, 06 May 2026 22:08:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বন্যা ও বাংলাদেশ : প্রস্তুতির ত্রিমাত্রিক চ্যালেঞ্জ. [ protidinersangbad ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>স্বাধীন গণমাধ্যম /গণতন্ত্র শক্তিশালীকরণের মাধ্যম. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/350394/%E0%A6%97%E0%A6%A3%E0%A6%A4%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B6%E0%A6%BE%E0%A6%B2%E0%A7%80%E0%A6%95%E0%A6%B0%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%AE</link>
-      <pubDate>Tue, 05 May 2026 04:28:32 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;স্বাধীন গণমাধ্যম /গণতন্ত্র শক্তিশালীকরণের মাধ্যম. [ samakal ]&lt;/p&gt;</description>
+      <title>জ্বালানি নিরাপত্তায় বিকল্পের সন্ধানে বাংলাদেশ. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/567357</link>
+      <pubDate>Wed, 06 May 2026 22:08:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জ্বালানি নিরাপত্তায় বিকল্পের সন্ধানে বাংলাদেশ. [ protidinersangbad ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>টিআর ও কাবিখা: টাকা নয়, কেন খাদ্যই দেওয়া দরকার. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/column/casu12gmte</link>
-      <pubDate>Tue, 05 May 2026 03:48:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সরকারের কাছে সরাসরি ধান এবং মিলারদের চাল বিক্রি করতে একটি সুনির্দিষ্ট মান রয়েছে। এ মানের সঙ্গে আপস করলে সরকারি অর্থের ব্যাপক অপচয় হবে।&lt;/p&gt;</description>
+      <title>তীব্র তাপপ্রবাহ রক্ষা কৌশল বনাম লোডশেডিং. [ sharebiz ]</title>
+      <link>https://sharebiz.net/%e0%a6%a4%e0%a7%80%e0%a6%ac%e0%a7%8d%e0%a6%b0-%e0%a6%a4%e0%a6%be%e0%a6%aa%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%ac%e0%a6%be%e0%a6%b9-%e0%a6%b0%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%be-%e0%a6%95%e0%a7%8c</link>
+      <pubDate>Wed, 06 May 2026 21:58:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;তীব্র তাপপ্রবাহ রক্ষা কৌশল বনাম লোডশেডিং. [ sharebiz ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>বিভাজনের রাজনীতির আবর্তে বাংলাদেশ. [ dailyamardesh ]</title>
-      <link>https://www.dailyamardesh.com/op-ed/sub-editorial/amddhks65yxre</link>
-      <pubDate>Tue, 05 May 2026 03:47:19 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বিভাজনের রাজনীতির আবর্তে বাংলাদেশ. [ dailyamardesh ]&lt;/p&gt;</description>
+      <title>আসন্ন জাতীয় বাজেট কেমন হওয়া উচিত. [ kalbela ]</title>
+      <link>https://www.kalbela.com/ajkerpatrika/joto-mot-toto-path/288804</link>
+      <pubDate>Wed, 06 May 2026 21:09:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আসন্ন জাতীয় বাজেট কেমন হওয়া উচিত. [ kalbela ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>সম্পাদকীয়হামে শিশুমৃত্যু ঠেকাতে পরিকল্পিত স্বাস্থ্যব্যবস্থা প্রয়োজন. [ rupalibangladesh ]</title>
-      <link>https://www.rupalibangladesh.com/ajkerpatrika/opinion/139529</link>
-      <pubDate>Wed, 06 May 2026 00:43:49 +0000</pubDate>
+      <title>দুর্নীতিই অগ্রগতির প্রধান বাধা. [ kalbela ]</title>
+      <link>https://www.kalbela.com/ajkerpatrika/joto-mot-toto-path/288803</link>
+      <pubDate>Wed, 06 May 2026 21:09:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;দুর্নীতিই অগ্রগতির প্রধান বাধা. [ kalbela ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>দেশের বাজেট হওয়া উচিত অর্থনৈতিক রূপান্তরের নীতিপত্র স্রেফ আয়-ব্যয়ের হিসাব নয়. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/y3thvwxuN59s1Owc</link>
+      <pubDate>Wed, 06 May 2026 21:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ড. সেলিম রায়হান,ঢাকা বিশ্ববিদ্যালয়ের অর্থনীতি বিভাগের অধ্যাপক। বেসরকারি গবেষণা প্রতিষ্ঠান সাউথ এশিয়ান নেটওয়ার্ক অন ইকোনমিক মডেলিংয়ের (সানেম) নির্বাহী পরিচালক।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বাংলাদেশে বজ্রপাত ও জননিরাপত্তাসংকট. [ bd-pratidin ]</title>
+      <link>https://www.bd-pratidin.com/editorial/2026/05/07/1247670</link>
+      <pubDate>Wed, 06 May 2026 20:44:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাংলাদেশে বজ্রপাত ও জননিরাপত্তাসংকট. [ bd-pratidin ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>নিম্নাঞ্চল প্লাবিত. [ bd-pratidin ]</title>
+      <link>https://www.bd-pratidin.com/editorial/2026/05/07/1247676</link>
+      <pubDate>Wed, 06 May 2026 20:44:49 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নিম্নাঞ্চল প্লাবিত. [ bd-pratidin ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>মাদক ও কিশোর গ্যাং আমাদের সমাজেরই আয়না. [ ittefaq ]</title>
+      <link>https://www.ittefaq.com.bd/787650/%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A6%95-%E0%A6%93-%E0%A6%95%E0%A6%BF%E0%A6%B6%E0%A7%8B%E0%A6%B0-%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%B0%E0%A6%87-%E0%A6%86%E0%A6%AF%E0%A6%BC%E0%A6%A8%E0%A6%BE</link>
+      <pubDate>Wed, 06 May 2026 23:23:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;দেশের নগর ও গ্রামীণ সমাজে বেশ কিছু বৎসর ধরিয়া ‘কিশোর গ্যাং' নামক সামাজিক ব্যাধি ভয়ংকরভাবে বিস্তার লাভ করিতেছে। গতকাল বুধবার ইত্তেফাকে...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সেই দিনটি / বাংলাকে রাষ্ট্রভাষার স্বীকৃতি. [ kalbela ]</title>
+      <link>https://www.kalbela.com/ajkerpatrika/joto-mot-toto-path/288802</link>
+      <pubDate>Wed, 06 May 2026 21:09:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সেই দিনটি / বাংলাকে রাষ্ট্রভাষার স্বীকৃতি. [ kalbela ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>পার্বত্য চট্টগ্রাম : অমীমাংসিত অধ্যায় নয় অন্তর্ভুক্তিমূলক উন্নয়নের নতুন দিগন্ত. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/332377/%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A4%E0%A7%8D%E0%A6%AF-%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE--%E0%A6%85%E0%A6%AE%E0%A7%80%E0%A6%AE%E0%A6%BE%E0%A6%82%E0%A6%B8%E0%A6%BF%E0%A6%A4-%E0%A6%85%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A7%9F-%E0%A6%A8%E0%A7%9F-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A7%82%E0%A6%B2%E0%A6%95-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A7%9F%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%A6%E0%A6%BF%E0%A6%97%E0%A6%A8%E0%A7%8D%E0%A6%A4</link>
+      <pubDate>Wed, 06 May 2026 20:23:08 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
     </item>
     <item>
-      <title>‘ইথিক্যাল কোড অব কন্ডাক্ট’ ও যৌন হয়রানি. [ sharebiz ]</title>
-      <link>https://sharebiz.net/%e0%a6%87%e0%a6%a5%e0%a6%bf%e0%a6%95%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2-%e0%a6%95%e0%a7%8b%e0%a6%a1-%e0%a6%85%e0%a6%ac-%e0%a6%95%e0%a6%a8%e0%a7%8d%e0%a6%a1%e0%a6%be%e0%a6%95%e0%a7%8d</link>
-      <pubDate>Tue, 05 May 2026 23:38:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;‘ইথিক্যাল কোড অব কন্ডাক্ট’ ও যৌন হয়রানি. [ sharebiz ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>জাহাজ ভাঙা শিল্পে বীমা বাধ্যতামূলক করুন. [ sharebiz ]</title>
-      <link>https://sharebiz.net/%e0%a6%9c%e0%a6%be%e0%a6%b9%e0%a6%be%e0%a6%9c-%e0%a6%ad%e0%a6%be%e0%a6%99%e0%a6%be-%e0%a6%b6%e0%a6%bf%e0%a6%b2%e0%a7%8d%e0%a6%aa%e0%a7%87-%e0%a6%ac%e0%a7%80%e0%a6%ae%e0%a6%be-%e0%a6%ac%e0%a6%be</link>
-      <pubDate>Tue, 05 May 2026 22:43:46 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জাহাজ ভাঙা শিল্পে বীমা বাধ্যতামূলক করুন. [ sharebiz ]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>বাংলাদেশেও জ্বালানি রূপান্তর যেভাবে সম্ভব হতে পারে. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/editorial/DiKuX6y77DcdV67U</link>
-      <pubDate>Tue, 05 May 2026 20:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;এক দশকেরও বেশি আগে নোবেল বিজয়ী স্টিভেন চু বলেছিলেন, ‘কথিত আছে, পাথরের যুগ পাথরের অভাবে শেষ হয়নি; বরং আমরা এর চেয়ে ভালো সমাধানের পথ বেছে নিয়েছি।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>বাংলাদেশের উন্নয়ন ও ভূরাজনীতির টানাপড়েন. [ dailynayadiganta ]</title>
-      <link>https://dailynayadiganta.com/opinions/sub-editorial/kNjDdYvRc5tW</link>
-      <pubDate>Tue, 05 May 2026 19:19:49 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>পশ্চিমবঙ্গ ও আসামে একযোগে বিজেপি সরকার: বাংলাদেশের নিরাপত্তা ও কূটনীতিতে প্রভাব. [ banglanews24 ]</title>
-      <link>https://www.banglanews24.com/opinion/news/bd/1652550.details</link>
-      <pubDate>Tue, 05 May 2026 18:47:26 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;পশ্চিমবঙ্গ ও আসামে একই সঙ্গে ভারতীয় জনতা পার্টির (বিজেপি) সরকার গঠন বাংলাদেশের ভূ-রাজনীতিতে কেবল একটি প্রশাসনিক পরিবর্তন নয়; বরং এটি নিরাপত্তা,...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>সাইবার সুরক্ষা আইন যেন ডিজিটাল নিরাপত্তা আইনের কালো থাবা না হয়. [ dailysangram ]</title>
-      <link>https://www.dailysangram.com/opinion/column/CzWM8NjDZT07</link>
-      <pubDate>Tue, 05 May 2026 17:51:55 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>জ্বালানি তেল নিয়ে নতুন সঙ্কটের আশঙ্কা. [ dailysangram ]</title>
-      <link>https://www.dailysangram.com/opinion/column/aZvFF8mtsnCZ</link>
-      <pubDate>Tue, 05 May 2026 17:36:55 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>দুর্যোগ
-                                                            /বজ্রপাতে প্রাণহানি ঠেকানোর ব্যবস্থা নিতে আর কত দেরি. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/350486/%E0%A6%AC%E0%A6%9C%E0%A7%8D%E0%A6%B0%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%A0%E0%A7%87%E0%A6%95%E0%A6%BE%E0%A6%A8%E0%A7%8B%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%B0-%E0%A6%95%E0%A6%A4-%E0%A6%A6%E0%A7%87%E0%A6%B0%E0%A6%BF</link>
-      <pubDate>Tue, 05 May 2026 16:55:11 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আবহাওয়া ও জলবায়ু বিশেষজ্ঞরা জানিয়েছেন, আবহাওয়ার ধরন বদলে যাওয়া, পরিবেশ দূষণ, নির্বিচারে গাছ কাটাসহ নানান কারণে বজ্রপাত বেড়ে গেছে, এতে মৃত্যুও বাড়ছে। প্রতি বছর শতশত কৃষক, প্রান্তিক মানুষ মারা যাচ্ছেন। প্রাকৃতিক ঘটনাগুলোর মধ্যে বজ্রপাত ইদানিং বেশ আতঙ্ক সৃষ্টি করছে এবং প্রতিনিয়ত অনেক মানুষের মৃত্যু ঘটছে ক্ষয় ক্ষতি ও প্রাণহানির দিক থেকে বিবেচনা করে বজ্রপাতকে নতুন প্রাকৃতিক দুর্যোগ হিসেবে বিবেচনা করছেন গবেষকরা। বজ্রপাতে মৃত্যু বেড়ে যাওয়ায় ২০১৬ সালের ১৭ মে বজ্রপাতকে দুর্যোগ হিসেবে ঘোষণা করা হয়েছে।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ডেইরি শিল্প: সম্ভাবনার এক নতুন দিগন্ত. [ protidinerbangladesh ]</title>
-      <link>https://protidinerbangladesh.com/opinion/167244/ডেইরি-শিল্প-সম্ভাবনার-এক-নতুন-দিগন্ত</link>
-      <pubDate>Tue, 05 May 2026 11:45:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿বাংলাদেশের কৃষিভিত্তিক অর্থনীতির গুরুত্বপূর্ণ ও দ্রুত বিকাশমান একটি উপ খাত ...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>স্বাধীন গণমাধ্যম কমিশন. [ protidinerbangladesh ]</title>
-      <link>https://protidinerbangladesh.com/opinion/167246/স্বাধীন-গণমাধ্যম-কমিশন</link>
-      <pubDate>Tue, 05 May 2026 11:45:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿দেশের গণমাধ্যম খাতে স্বচ্ছতা ও জবাবদিহিতা নিশ্চিত করতে শিগগিরই একটি ...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>প্রতিবেশী
-                                                            /পশ্চিমবঙ্গে বিজেপির কৌশল এবং বাংলাদেশের কূটনীতি. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/350469/%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%AE%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%AA%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2-%E0%A6%8F%E0%A6%AC%E0%A6%82-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%82%E0%A6%9F%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF</link>
-      <pubDate>Tue, 05 May 2026 11:45:24 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আরেকটি উল্লেখযোগ্য অপ্রচলিত পদ্ধতি ছিল দলটির স্থানীয় নেতৃত্ব গড়ে তোলার প্রচেষ্টা। শুধুমাত্র নরেন্দ্র মোদি বা অমিত শাহের মতো জাতীয় নেতাদের ওপর নির্ভর না করে বিজেপি তৃণমূল কংগ্রেস থেকে আগত নেতা এবং অন্যান্য আঞ্চলিক ব্যক্তিত্বদের সামনে নিয়ে এসেছে, যারা বাংলার সামাজিক ও রাজনৈতিক বাস্তবতা ভালোভাবে বোঝে। কল্যাণমূলক রাজনীতিও এখানে ভূমিকা রেখেছে। বিজেপি তৃণমূলের মতো বিভিন্ন কল্যাণমূলক প্রকল্পের প্রতিশ্রুতি দিয়েছে, তবে সেগুলোকে আরও স্বচ্ছ এবং দুর্নীতিমুক্ত হিসেবে উপস্থাপন করেছে।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>পশ্চিমবঙ্গে বিজেপির জয় : বাংলাদেশ-ভারত সম্পর্কে নতুন সমীকরণ. [ dhakapost ]</title>
-      <link>https://www.dhakapost.com/opinion/449890</link>
-      <pubDate>Tue, 05 May 2026 09:43:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;পশ্চিমবঙ্গে অভাবনীয় বিজয় পেয়েছে কেন্দ্রের শাসকদল বিজেপি। এই জয়ের পর তাৎক্ষণিক এক প্রতিক্রিয়ায় প্রধানমন্ত্রী নরেন্দ্র মোদি বললেন, ‘বাংলায় পদ্ম ফুটেছে’...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>বাংলাদেশি ডায়াসপোরা: জাতীয় উন্নয়নে প্রবাসীদের যুক্ত করা কেন জরুরি. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/column/7gpplz5l7h</link>
-      <pubDate>Tue, 05 May 2026 07:42:23 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;প্রবাসীদের সঙ্গে আবেগঘণ ও সাংস্কৃতিক সম্পর্ক জোরদার করার লক্ষ্যে ভারত সরকার ‘নো ইন্ডিয়ান প্রোগ্রাম’ নামে একটি কর্মসূচি চালু করেছে।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ইরান যুদ্ধে বিপাকে ট্রাম্প ও আমেরিকা!. [ protidinerbangladesh ]</title>
-      <link>https://protidinerbangladesh.com/opinion/167243/ইরান-যুদ্ধে-বিপাকে-ট্রাম্প-ও-আমেরিকা</link>
-      <pubDate>Tue, 05 May 2026 11:45:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বিশ্ব রাজনীতির ইতিহাসে পরাশক্তির ভুল হিসাবনিকাশ নতুন কিছু নয়। কিন্তু কিছু ভুল এমন হয়, যা শুধু একটি যুদ্ধের ফলাফল নির্ধারণ ...&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ইরান যুদ্ধ আর কত দিন চলবে. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/column/bdxbzg7s3f</link>
-      <pubDate>Tue, 05 May 2026 11:18:54 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;যুদ্ধ কবে শেষ হবে, তা নিয়ে ওয়াশিংটন ও তেহরান ভিন্ন কথা বলেছে। প্রেসিডেন্ট ট্রাম্প প্রায়ই বলেছেন, এটি কয়েক সপ্তাহ, এমনকি কয়েক দিনের মধ্যেই শেষ হবে।&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>দেশজুড়ে বজ্রপাত-আতঙ্ক
-                                                                মোকাবিলায় দীর্ঘমেয়াদি উদ্যোগ নিন. [ khaborerkagoj ]</title>
-      <link>https://khaborerkagoj.com/index.php/editorial/915928</link>
-      <pubDate>Tue, 05 May 2026 08:37:20 +0000</pubDate>
+      <title>পশ্চিমবঙ্গের পরিবর্তন ও বাংলাদেশের ওপর প্রভাব. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/332378/%E0%A6%AA%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%AE%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%A8-%E0%A6%93-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%AC</link>
+      <pubDate>Wed, 06 May 2026 20:22:13 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
     </item>
     <item>
-      <title>শুধু জ্বালানি নয়—বড় হুমকি হতে পারে পানি সংকটও. [ dhakamail ]</title>
-      <link>https://dhakamail.com/opinion/302530</link>
-      <pubDate>Tue, 05 May 2026 08:37:01 +0000</pubDate>
+      <title>পুলিশ পদক বিতর্ক. [ jugantor ]</title>
+      <link>https://www.jugantor.com/tp-editorial/1098339</link>
+      <pubDate>Wed, 06 May 2026 20:20:25 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;পুলিশ পদক বিতর্ক. [ jugantor ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>হাম দুর্যোগের জন্য জবাবদিহি নিশ্চিত করতে হবে. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/CwW7wBKSkJqZoNk4</link>
+      <pubDate>Wed, 06 May 2026 20:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;গত মার্চের মাঝামাঝি থেকে বাংলাদেশে হাম রোগে ৩০০-এর বেশি শিশু মারা গেছে এবং ৪৭ হাজারেরও বেশি মানুষ আক্রান্ত হয়েছে।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>কৃত্রিম মোটাতাজাকরণ ও জনস্বাস্থ্য ঝুঁকি : একটি সময়োপযোগী সতর্কবার্তা. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/332380/%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AE-%E0%A6%AE%E0%A7%8B%E0%A6%9F%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%9C%E0%A6%A8%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF-%E0%A6%9D%E0%A7%81%E0%A6%81%E0%A6%95%E0%A6%BF--%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BF-%E0%A6%B8%E0%A6%AE%E0%A7%9F%E0%A7%8B%E0%A6%AA%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%80-%E0%A6%B8%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE</link>
+      <pubDate>Wed, 06 May 2026 19:52:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>চাঁদাবাজ নিয়ন্ত্রণে জিরো টলারেন্স, দৃষ্টান্ত স্থাপন জরুরি. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/332381/%E0%A6%9A%E0%A6%BE%E0%A6%81%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%9C-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A7%87-%E0%A6%9C%E0%A6%BF%E0%A6%B0%E0%A7%8B-%E0%A6%9F%E0%A6%B2%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%B8-%E0%A6%A6%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%AA%E0%A6%A8-%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B0%E0%A6%BF</link>
+      <pubDate>Wed, 06 May 2026 19:37:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>পারিবারিক চিকিৎসা ব্যয় দেশে দারিদ্র্য বাড়াচ্ছে. [ dailyinqilab ]</title>
+      <link>https://dailyinqilab.com/editorial/article/891657</link>
+      <pubDate>Wed, 06 May 2026 19:16:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;প্রত্যেক নাগরিকের ফ্রি চিকিৎসা ও স্বাস্থ্যসেবা নিশ্চিত করা সাংবিধানিক মৌলিক অধিকার। বিশ্বস্বাস্থ্য সংস্থা এবং ইউডিএইচআর (ইউনিভার্সাল ডিক্লারেশন অব হিউম্যান রাইটস) বা আন্তর্জাতিক মানবাধিকারের শোষণায়ও প্রত্যেক মানুষের মানসম্মত স্বাস্যসেবা নিশ্চিত করার অধিকারের স্বীকৃতি দেয়া হয়েছে। এসব কনভেনশনে স্বাক্ষরদাতা বা সভ্য হিসেবে বাংলাদেশের সরকারকেও নাগরিকের স্বাস্থ্যসেবা নিশ্চিত করার বাধ্যবাধকতা রয়েছে। স্বাধীনতার ৫৫ বছর পেরিয়ে এসেও আমরা নাগরিকদের জন্য ন্যূনতম স্বাস্থ্যসেবা নিশ্চিত করতে...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বরাদ্দ পুনর্বিবেচনা ও ব্যয় সুনির্দিষ্ট করা হোক. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/ZcRNfOFa7KCXwjdd</link>
+      <pubDate>Wed, 06 May 2026 19:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;প্রতি অর্থবছরের উন্নয়ন বাজেটের একটি অংশ থোক বরাদ্দ হিসেবে রাখা হয়। এটি এমন এক তহবিল যা জরুরি পরিস্থিতি মোকাবেলার জন্য বরাদ্দ দেয়া হয়।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>খাদ্য ও ওষুধ সংকটের ঝুঁকিতে কোটি মানুষ. [ dailysangram ]</title>
+      <link>https://www.dailysangram.com/opinion/editorial/pjzK5RCinYzX</link>
+      <pubDate>Wed, 06 May 2026 18:56:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>রাজস্ব সঙ্কট, কাঠামোগত ব্যর্থতা ও সংস্কারের সুযোগ. [ dailynayadiganta ]</title>
+      <link>https://dailynayadiganta.com/opinions/sub-editorial/AxbEAmDrLrVv</link>
+      <pubDate>Wed, 06 May 2026 18:26:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বাংলাদেশে ই-বর্জ্য : উন্নয়নের আড়ালে নীরব সঙ্কট. [ dailynayadiganta ]</title>
+      <link>https://dailynayadiganta.com/opinions/sub-editorial/SxWfNHJCn6Le</link>
+      <pubDate>Wed, 06 May 2026 18:11:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>শ্রমিকের নিরাপত্তা ও গার্মেন্টস শিল্প. [ dailysangram ]</title>
+      <link>https://www.dailysangram.com/opinion/column/PsP0H5YVODMv</link>
+      <pubDate>Wed, 06 May 2026 17:56:48 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বিমানকে আন্তর্জাতিক মানে উন্নীত করতে সরকারের ইতিবাচক উদ্যোগ. [ dailynayadiganta ]</title>
+      <link>https://dailynayadiganta.com/opinions/opinion/Q2dnY5dpc4Di</link>
+      <pubDate>Wed, 06 May 2026 17:26:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>নতুন সরকারের সামনে সম্ভাবনা ও সংস্কারের চ্যালেঞ্জ. [ khaborerkagoj ]</title>
+      <link>https://www.khaborerkagoj.com/opinion/824794</link>
+      <pubDate>Wed, 06 May 2026 17:20:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;নতুন সরকারের সামনে সম্ভাবনা ও সংস্কারের চ্যালেঞ্জ. [ khaborerkagoj ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>প্রযুক্তির ছোঁয়ায় গ্রামীণ অর্থনীতি লাঙল থেকে ল্যাপটপে. [ alokitobangladesh ]</title>
+      <link>https://www.alokitobangladesh.com/print-edition/editorial/332379/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%9B%E0%A7%87%E0%A6%BE%E0%A6%81%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%80%E0%A6%A3-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF-%E0%A6%B2%E0%A6%BE%E0%A6%99%E0%A6%B2-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%9F%E0%A6%AA%E0%A7%87</link>
+      <pubDate>Wed, 06 May 2026 20:07:13 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
     </item>
     <item>
-      <title>যুক্তরাষ্ট্রের জাহাজে হামলা চালালে ইরানকে ‘পৃথিবী থেকে মুছে ফেলার’ হুমকি ট্রাম্পের. [ bbc ]</title>
-      <link>https://www.bbc.co.uk/bengali/live/cx215j6yed2t?at_medium=RSS&amp;at_campaign=rss</link>
-      <pubDate>Tue, 05 May 2026 08:36:38 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মার্কিন জাহাজে হামলা চালালে ইরানকে ‘পৃথিবীর মানচিত্র থেকেই মুছে ফেলা হবে’ বলে হুঁশিয়ারি দিয়েছেন ডোনাল্ড ট্রাম্প। এদিকে, ইরানের পররাষ্ট্রমন্ত্রী আব্বাস আরাঘচি বলেছেন, পাকিস্তানের মধ্যস্থতায় আলোচনা ‘চলমান’ রয়েছে। চোখ রাখুন বিবিসি বাংলার লাইভ পাতায়…&lt;/p&gt;</description>
+      <title>সংকটে দেশের একমাত্র পাথর খনি. [ jugantor ]</title>
+      <link>https://www.jugantor.com/editorial/1097032</link>
+      <pubDate>Wed, 06 May 2026 18:14:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সংকটে দেশের একমাত্র পাথর খনি. [ jugantor ]&lt;/p&gt;</description>
     </item>
     <item>
-      <title>ভেজাল বালাইনাশক ও ভুল পরামর্শে কৃষকের সর্বনাশ. [ dainikamadershomoy ]</title>
-      <link>https://www.dainikamadershomoy.com/details/019df59772792</link>
-      <pubDate>Tue, 05 May 2026 06:34:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ভেজাল বালাইনাশক ও ভুল পরামর্শে কৃষকের সর্বনাশ. [ dainikamadershomoy ]&lt;/p&gt;</description>
+      <title>পররাষ্ট্রমন্ত্রীর চীন সফরে তিস্তা প্রসঙ্গ, কী আছে মহাপরিকল্পনায়. [ bbc ]</title>
+      <link>https://www.bbc.com/bengali/articles/cvgz1p0xq0do?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Wed, 06 May 2026 16:02:41 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বিএনপি ক্ষমতা নেওয়ার আড়াই মাসের মাথায় প্রথমবারের মতো চীন সফরে গেছেন বাংলাদেশের পররাষ্ট্রমন্ত্রী খলিলুর রহমান। তিন দিনের এই রাষ্ট্রীয় সফরে দু'দেশের মধ্যে যেসব বিষয় নিয়ে আলোচনা হওয়ার কথা রয়েছে, সেগুলোর মধ্যে তিস্তা ইস্যুটির ওপর বিশেষ গুরুত্ব দেওয়া হচ্ছে বলে জানিয়েছেন কর্মকর্তারা।&lt;/p&gt;</description>
     </item>
     <item>
-      <title>নারী-শিশু নির্যাতন দমন আইনের মামলাগুলো বেশিরভাগই মিথ্যা?. [ banglatribune ]</title>
-      <link>https://www.banglatribune.com/columns/945081/%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A6%A8-%E0%A6%A6%E0%A6%AE%E0%A6%A8-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A6%87</link>
-      <pubDate>Tue, 05 May 2026 06:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;
-												&lt;img src="https://cdn.banglatribune.net/contents/cache/images/300x300x1/uploads/media/2020/04/06/f1f341ebdfd6b101d40034c303395c09-5e8b2ea42f598.jpg?jadewits_media_id=663123" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+      <title>মার্কিন অসম বাণিজ্য চুক্তি: ঢাকার সামনে কঠিন প্রশ্ন. [ chaarcha ]</title>
+      <link>https://www.chaarcha.com/analysis/ch3qnwamoppl</link>
+      <pubDate>Wed, 06 May 2026 15:44:32 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;&lt;img alt="মার্কিন অসম বাণিজ্য চুক্তি: ঢাকার সামনে কঠিন প্রশ্ন" src="https://images.chaarcha.com/original_images/bd-usa_o7445P7.jpg" /&gt;&lt;br /&gt;&lt;small&gt;ছবি: এআই দিয়ে তৈরি&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;মার্কিন অসম বাণিজ্য চুক্তি: ঢাকার সামনে কঠিন প্রশ্ন অর্থনীতিবিদ ড. মোস্তাফিজুর রহমান গত ১৪ মার্চ সিপিবির এক আলোচনা সভায় এ বিষয়ে বক্তব্য রাখেন। সেখানে তিনি বলেন, “চুক্তির ৩২ পৃষ্ঠার মূল নথিতে ‘Bangladesh shall’ শব্দগুচ্ছটি ব্যবহৃত হয়েছে ১৩১ বার, যেখানে ‘USA shall’ ব্যবহৃত হয়েছে মাত্র ৬ বার।&amp;quot;&lt;/p&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বিশ্লেষণ
+                                                            /ঢাকা-দিল্লি সম্পর্কে কলকাতা হয়তো আর বাধা হবে না. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/350695/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BF-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A6%B2%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%B9%E0%A7%9F%E0%A6%A4%E0%A7%8B-%E0%A6%86%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BE-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%A8%E0%A6%BE</link>
+      <pubDate>Wed, 06 May 2026 15:36:26 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;পশ্চিমবঙ্গে বিজেপি ক্ষমতায় আসার প্রেক্ষাপটে কেন্দ্র-রাজ্য সম্পর্ক এবং তার কূটনৈতিক প্রভাব নতুনভাবে মূল্যায়নের সুযোগ তৈরি হয়েছে। ভারতের সাংবিধানিক কাঠামো অনুযায়ী পররাষ্ট্রনীতি নির্ধারণের একচ্ছত্র অধিকার কেন্দ্রের হলেও, সীমান্তবর্তী রাজ্যগুলোর বাস্তব অভিজ্ঞতা ও স্থানীয় রাজনৈতিক অবস্থান অনেক সময় সেই নীতির প্রয়োগে গুরুত্বপূর্ণ ভূমিকা রাখে।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বাংলাদেশ-ইইউ অংশীদারত্ব চুক্তি. [ protidinerbangladesh ]</title>
+      <link>https://protidinerbangladesh.com/opinion/167348/bangladesheuropeanunionagreement</link>
+      <pubDate>Wed, 06 May 2026 13:15:09 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿বাংলাদেশ ও ইউরোপীয় ইউনিয়নের (ইইউ) মধ্যে সম্প্রতি স্বাক্ষরিত অংশীদারত্ব ও ...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সম্ভাবনাময় বাংলাদেশের অর্থনৈতিক চ্যালেঞ্জসমূহ. [ dhakapost ]</title>
+      <link>https://www.dhakapost.com/opinion/450132</link>
+      <pubDate>Wed, 06 May 2026 11:06:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বৈশাখের তীব্র তাপপ্রবাহের মধ্যে বিদ্যুৎ চাহিদা মেটাতে সরকার হিমশিম খাচ্ছে এবং জ্বালানি ঘাটতির কারণে বিদ্যুৎ উৎপাদনের গতিশীলতা ব্যাহত হওয়ায় গ্রামীণ...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>কৃষি অর্থনীতির সুরক্ষা ও উন্নয়ন. [ protidinerbangladesh ]</title>
+      <link>https://protidinerbangladesh.com/opinion/167335/agricultural-economy</link>
+      <pubDate>Wed, 06 May 2026 09:40:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿ কৃষি সামাজিক কর্মকাণ্ডের এক বিশেষ ক্ষেত্র, যা জনগণের খাদ্য ...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>হাওরে ফসলহানি: সংকটের স্বরূপ. [ protidinerbangladesh ]</title>
+      <link>https://protidinerbangladesh.com/opinion/167338/crop-loss-in-the-haor-region</link>
+      <pubDate>Wed, 06 May 2026 09:40:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;﻿মাঠপর্যায়ে দীর্ঘদিন ধরে যে অভিযোগগুলো শোনা যাচ্ছেÑ পিআইসি গঠনে বিলম্ব, ...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বিমানকে আন্তর্জাতিক মানে উন্নীত করতে সরকারের ইতিবাচক উদ্যোগ. [ rupalibangladesh ]</title>
+      <link>https://www.rupalibangladesh.com/opinion/139697</link>
+      <pubDate>Wed, 06 May 2026 15:37:23 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সরকার কেন প্রকৌশলীদের ব্যবহার করতে পারছে না. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/bcqui6r7tm</link>
+      <pubDate>Wed, 06 May 2026 14:18:26 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সরকারের ইশতেহারে যত পরিকল্পনা আছে, তার ৭০ শতাংশ কাজেই কোনো না কোনো প্রকৌশলীর প্রয়োজন।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সংসদের প্রথম অধিবেশন: গণতন্ত্রের যাত্রা কতটা ইতিবাচক হলো. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/gn70epx0w4</link>
+      <pubDate>Wed, 06 May 2026 13:33:32 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সংসদে বিভিন্ন বিষয়ে আলোচনা হয়েছে, বিতর্ক হয়েছে, যা একটি প্রাণবন্ত সংসদের লক্ষণ হিসেবে বিবেচিত হতে পারে।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ব্যাটারিচালিত রিকশায় বিদ্যুতের ব্যবহার
+                                                                সরকারের কার্যকর নজরদারি জরুরি. [ khaborerkagoj ]</title>
+      <link>https://khaborerkagoj.com/index.php/editorial/916065</link>
+      <pubDate>Wed, 06 May 2026 09:40:34 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বাংলাদেশি ডায়াসপোরা: জাতীয় উন্নয়নে প্রবাসীদের সম্পৃক্ত করার চ্যালেঞ্জগুলো. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/n9sd0hveqy</link>
+      <pubDate>Wed, 06 May 2026 08:11:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আগেই বলা হয়েছে যে প্রবাসী সম্পৃক্ততা বর্তমানে উন্নয়ন কৌশলের একটি গুরুত্বপূর্ণ উপাদান হিসেবে বিবেচিত হচ্ছে।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>আত্মসমালোচনা: পাবলিক বিশ্ববিদ্যালয়ে দায়বদ্ধতার সংকট. [ banglatribune ]</title>
+      <link>https://www.banglatribune.com/columns/945218/%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%8B%E0%A6%9A%E0%A6%A8%E0%A6%BE-%E0%A6%AA%E0%A6%BE%E0%A6%AC%E0%A6%B2%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%AC%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%A4%E0%A6%BE%E0%A6%B0</link>
+      <pubDate>Wed, 06 May 2026 06:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;
+												&lt;img src="https://cdn.banglatribune.net/contents/cache/images/300x300x1/uploads/media/2025/09/18/-5e94f8329c57d3bddd2f9f7e3e3d847d.jpg?jadewits_media_id=993744" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
 												
-						নারী ও শিশু নির্যাতন দমন আইনে হওয়া মামলাগুলোর ‘বেশি শতাংশই মিথ্যা’ হয়ে থাকে বলে মন্তব্য করেছেন আইন, বিচার ও সংসদ বিষয়ক মন্ত্রী মো. আসাদুজ্জামান। তিনি বলেছেন, ‘‘আইনের অপব্যবহার করে স্বামী ও শ্বশুরবাড়ির লোকজনসহ যে কারও বিরুদ্ধে মামলা করে দেন। অনেক ক্ষেত্রে পারিবারিক অশান্তির কারণে প্রতিপক্ষকে হেয় করার জন্য এ ধরনের মামলা করে হয়রানি করা হয়।’’ সত্যিই কি তাই হচ্ছে? এই আইনে হওয়া মামলাগুলোর ‘বেশি...						&lt;a class="more_link" href="https://www.banglatribune.com/columns/945081/%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A6%A8-%E0%A6%A6%E0%A6%AE%E0%A6%A8-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A6%87"&gt;বিস্তারিত&lt;/a&gt;
+						বাংলাদেশে উচ্চশিক্ষা আজ একটি গুরুত্বপূর্ণ মোড়ে দাঁড়িয়ে আছে। স্বাধীনতার পর সীমিত পরিসরে যাত্রা শুরু করা পাবলিক বিশ্ববিদ্যালয়গুলো আজ দেশের জ্ঞানচর্চা, গবেষণা এবং মানবসম্পদ উন্নয়নের অন্যতম প্রধান ভিত্তি হিসেবে প্রতিষ্ঠিত। বর্তমানে দেশে পাবলিক বিশ্ববিদ্যালয়ের সংখ্যা ৫০টিরও বেশি। বিশ্ববিদ্যালয় মঞ্জুরি কমিশনের (ইউজিসি) বিভিন্ন প্রতিবেদন অনুযায়ী, এসব প্রতিষ্ঠানে মোট শিক্ষার্থীর সংখ্যা প্রায়...						&lt;a class="more_link" href="https://www.banglatribune.com/columns/945218/%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A7%8B%E0%A6%9A%E0%A6%A8%E0%A6%BE-%E0%A6%AA%E0%A6%BE%E0%A6%AC%E0%A6%B2%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%AF%E0%A6%BC%E0%A7%87-%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%AC%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%A4%E0%A6%BE%E0%A6%B0"&gt;বিস্তারিত&lt;/a&gt;
 					&lt;/p&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>উন্নয়নের পথ ‘মানবপুঁজি’তে বিনিয়োগ. [ ajkerpatrika ]</title>
+      <link>https://www.ajkerpatrika.com/op-ed/column/ajpyspqf4uqb1</link>
+      <pubDate>Wed, 06 May 2026 05:18:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;একটি জাতির সর্বোচ্চ সম্পদ তার ভৌগোলিক আয়তন কিংবা প্রাকৃতিক সম্পদ নয়, বরং তার দক্ষ মানবসম্পদ। এই সত্য আরও বেশি প্রযোজ্য হলো বাংলাদেশের জন্য এ কারণে যে আমাদের দেশ একটি বিশাল জনসংখ্যা এবং স্বল্প প্রাকৃতিক সম্পদসম্পন্ন। যেকোনো দেশের জন্য শ্রম ও উদ্যোক্তা হলো অর্থনৈতিক কর্মকাণ্ডের গুরুত্বপূর্ণ উপাদান।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>গ্রামীণ বিশ্ববিদ্যালয় নিয়ে কেন এত বিতর্ক. [ ajkerpatrika ]</title>
+      <link>https://www.ajkerpatrika.com/op-ed/column/ajp6l6jyvjnxo</link>
+      <pubDate>Wed, 06 May 2026 05:18:30 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাংলাদেশের উচ্চশিক্ষা খাতে বেসরকারি বিশ্ববিদ্যালয়ের বিস্তার নতুন কোনো ঘটনা নয়; বরং গত দুই দশকে এটি একধরনের প্রবণতায় পরিণত হয়েছে। কিন্তু সাম্প্রতিক সময়ে একটি বিশ্ববিদ্যালয়ের অনুমোদনকে কেন্দ্র করে যে বিতর্ক তৈরি হয়েছে, তা শুধু একটি প্রতিষ্ঠানের প্রশ্ন নয়, বরং পুরো অনুমোদনপ্রক্রিয়া, নীতিমালা&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>আইএমএফ এর কাছ থেকে নতুন ঋণ, জনজীবনে চাপ কী আরও বাড়বে. [ bbc ]</title>
+      <link>https://www.bbc.com/bengali/articles/cx21pyldnlno?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Wed, 06 May 2026 05:16:24 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Llama-3.3-70B, Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;আন্তর্জাতিক অর্থ তহবিল বা আইএমএফ- এর সাথে চলমান ঋণ কর্মসূচিতে স্থবিরতার মধ্যেই সংস্থাটি থেকে নতুন করে প্রায় দুই বিলিয়ন ডলার ঋণ চাইছে বাংলাদেশ- এমন খবর বেশ আলোচনার জন্ম দিয়েছে। একটি ঋণ কর্মসূচি চলমান থাকা অবস্থায় নতুন করে ঋণ প্রস্তাবের আলোচনা উঠছে কেন?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>জলবায়ু পরিবর্তন এখন বাস্তবতা সামনে আরও কঠিন সময়: ড. আইনুন নিশাত. [ dainikamadershomoy ]</title>
+      <link>https://www.dainikamadershomoy.com/details/019df911ac561</link>
+      <pubDate>Wed, 06 May 2026 07:25:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;জলবায়ু পরিবর্তন এখন বাস্তবতা সামনে আরও কঠিন সময়: ড. আইনুন নিশাত. [ dainikamadershomoy ]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>মধ্যপ্রাচ্য সংকট, সাপ্লাই চেইন ভেঙে পড়ার আশঙ্কা. [ dainikamadershomoy ]</title>
+      <link>https://www.dainikamadershomoy.com/details/019de98f19302</link>
+      <pubDate>Wed, 06 May 2026 04:44:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Qwen-3-32B, GPT-OSS-120B, GPT-OSS-20&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;মধ্যপ্রাচ্য সংকট, সাপ্লাই চেইন ভেঙে পড়ার আশঙ্কা. [ dainikamadershomoy ]&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
