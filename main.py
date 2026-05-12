@@ -380,14 +380,14 @@ def main():
     final_articles = []
     print(f"\nMerging (3+ model consensus required)...", flush=True)
     for aid, info in selections_map.items():
-        if len(info['models']) >= 3:
+        if len(info['models']) >= 2:
             original = articles[aid].copy()
             original['category'] = 'Priority'
             original['reason'] = 'Systemic Significance'
             original['selected_by'] = info['models']
             final_articles.append(original)
 
-    print(f"   ✅ {len(final_articles)} articles passed 3+ model consensus from {len(selections_map)} total selections", flush=True)
+    print(f"   ✅ {len(final_articles)} articles passed 2+ model consensus from {len(selections_map)} total selections", flush=True)
 
     # Split by language
     bangla_articles = []
