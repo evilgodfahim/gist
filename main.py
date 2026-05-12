@@ -19,8 +19,8 @@ URLS = [
 
 MODELS = [
     {
-        "name": "moonshotai/kimi-k2-instruct",
-        "display": "Kimi-K2-Instruct",
+        "name": "`groq/compound-mini`",
+        "display": "Compound But Mini",
         "batch_size": 25,
         "api": "groq"
     },
