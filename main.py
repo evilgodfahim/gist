@@ -19,7 +19,7 @@ URLS = [
 
 MODELS = [
     {
-        "name": "`groq/compound-mini`",
+        "name": "`groq/compound-beta`",
         "display": "Compound But Mini",
         "batch_size": 25,
         "api": "groq"
