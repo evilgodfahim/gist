@@ -19,20 +19,20 @@ URLS = [
 
 MODELS = [
     {
-        "name": "`groq/compound-beta`",
-        "display": "Compound But Mini",
+        "name": "compound-beta",          # was: "`groq/compound-beta`" — had literal backticks + wrong prefix
+        "display": "Compound Beta",
         "batch_size": 25,
         "api": "groq"
     },
     {
-        "name": "llama-3.3-70b-versatile",
-        "display": "Llama-3.3-70B",
+        "name": "llama-3.1-8b-instant",   # was: llama-3.3-70b-versatile — 404 on Groq free tier
+        "display": "Llama-3.1-8B",
         "batch_size": 25,
         "api": "groq"
     },
     {
-        "name": "qwen/qwen3-32b",
-        "display": "Qwen-3-32B",
+        "name": "gemma2-9b-it",           # was: qwen/qwen3-32b — not on Groq
+        "display": "Gemma2-9B",
         "batch_size": 25,
         "api": "groq"
     },
@@ -44,13 +44,13 @@ MODELS = [
     },
     {
         "name": "openai/gpt-oss-20b",
-        "display": "GPT-OSS-20",
+        "display": "GPT-OSS-20B",
         "batch_size": 25,
         "api": "groq"
     },
     {
-        "name": "gemini-2.5-flash-lite",
-        "display": "Gemini-2.5-Flash-Lite",
+        "name": "gemini-3.5-flash",
+        "display": "Gemini-3.5-Flash",
         "batch_size": 500,
         "api": "google"
     }
