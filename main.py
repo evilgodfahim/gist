@@ -50,7 +50,7 @@ MODELS = [
     },
     {
         "name": "gemini-3.5-flash",
-        "display": "Gemini-3.5-Flash",
+        "display": "Gemini-3-flash-preview",
         "batch_size": 500,
         "api": "google"
     }
