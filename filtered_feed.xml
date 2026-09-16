@@ -2,322 +2,423 @@
 <rss version="2.0">
   <channel>
     <title>Elite News Feed (Bangla)</title>
-    <lastBuildDate>Tue, 15 Sep 2026 07:33:43 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 07:43:56 +0600</lastBuildDate>
     <link>https://github.com/evilgodfahim</link>
     <description>AI-curated structural news feed</description>
     <item>
-      <title>জুলাই বিপ্লব পররাষ্ট্রনীতির অভিমুখ বদলে দিয়েছে : এই সরকার সেই ধারাবাহিকতা রক্ষা করে চলেছে. [ dailyinqilab ]</title>
-      <link>https://dailyinqilab.com/editorial/news/940130</link>
-      <pubDate>Tue, 15 Sep 2026 00:05:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://dailyinqilab.com/mediaStorage/content/images/2026September/SM/1-20260914213242.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-&lt;a class="more_link" href="https://dailyinqilab.com/editorial/news/940130"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>নতুন বেতন কাঠামো /বেসরকারি খাতের চাকরিজীবীদের কী হবে. [ samakal ]</title>
+      <link>https://samakal.com/opinion/article/372865/%E0%A6%AC%E0%A7%87%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%80-%E0%A6%B9%E0%A6%AC%E0%A7%87</link>
+      <pubDate>Tue, 15 Sep 2026 06:30:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://samakal.com/media/imgAll/2026September/SM/0samakal-at-ah-1789436186.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://samakal.com/opinion/article/372865/%E0%A6%AC%E0%A7%87%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%80-%E0%A6%B9%E0%A6%AC%E0%A7%87"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>বিদ্যুৎ খাতে সর্বোত্তম সুরক্ষা নিশ্চিত করতে হবে. [ protidinersangbad ]</title>
-      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586231</link>
-      <pubDate>Mon, 14 Sep 2026 23:07:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586231"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>সম্পত্তি হস্তান্তর সংশোধনী বিল: কেন বিরোধী দলের আপত্তি. [ banglatribune ]</title>
+      <link>https://www.banglatribune.com/columns/968621/%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%B6%E0%A7%8B%E0%A6%A7%E0%A6%A8%E0%A7%80-%E0%A6%AC%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80-%E0%A6%A6%E0%A6%B2%E0%A7%87%E0%A6%B0</link>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://cdn.banglatribune.net/contents/cache/images/1200x630x1xxxxx1/uploads/media/2020/04/06/f1f341ebdfd6b101d40034c303395c09-5e8b2ea42f598.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+ঘটনাটি অপরিচিত কারও নয়, আমাদের পরিবারের এক বোন তাঁর বাড়ি ও জমি মেয়েকে হেবা করে লিখে দিয়েছিলেন। কারণ বৃদ্ধ বয়সে উনি মেয়ে-জামাইয়ের কাছে থাকতেন। হেবার বিধান অনুযায়ী, জীবিত অবস্থায় দাতা তাঁর সম্পত্তি সন্তানকে দিতে পারেন। কিন্তু কয়েক মাসের মধ্যে তিনি দেখলেন, মেয়ে জামাইয়ের চেহারা পাল্টে গেছে। তারা মায়ের সাথে খারাপ ব্যবহার করতে শুরু করেছে।
+এই অবস্থায় বোনটি হেবার ঘোষণা বাতিল করতে চেয়েছিলেন। কিন্তু আইনগতভাবে তা তিনি পারেননি। তাই বাধ্য হয়ে পরবর্তীকালে এর-ওর বাড়িতে থেকে একপ্রকার উদ্বাস্তু জীবন যাপন করেছেন।
+এটাতো শুধু একটা ঘটনা। এরকম আরও বহু ঘটনা ঘটছে সমাজের সবস্তরে। ঢাকার বিচারিক আদালতগুলোতে এই ধরনের অনেক মামলাও দেখা যায়। প্রচলিত আইনের অধীনে বাবা-মা তাঁদের জীবদ্দশায় উত্তরাধিকারদের মধ্যে কোনও কারণে সম্পত্তি লিখে দিলে, সেটি সাথে সাথেই হস্তান্তর হয়ে যায়।
+এতে প্রায়ই দেখা যায়, তাঁরা নিজেরাই অনিরাপদ হয়ে যাচ্ছেন। কেননা, দানকৃত এই সম্পত্তি আর ফেরত নেয়া যায় না, যেমনটি ঘটেছে আমাদের সেই বোনের ক্ষেত্রে। অনেক মা-বাবা সন্তানকে সম্পত্তি লিখে দেওয়ার পর অবহেলা ও নির্যাতিত হন। কাউকে কাউকে বাড়ি থেকেও বের করে দেওয়া হয়। বিশেষ করে যেসব পরিবারে পুত্র সন্তান নেই, শুধু কন্যা সন্তান, তাঁরা সবসময় সম্পত্তির উত্তরাধিকার নিয়ে এক ধরনের দোটানায় থাকেন।
+একদিকে জীবিত অবস্থায় সম্পত্তি দান করার পর অবহেলার শিকার হওয়ার ভয়, অন্যদিকে সম্পত্তি হেবা করে দিয়ে না গেলে কন্যা সন্তানের বঞ্চিত হওয়ার আশঙ্কা এইবার যে ট্রান্সফার অব প্রপার্টি (অ্যামেন্ডমেন্ট) বিল,২০২৬  সংসদে পাস হয়েছে, তাতে এমন বিধান রেখে সংশোধনী আনা হয়েছে, যেন বাবা-মা বা দাতা জীবিত থাকা পর্যন্ত দানকৃত সম্পত্তি ভোগ করতে পারেন। আইনমন্ত্রী বিল উত্থাপন করে সংশোধনীর উদ্দেশ্য ও কারণ সম্পর্কে যে বিবৃতি দিয়েছেন, যা খুব ইতিবাচক ফল বয়ে আনবে বলে আমরা বিশ্বাস করি।
+দ্য ট্রান্সফার অব প্রপার্টি অ্যাক্ট, ১৮৮২, তে সম্পত্তি হস্তান্তরের বিভিন্ন পদ্ধতি সম্পর্কে বিধান থাকলেও, আমৃত্যু দাতার সম্পত্তির ভোগাধিকার সংরক্ষণ করে দান করার বিষয়ে কোনও সুনির্দিষ্ট বিধান ছিল না।
+আইনজীবিরা মনে করেন, এই সংশোধনীর ফলে এখন একজন দাতা তার মৃত্যুর আগে নিশ্চিন্ত থাকতে পারবেন। একইসঙ্গে তিনি বুঝতে পারবেন— মৃত্যুর পরে তার অর্জিত সম্পত্তি যথাযথ ব্যক্তির হাতেই থাকছে। সবচেয়ে জরুরি হচ্ছে এই আইনে যে সংশোধনী এসেছে, সেটি বাংলাদেশের সব ধর্মের সব নাগরিকদের জন্য প্রযোজ্য। বহু বছর ধরে মানবাধিকার ও নারী অধিকার সংগঠনগুলো বলে আসছে— সব ধর্মের মানুষের জন্য দেশে একটি ‘ইউনিফর্ম ফ্যামিলি আইন’ হওয়া দরকার।
+বিভিন্ন ধর্মের নাগরিকদের জন্য এমন সুযোগ থাকবে, যে কেউ চাইলে তার জীবদ্দশায় লিখিত ইচ্ছাপ্রকাশের মাধ্যমে উত্তরাধিকারের ক্ষেত্রে নিজ নিজ ধর্মীয় নীতি বেছে নিতে পারেন।
+বিরোধী দলের সংসদ সদস্যরা এই সংশোধনীকে কোরআন- সুন্নাহবিরোধী এবং মুসলিম উত্তরাধিকার আইনের সঙ্গে সাংঘর্ষিক বলে প্রতিবাদ করেছেন। অথচ সংশোধনীতে মুসলিম আইনের অধীন প্রচলিত ‘হেবা’ বাতিল বা পরিবর্তন করা হয়নি। আইনজীবীরা বলছেন, ১৮৮২ সালের সম্পত্তি হস্তান্তরের আইনটি বাতিল করে নয়, বরং আগের আইনেই একটি বিশেষ বিধান যুক্ত করা হয়েছে। বিভিন্ন ধর্মের পারসোনাল আইনে কোনও পরিবর্তন করা হয়নি। তাহলে কেন সম্পত্তি হস্তান্তর আইনের সংশোধনী নিয়ে বিরোধী দলের এই আপত্তি?
+বিরোধী দল মনে করছে, এটা কোরআনে বর্ণিত অছিয়ত যেটাকে উইল বলা হয়েছে, তার পরিপন্থী। কিন্তু বাস্তবে উইল এবং হেবার বিধান বহাল আছে, যে কেউ ইচ্ছা করলে সেই বিধান প্রতিপালন করতে পারবেন। আর এটা হলো একটা সর্বজনীন বিকল্প হস্তান্তর পদ্ধতি মাত্র, যার মাধ্যমে জীবন স্বত্বে ভোগাধিকার রেখে নিকটজনকে সম্পত্তি দান করা যাবে। (বিবিসি বাংলা, অ্যাডভোকেট খাদেমুল ইসলাম) কোনও মুসলিম দাতা চাইলে হেবার প্রচলিত নিয়মে সম্পত্তি দান করতে পারবেন। সম্পত্তি দান করার সময় নিজের জীবনকালীন ভোগের অধিকারও রেখে দিতে পারবেন। অর্থাৎ নতুন বিধানটি কাউকে ধর্মীয় পদ্ধতি বাদ দিতে বাধ্য করছে না।
+একইসঙ্গে, এই সংশোধনী বর্তমানে বলবৎ অন্য কোনও আইনের অধীনে স্বীকৃত কোনও দান, হেবা বা অন্য কোনও হস্তান্তর পদ্ধতির বৈধতাকে কোনোভাবে প্রভাবিত বা ক্ষুণ্ন করবে না। ধর্মীয়ভাবে স্বীকৃত কোন্র বিষয়ের সঙ্গে রাষ্ট্রীয় বা প্রাতিষ্ঠানিক নিয়ম যুক্ত করাও নতুন ঘটনা নয়। যেমন মুসলিম বিয়ের ধর্মীয় বৈধতার জন্য নিবন্ধন আবশ্যক নয়।
+কিন্তু নাগরিক অধিকার রক্ষা, বিয়ের প্রমাণ এবং বিরোধ নিষ্পত্তির জন্য রাষ্ট্র বিয়ে নিবন্ধনের বিধান করেছে। এ কারণে নতুন একটি দেওয়ানি পদ্ধতি চালু করাকে সরাসরি ধর্মবিরোধী বলা যুক্তি সঙ্গত নয়। (প্রথম আলো) ব্রিটিশ আমলে চালু হওয়া ১৯৩৭ সালের মুসলিম পারসোনাল আইন (শরিয়া আইন) পাকিস্তান আমলে, সময়ের সাথে সঙ্গতি রেখে পরিবর্তন করা হয়েছে। যেমন দাদা বা নানার সস্পত্তিতে, নাবালক সন্তানের সম্পত্তি পাওয়ার অধিকার কার্যকর হয়েছে।
+এখন চাইলেই কোনও মুসলিম পুরুষ একসাথে চারটি বিয়ে করতে পারেন না। তাকে নিয়মের মধ্যে দিয়ে যেতে হয়। হিলা বিয়েও অনেক কঠিন করা হয়েছে এবং সর্বোপরি মুসলিম নারী তার স্বামীকে কারণ উল্লেখ করে এবং চারবছর নিরুদ্দেশ থাকলে তালাক দিতে পারেন। কাজেই নতুন এই সংশোধনীর সামাজিক প্রয়োজন অস্বীকার করার সুযোগ নেই।
+বিশ্বের কয়েকটি মুসলিম সংখ্যাগরিষ্ঠ দেশে মুসলিম নাগরিকদের ব্যক্তিগত ও পারিবারিক বিষয়গুলো যেমন- বিয়ে, তালাক, সন্তান লালন-পালন ও উত্তরাধিকার ইসলামি শরিয়াহ আইন অনুযায়ী না করে, সম্পূর্ণরূপে ধর্মনিরপেক্ষ বা দেওয়ানি সিভিল আইন দ্বারা পরিচালনা করা হয়।
+যেমন- তুরস্কে ‘তুর্কি সিভিল কোড’ গ্রহণ করা হয়।
+উত্তরাধিকারের ক্ষেত্রেও নারী ও পুরুষের সমান অধিকার নিশ্চিত করা হয়েছে। তিউনিসিয়া নারী অধিকার ও পারিবারিক আইনের ক্ষেত্রে সবচেয়ে প্রগতিশীল এবং ধর্মনিরপেক্ষ দেওয়ানি কাঠামো অনুসরণ করে। এমনকি উত্তরাধিকার আইনের ক্ষেত্রেও সিভিল কোডের মাধ্যমে সংস্কার আনা হয়েছে।
+পশ্চিম আফ্রিকার দেশ সেনেগাল, এবং মধ্য এশিয়ার মুসলিম সংখ্যাগরিষ্ঠ দেশগুলোর আইনি ব্যবস্থা ব্যক্তিগত এবং পারিবারিক আইন সম্পূর্ণ ধর্মনিরপেক্ষ সিভিল ল দ্বারা নিয়ন্ত্রিত হয়। যেমন- কাজাখস্তান, উজবেকিস্তান, তুর্কমেনিস্তান, কিরগিজস্তান, তাজিকিস্তান ও আজারবাইজান।
+মুসলিম নাগরিকরা চাইলে কেবল ব্যক্তিগত বা আধ্যাত্মিক সন্তুষ্টির জন্য ধর্মীয় রীতিতে বিয়ে (নিকাহ) করতে পারেন, তবে আইনি সুরক্ষার জন্য সিভিল ম্যারেজ করা বাধ্যতামূলক। মানবাধিকার ও নারী অধিকার সংগঠনগুলো উত্তরাধিকার আইনে সম্পত্তিতে নারী-পুরুষের সমান অধিকারের কথা বলে আসছে বহু বছর ধরে। মুসলিম পরিবারে যে বাবা- মায়ের শুধু কন্যা সন্তান রয়েছেন, তারা জানেন নিজের আত্মজাকে সম্পত্তি দিয়ে যেতে কতটা ভোগান্তির শিকার হতে হয়।
+বাবা-মায়ের জন্য বিপজ্জনক হলেও, জীবদ্দশায় হেবা করে দিয়ে যেতে হয় বা উইল করে দিতে বাধ্য হন। নয়তো কন্যা সন্তান কখনোই বাবা-মায়ের রেখে যাওয়া সম্পত্তির শতভাগের মালিক হতে পারবে না।
+এই সমস্যার কথা ভেবেই ডেপুটি অ্যাটর্নি জেনারেল জামিউল হক ফয়সাল বলেছেন, ‘‘বর্তমান উত্তরাধিকার আইনে, শরিয়াহ ল অনুসরণ করা হয়, যাদের শুধুমাত্র কন্যা সন্তান ছিল— তারা পুরো সম্পত্তির মালিক হতে পারতেন না। এখন এই সংশোধনীর ফলে পুরো সম্পত্তির মালিক হতে পারবেন তারা।’’
+সুপ্রিম কোর্টের জ্যেষ্ঠ আইনজীবী প্রবীর নিয়োগী গণমাধ্যমকে বলেছেন, সরকার ব্রিটিশদের করা আইনে একটি সংশোধনী এনেছে। অন্য কোনও আইনে, ইসলামি হেবায় হস্তক্ষেপ করেনি।
+প্রবীর নিয়োগী বিবিসি বাংলাকে বলেছেন, হিন্দু আইনানুযায়ী, মেয়েরা জীবনসত্ত্বে সম্পত্তি শুধু ভোগ দখলের অধিকার ছাড়া কিছুই পান না। তাই এখন ডিড করে হিন্দু ধর্মের পারসোনাল ল অনুযায়ী আমাদের দিতে হয়। এই আইনের কারণে এখন যাদের শুধুমাত্র কন্যা সন্তান, তাদের ওই সন্তানকে সম্পত্তি দানের অধিকার এবং সারা জীবনের কষ্টার্জিত সম্পদ দান করলেও জীবদ্দশায় ভোগ করার অধিকার রক্ষা হয়েছে।
+এদেশের নারী সমাজ সবসময় চেয়ে আসছে— আইনের নাম ব্যবহার করে নারীকে কেউ স্বামী ও পিতার সম্পত্তি থেকে যেন বঞ্চিত করতে না পারে। সরকার বলে দুই সন্তানই যথেষ্ট। সেখানে কারও যদি দুটিই বা একটি কন্যা সন্তান হয়, তখন সেই পরিবার কী করবেন? কাজেই সবকিছুই বাস্তবতার নিরিখে ভাবতে হবে।
+কোনও আইন পরিবর্তন না করে, শুধু দুটি সংশোধনী এনে যদি ইতিবাচক কিছু পরিবর্তন আসে, তাহলে সেটাই অনেক। তবে আইনের উদ্দেশ্য ভালো হলেই তা সুষ্ঠুভাবে কার্যকর নাও হতে পারে। তাই সংশোধনীর দুর্বলতাগুলো চিহ্নিত করে একটা সুষ্ঠু পথ খুঁজে বের করতে হবে।
+ধন্যবাদ বর্তমান আইনমন্ত্রীকে যুগোপযোগী এই সংশোধনী আনার জন্য।
+লেখক: যোগাযোগ বিশেষজ্ঞ ও কলামিস্ট
+&lt;a class="more_link" href="https://www.banglatribune.com/columns/968621/%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%B6%E0%A7%8B%E0%A6%A7%E0%A6%A8%E0%A7%80-%E0%A6%AC%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80-%E0%A6%A6%E0%A6%B2%E0%A7%87%E0%A6%B0"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>খাদ্য ও কৃষিক্ষেত্রে বৈশ্বিক সংকট এবং সমাধান. [ protidinersangbad ]</title>
-      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586232</link>
-      <pubDate>Mon, 14 Sep 2026 23:07:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://www.protidinersangbad.com/templates/web-ps/images/news-logo.jpg?v=1" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-&lt;a class="more_link" href="https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586232"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>বাংলাদেশের ডিজিটাল ভবিষ্যৎ কার হাতে?. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586396</link>
+      <pubDate>Wed, 16 Sep 2026 00:19:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586396"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>বাজার নিয়ন্ত্রণে চাই কার্যকর পদক্ষেপ. [ protidinersangbad ]</title>
-      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586234</link>
-      <pubDate>Mon, 14 Sep 2026 23:07:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://www.protidinersangbad.com/templates/web-ps/images/news-logo.jpg?v=1" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-&lt;a class="more_link" href="https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586234"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>কেন গ্যাস সংকট নিরসন হচ্ছে না. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586397</link>
+      <pubDate>Wed, 16 Sep 2026 00:19:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://www.protidinersangbad.com/templates/web-ps/images/news-logo.jpg?v=1" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586397"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>সেতু নির্মাণে বাংলাদেশের নিজস্ব নকশা মানদণ্ড নিশ্চিত হোক. [ jatiyoarthoniti ]</title>
-      <link>https://jatiyoarthoniti.com/2026/09/14/setu-nirmane-bangladeser-nijsw-nksha-mandnd-niscit-hok</link>
-      <pubDate>Mon, 14 Sep 2026 22:46:46 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://jatiyoarthoniti.com/uploads/2026/09/1789404398_6aa824eeaae30.webp?v=1789404399" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-নদীমাতৃক বাংলাদেশে সেতু শুধু যোগাযোগ অবকাঠামো নয়, অর্থনৈতিক কর্মকাণ্ডের অন্যতম প্রধান অনুঘটক। পদ্মা, মেঘনা, যমুনা কিংবা গোমতীর ওপর নির্মিত বড় সেতুগুলো দেশের এক প্রান্তের সঙ্গে অন্য প্রান্তের যোগাযোগ সহজ করার...
-&lt;a class="more_link" href="https://jatiyoarthoniti.com/2026/09/14/setu-nirmane-bangladeser-nijsw-nksha-mandnd-niscit-hok"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>বেকারত্বের বোঝায় থমকে যাচ্ছে তারুণ্য. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586398</link>
+      <pubDate>Wed, 16 Sep 2026 00:19:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://www.protidinersangbad.com/templates/web-ps/images/news-logo.jpg?v=1" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586398"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>জাতীয় বিশ্ববিদ্যালয়: দায় কার ক্ষমতা কার, সময় কার?. [ jatiyoarthoniti ]</title>
-      <link>https://jatiyoarthoniti.com/2026/09/14/jateey-biswbidzaly-day-kar-kshmta-kar-smy-kar</link>
-      <pubDate>Mon, 14 Sep 2026 22:41:59 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://jatiyoarthoniti.com/uploads/2026/09/1789404040_6aa82388a328f.webp?v=1789404040" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-জাতীয় বিশ্ববিদ্যালয়ের সংকট তার ৩৪ লাখ শিক্ষার্থী বা দুই সহস্রাধিক অধিভুক্ত কলেজের সংখ্যায় সীমাবদ্ধ নয়। বড় প্রশ্ন হলো এই বিশাল ব্যবস্থায় ক্ষমতা, জবাবদিহি ও শিক্ষার্থীর সময়ের মধ্যে ভারসাম্য কতটা আছে।...
-&lt;a class="more_link" href="https://jatiyoarthoniti.com/2026/09/14/jateey-biswbidzaly-day-kar-kshmta-kar-smy-kar"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>বনাঞ্চল রক্ষায় চাই কার্যকর পদক্ষেপ. [ protidinersangbad ]</title>
+      <link>https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586399</link>
+      <pubDate>Wed, 16 Sep 2026 00:19:18 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://www.protidinersangbad.com/templates/web-ps/images/news-logo.jpg?v=1" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://www.protidinersangbad.com/todays-newspaper/uposompadokio/586399"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>ন্যাশনাল ইনস্টিটিউট অব ল্যাবরেটরি মেডিসিন অ্যান্ড  রেফারেল সেন্টারকে শক্তিশালী করা কেন জরুরি. [ jatiyoarthoniti ]</title>
-      <link>https://jatiyoarthoniti.com/2026/09/14/nzasnal-institiut-ob-lzabretri-medisin-ozand-refarel-sentarke-sktisalee-kra-ken-jruri</link>
-      <pubDate>Mon, 14 Sep 2026 22:38:14 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://jatiyoarthoniti.com/uploads/2026/09/1789403885_6aa822ed7276a.webp?v=1789403885" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-একজন চিকিৎসক যখন কোনো রোগীর রোগ নির্ণয় বা চিকিৎসার সিদ্ধান্ত নেন তখন তার সবচেয়ে বড় নির্ভরতা থাকে রোগ নির্ণয় পরীক্ষার প্রতিবেদনের ওপর। সেই প্রতিবেদন যদি ভুল হয় তবে ভুল রোগ...
-&lt;a class="more_link" href="https://jatiyoarthoniti.com/2026/09/14/nzasnal-institiut-ob-lzabretri-medisin-ozand-refarel-sentarke-sktisalee-kra-ken-jruri"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>ব্রিকসে না যাওয়া : বাংলাদেশের মর্যাদা ও স্বার্থের কূটনীতির নতুন বার্তা. [ dailyinqilab ]</title>
+      <link>https://dailyinqilab.com/editorial/news/940519</link>
+      <pubDate>Wed, 16 Sep 2026 00:06:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://dailyinqilab.com/mediaStorage/content/images/2026September/SM/inq-graphics-20260915205618.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://dailyinqilab.com/editorial/news/940519"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>ব্রিকস : অনৈক্যে ঐক্যের দৃষ্টান্ত. [ bd-pratidin ]</title>
-      <link>https://www.bd-pratidin.com/editorial/2026/09/15/1300630</link>
-      <pubDate>Mon, 14 Sep 2026 22:28:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://cdn.bd-pratidin.com/public/news_images/2026/09/14/1789407172-87d9e9cced7c756eff313bf4621c86d4.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-ভারতে অনুষ্ঠিত ১৮তম ব্রিকস শীর্ষ সম্মেলন সদস্য রাষ্ট্রদের মধ্যে বিশ্ব দৃষ্টিভঙ্গি নিয়ে বিভিন্ন মতাদর্শের মধ্যে অভিন্ন ঐকমত্যে পৌঁছানোর প্রয়াস...
-&lt;a class="more_link" href="https://www.bd-pratidin.com/editorial/2026/09/15/1300630"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>চীনা ঋণনির্ভরতা নয়, অর্থনৈতিক প্রত্যাবর্তন নিশ্চিত হোক. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/09/15/ceena-rrinnirvrta-ny-orthnoitik-prtzabrtn-niscit-hok</link>
+      <pubDate>Tue, 15 Sep 2026 22:41:11 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://jatiyoarthoniti.com/uploads/2026/09/1789490463_6aa9751f71b3f.webp?v=1789490464" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+বাংলাদেশের অবকাঠামো উন্নয়নে চীনের অর্থায়ন অত্যন্ত গুরুত্বপূর্ণ। সড়ক, রেল, বিদ্যুৎ, টানেলসহ বড় প্রকল্পে চীনা ঋণ ও বিনিয়োগ দেশের যোগাযোগ ও উৎপাদন সক্ষমতা বাড়ানোর সুযোগ তৈরি করেছে। সাম্প্রতিক সময়ে দুই দেশের...
+&lt;a class="more_link" href="https://jatiyoarthoniti.com/2026/09/15/ceena-rrinnirvrta-ny-orthnoitik-prtzabrtn-niscit-hok"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>মাদকের ছোবল থেকে দেশ বাঁচান. [ dailynayadiganta ]</title>
-      <link>https://dailynayadiganta.com/opinions/editorial/tBltlO3TdhPL</link>
-      <pubDate>Mon, 14 Sep 2026 21:53:37 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service
-&lt;a class="more_link" href="https://dailynayadiganta.com/opinions/editorial/tBltlO3TdhPL"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>মাদক নিয়ন্ত্রণে জনগণের ভূমিকা: আইন প্রয়োগের পাশাপাশি চাই সামাজিক প্রতিরোধ. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/09/15/madk-niyntrne-jngner-vuumika-ain-pryoger-pasapasi-cai-samajik-prtirodh</link>
+      <pubDate>Tue, 15 Sep 2026 22:36:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://jatiyoarthoniti.com/uploads/2026/09/1789490150_6aa973e65956a.webp?v=1789490150" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+মাদক এখন আর নিছক সামাজিক ব্যাধি নয়; এটি জনস্বাস্থ্য, আইনশৃঙ্খলা ও জাতীয় উন্নয়নের জন্যও বড় হুমকি। বিশেষ করে তরুণ সমাজের একটি অংশ নানা ধরনের মাদকের ভয়াবহ আসক্তিতে জড়িয়ে পড়ছে। এর...
+&lt;a class="more_link" href="https://jatiyoarthoniti.com/2026/09/15/madk-niyntrne-jngner-vuumika-ain-pryoger-pasapasi-cai-samajik-prtirodh"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>প্রধানমন্ত্রীর সংসদীয় বক্তব্যের নীতিগত বিশ্লেষণ. [ dailynayadiganta ]</title>
-      <link>https://dailynayadiganta.com/opinions/editorial/sub-editorial/aFS1XT5LTsXf</link>
-      <pubDate>Mon, 14 Sep 2026 21:38:37 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service
-&lt;a class="more_link" href="https://dailynayadiganta.com/opinions/editorial/sub-editorial/aFS1XT5LTsXf"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>ব্যাংক খাতের সংকট ও উত্তরণের পথ. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/09/15/bzangk-khater-sngkt-oo-uttrner-pth</link>
+      <pubDate>Tue, 15 Sep 2026 22:32:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://jatiyoarthoniti.com/uploads/2026/09/1789489954_6aa973224bf5f.webp?v=1789489955" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+বাংলাদেশের অর্থনীতির অন্যতম প্রধান ভিত্তি হলো ব্যাংকিং খাত। বিনিয়োগ, শিল্পায়ন, কর্মসংস্থান সৃষ্টি এবং অর্থনৈতিক প্রবৃদ্ধির প্রায় সব ক্ষেত্রেই ব্যাংকের ভূমিকা কেন্দ্রীয়। কিন্তু সাম্প্রতিক সময়ে দেশের ব্যাংকিং খাত এমন এক সংকটের...
+&lt;a class="more_link" href="https://jatiyoarthoniti.com/2026/09/15/bzangk-khater-sngkt-oo-uttrner-pth"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>স্বাস্থ্যসেবা বিশেষ কোনো সুবিধা নয়, মৌলিক মানবাধিকার. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/editorial/IT3R2HLnYLJDV4Ek</link>
-      <pubDate>Mon, 14 Sep 2026 21:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;স্বাস্থ্যবিষয়ক দৃষ্টিভঙ্গি একটি সুস্পষ্ট নীতির ওপর প্রতিষ্ঠিত—মানসম্মত স্বাস্থ্যসেবা এমন কোনো বিশেষ সুবিধা হওয়া উচিত নয়, যা আয়, অবস্থান বা সামাজিক মর্যাদার ওপর নির্ভর করবে। বাংলাদেশের প্রতিটি অঞ্চলের প্রত্যেক নাগরিকের জন্য এটি সহজলভ্য হওয়া উচিত।
-&lt;a class="more_link" href="https://bonikbarta.com/editorial/IT3R2HLnYLJDV4Ek"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>অর্থনীতিকে সচল রাখতে সরকারের যেসব পদক্ষেপ গ্রহণ জরুরি. [ jatiyoarthoniti ]</title>
+      <link>https://jatiyoarthoniti.com/2026/09/15/orthneetike-scl-rakhte-srkarer-zesb-pdkshep-grhn-jruri</link>
+      <pubDate>Tue, 15 Sep 2026 22:29:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://jatiyoarthoniti.com/uploads/2026/09/1789489761_6aa9726104c0e.webp?v=1789489761" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+বাংলাদেশের অর্থনীতি খুব একটা সুবিধাজনক পরিস্থিতিতে নেই। আমাদের বুঝতে হবে যে, মানুষের জীবনযাত্রার ব্যয় বেড়েছে, মূল্যস্ফীতি এখনও ৯ শতাংশের ওপরে, ব্যাংকিং খাতে খেলাপি ঋণের বোঝা ভয়াবহ পর্যায়ে পৌঁছেছে, রপ্তানি আয়ে...
+&lt;a class="more_link" href="https://jatiyoarthoniti.com/2026/09/15/orthneetike-scl-rakhte-srkarer-zesb-pdkshep-grhn-jruri"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>জাতিসংঘ সাধারণ পরিষদে মিডওয়াইফারি ও প্রাথমিক স্বাস্থ্যসেবায় নেতৃত্ব দেবে বাংলাদেশ. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/editorial/53vsnTzNrTvUawuE</link>
-      <pubDate>Mon, 14 Sep 2026 20:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;প্রধানমন্ত্রী তারেক রহমান এ অনুষ্ঠানে বক্তব্য দেবেন এবং আরো শক্তিশালী, অধিকতর ন্যায়সংগত ও জনকেন্দ্রিক স্বাস্থ্য ব্যবস্থা গড়ে তুলতে বাংলাদেশের অঙ্গীকার তুলে ধরবেন।
-&lt;a class="more_link" href="https://bonikbarta.com/editorial/53vsnTzNrTvUawuE"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>নারীর মর্যাদা ও ক্ষমতায়ন. [ bd-pratidin ]</title>
+      <link>https://www.bd-pratidin.com/editorial/2026/09/16/1301078</link>
+      <pubDate>Tue, 15 Sep 2026 21:17:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://cdn.bd-pratidin.com/public/news_images/2026/09/15/thumbnails/1789494511-b60eff7b10f7ce91d5168f60b62c828a.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://www.bd-pratidin.com/editorial/2026/09/16/1301078"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>গঙ্গাচুক্তি নবায়ন: পুরোনো চুক্তি ও নতুন বাস্তবতা. [ khaborerkagoj ]</title>
-      <link>https://www.khaborerkagoj.com/opinion/937261</link>
-      <pubDate>Mon, 14 Sep 2026 19:40:30 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://kagoj-bucket.sgp1.digitaloceanspaces.com/uploads/2026/09/14/নজরুল ইসলাম হাক্কানী-1789398006.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-&lt;a class="more_link" href="https://www.khaborerkagoj.com/opinion/937261"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>গ্যাস বিদ্যুৎ জ্বালানি. [ bd-pratidin ]</title>
+      <link>https://www.bd-pratidin.com/editorial/2026/09/16/1301080</link>
+      <pubDate>Tue, 15 Sep 2026 21:17:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://cdn.bd-pratidin.com/files/shares/default-img-17.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://www.bd-pratidin.com/editorial/2026/09/16/1301080"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>যে কারণে ১০০ ডলার পার করল তেলের বাজার. [ ajkerpatrika ]</title>
-      <link>https://www.ajkerpatrika.com/analysis/ajpubdosv2c2d</link>
-      <pubDate>Mon, 14 Sep 2026 19:40:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://images.ajkerpatrika.com/original_images/OIL-Future-AI-ajker-patrika.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প দাবি করেছেন, হরমুজ প্রণালি পুনরায় সচলের পাশাপাশি তেলের ট্যাংকারের নিরাপদ যাতায়াত নিশ্চিতে যুক্তরাষ্ট্র ব্যাপক সাফল্য অর্জন করেছে। তবে হোয়াইট হাউসের এমন দাবির পরও আন্তর্জাতিক বাজারে জ্বালানি তেলের দাম লাফিয়ে বেড়ে ব্যারেলপ্রতি ১০০ ডলার ছাড়িয়ে গেছে...
-&lt;a class="more_link" href="https://www.ajkerpatrika.com/analysis/ajpubdosv2c2d"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>ধান চাল সংগ্রহ. [ bd-pratidin ]</title>
+      <link>https://www.bd-pratidin.com/editorial/2026/09/16/1301081</link>
+      <pubDate>Tue, 15 Sep 2026 21:17:50 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://cdn.bd-pratidin.com/files/shares/default-img-17.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://www.bd-pratidin.com/editorial/2026/09/16/1301081"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>জাতিসংঘের নতুন বিশ্ব মানচিত্রে কেন আপত্তি ভারত-জাপান-ইউক্রেনের. [ ajkerpatrika ]</title>
-      <link>https://www.ajkerpatrika.com/analysis/ajpqopgzkvz4h</link>
-      <pubDate>Mon, 14 Sep 2026 19:40:02 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://images.ajkerpatrika.com/original_images/Untitled-9_YbxlQvs.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-জাতিসংঘের নতুন বিশ্ব মানচিত্র নিয়ে তৈরি হয়েছে বিতর্ক। বিশ্বের বিভিন্ন দেশের আয়তন তুলনামূলকভাবে আরও নির্ভুলভাবে তুলে ধরতে ‘ইকুয়াল আর্থ’ প্রজেকশন ব্যবহারে উৎসাহ দেওয়ার পর ভারত, জাপান ও ইউক্রেন মানচিত্রে নিজেদের বিতর্কিত ভূখণ্ডের উপস্থাপন নিয়ে আপত্তি জানিয়েছে।
-&lt;a class="more_link" href="https://www.ajkerpatrika.com/analysis/ajpqopgzkvz4h"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>শিক্ষা, গবেষণা ও উদ্ভাবনী প্রতিভার যথাযথ মূল্যায়ন করতে হবে. [ dailyinqilab ]</title>
+      <link>https://dailyinqilab.com/editorial/news/940520</link>
+      <pubDate>Wed, 16 Sep 2026 00:06:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://dailyinqilab.com/mediaStorage/content/images/2026September/SM/3-20260915205714.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://dailyinqilab.com/editorial/news/940520"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>গ্যাসের উচ্চমূল্যের জন্য ইউক্রেন যুদ্ধকে দায়ী করা বন্ধ করেন. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/editorial/Egy9ynjfBrWVA0Rz</link>
-      <pubDate>Mon, 14 Sep 2026 19:40:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;হরমুজের বিকল্প হিসেবে সৌদি আরবসহ উপসাগরীয় দেশগুলোর স্থলপথের পাইপলাইনও এখন হুথিদের হামলার হুমকিতে। ফলে বিশ্ববাজারে তেল সরবরাহের পাশাপাশি পরিশোধিত জ্বালানির সংকটও তীব্র হচ্ছে।
-&lt;a class="more_link" href="https://bonikbarta.com/editorial/Egy9ynjfBrWVA0Rz"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>সাগরে জেলেদের কষ্টের ঢেউ. [ agamirsomoy ]</title>
+      <link>https://www.agamirsomoy.com/opinion/editorial/hjvj1kjutudq</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://files.agamirsomoy.com/bn-media/uploads/2026/09/1c513e5f-3711-4a13-8005-e1495fd30a11.webp" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+&lt;a class="more_link" href="https://www.agamirsomoy.com/opinion/editorial/hjvj1kjutudq"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>কেন চাই জাতীয় ল্যাবরেটরি ইনস্টিটিউট ও দেশব্যাপী পরীক্ষাগার নেটওয়ার্ক. [ ajkerpatrika ]</title>
-      <link>https://www.ajkerpatrika.com/op-ed/column/ajpcjkwla4hom</link>
-      <pubDate>Mon, 14 Sep 2026 19:39:57 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://images.ajkerpatrika.com/original_images/Untitled-9_PrTIe0o.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-বাংলাদেশে স্বাস্থ্যসেবা নিয়ে আলোচনা হলেই হাসপাতালের শয্যা, চিকিৎসকের সংখ্যা, ওষুধের দাম কিংবা যন্ত্রপাতির সংকট সামনে আসে। এগুলো অবশ্যই গুরুত্বপূর্ণ। কিন্তু চিকিৎসা ব্যবস্থার সবচেয়ে মৌলিক, অথচ তুলনামূলকভাবে কম আলোচিত ভিত্তি হলো রোগ নির্ণয় বা পরীক্ষাগার সেবা।
-&lt;a class="more_link" href="https://www.ajkerpatrika.com/op-ed/column/ajpcjkwla4hom"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>জ্বালানি তৈলের মূল্য ও অস্থির বিশ্ব!. [ ittefaq ]</title>
+      <link>https://www.ittefaq.com.bd/809857/%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%A4%E0%A7%88%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%82%E0%A6%B2%E0%A7%8D%E0%A6%AF-%E0%A6%93-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC</link>
+      <pubDate>Tue, 15 Sep 2026 21:29:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B, GPT-OSS-20B, Gemini-3-flash-preview&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বিশ্ববাজারে হুহু করিয়া বাড়িতেছে জ্বালানি তৈলের মূল্য। হরমুজ প্রণালি বন্ধ হইয়া যাওয়া এবং লোহিতসাগরের বাব আল মানদেবে তৈল সরবরাহ লইয়া...
+&lt;a class="more_link" href="https://www.ittefaq.com.bd/809857/%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%A4%E0%A7%88%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%82%E0%A6%B2%E0%A7%8D%E0%A6%AF-%E0%A6%93-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>পশ্চিমা আধিপত্যবাদের বিরুদ্ধে ব্রিকসের অপার সম্ভাবনা. [ dailyinqilab ]</title>
-      <link>https://dailyinqilab.com/editorial/news/940131</link>
-      <pubDate>Mon, 14 Sep 2026 19:39:12 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://dailyinqilab.com/mediaStorage/content/images/2026September/editorial-inq-20260914213322.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-উদীয়মান অর্থনীতির দেশগুলোর জোট ব্রিকসের ১৮তম শীর্ষ সম্মেলন ভারতের রাজধানী নয়াদিল্লিতে গত শনিবার শুরু হয়ে রোববার সমাপ্ত হয়েছে। শনিবারই ‘নয়াদিল্লি ঘোষণা’ নামে সম্মেলনের ঘোষণাপত্র গ্রহণ করেছে সদস্য দেশগুলো। ঘোষণায় যুদ্ধ, সন্ত্রাসবাদ ও একতরফা শুল্কব্যবস্থার নিন্দা জানানো হয়েছে। এই সঙ্গে জাতিসংঘ নিরাপত্তা পরিষদসহ বহুপাক্ষিক প্রতিষ্ঠানগুলোর সংস্কার এবং বিশ্ববাণিজ্যব্যবস্থার পরিবর্তনের ওপর জোর দেয়া হয়েছে। পর্যবেক্ষকদের মতে, নয়াদিল্লি ঘোষণা বর্তমান ভূরাজনৈতিক প্রেক্ষাপটে বিশেষ...
-&lt;a class="more_link" href="https://dailyinqilab.com/editorial/news/940131"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>পরের যুদ্ধ কি রিয়াদ-তেহরান. [ dailynayadiganta ]</title>
+      <link>https://dailynayadiganta.com/opinions/editorial/sub-editorial/fG6kR0EQIka7</link>
+      <pubDate>Tue, 15 Sep 2026 21:17:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service
+&lt;a class="more_link" href="https://dailynayadiganta.com/opinions/editorial/sub-editorial/fG6kR0EQIka7"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>শুধু এমডিদের নয়, ব্যাংক খাতের সর্বত্রই পেশাদারত্ব গড়ে উঠুক. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/editorial/5hUZ6CT24qA9ByCZ</link>
-      <pubDate>Mon, 14 Sep 2026 19:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;কেন্দ্রীয় ব্যাংকের সাম্প্রতিক এ উদ্যোগ নিয়ে কর্মকর্তাদের অনেকের মধ্যে ক্ষোভ তৈরি হয়েছে বলে বণিক বার্তার প্রতিবেদনে উঠে এসেছে।
-&lt;a class="more_link" href="https://bonikbarta.com/editorial/5hUZ6CT24qA9ByCZ"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>সীমান্তে হত্যা বন্ধ হবে কবে?. [ kalerkantho ]</title>
+      <link>https://www.kalerkantho.com/online/opinion/2026/09/15/1739425</link>
+      <pubDate>Tue, 15 Sep 2026 20:12:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://asset.kalerkantho.com/public/news_images/2026/09/15/1789481549-cf5793938b321b67b3b667655b375703.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+বাংলাদেশ-ভারত সীমান্তে হত্যার ঘটনা যেন পুরনো এক বাস্তবতা। সরকার বদলায়, সীমান্ত...
+&lt;a class="more_link" href="https://www.kalerkantho.com/online/opinion/2026/09/15/1739425"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>অর্থনীতিকে স্থিতিশীল রাখা সবচেয়ে বড় চ্যালেঞ্জ. [ khaborerkagoj ]</title>
-      <link>https://www.khaborerkagoj.com/opinion/937259</link>
-      <pubDate>Mon, 14 Sep 2026 18:51:50 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service
-&lt;a class="more_link" href="https://www.khaborerkagoj.com/opinion/937259"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>এভিয়েশন খাতকে আঞ্চলিক হাবে রূপান্তরে কাজ করছে সরকার. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/8uaeLASxABLWZEiH</link>
+      <pubDate>Tue, 15 Sep 2026 19:56:43 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;পর্যটন শিল্পকে সমৃদ্ধ করার জন্য আমরা এরই মধ্যে নানা ব্যবস্থা গ্রহণ করেছি। পিপিপি মডেল, যৌথ উদ্যোগ মডেল এবং যেগুলো আমরা চালাতে পারছি না, সেগুলো বেসরকারি খাতকে দিয়ে সচল করা হবে।
+&lt;a class="more_link" href="https://bonikbarta.com/editorial/8uaeLASxABLWZEiH"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>মন্ত্রী-প্রতিমন্ত্রী-উপদেষ্টা: সরকার কি সমন্বয়ের জটিলতায়?. [ chaarcha ]</title>
-      <link>https://www.chaarcha.com/analysis/ch7yp1g0ugfl</link>
-      <pubDate>Mon, 14 Sep 2026 16:10:44 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="মন্ত্রী-প্রতিমন্ত্রী-উপদেষ্টা: সরকার কি সমন্বয়ের জটিলতায়?" src="https://images.chaarcha.com/original_images/NewsLabChaarchab9603111-da3e-4448-bef4-8e05f5524564.jpg" style="border-radius: 8px;" /&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;small&gt;গত ২১ আগস্ট তারেক রহমানের নেতৃত্বাধীন মন্ত্রিসভায় জায়গা পান নতুন চারজন মন্ত্রী ও দুজন প্রতিমন্ত্রী । ছবি: চরচা&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;দীর্ঘদিন পর ক্ষমতায় ফিরে সরকার গঠনের সময় বিএনপি আকারে ছোট, দক্ষ ও গতিশীল প্রশাসনের কথা বলেছিল। কিন্তু সরকার গঠনের ছয় মাসের মাথায় মন্ত্রিসভা আরও বড় হয়েছে। শুধু মন্ত্রী-প্রতিমন্ত্রী নন, বিভিন্ন মন্ত্রণালয়ের দায়িত্বে রয়েছেন প্রধানমন্ত্রীর উপদেষ্টারাও। কোথাও একজন মন্ত্রীর সঙ্গে একাধিক প্রতিমন্ত্রী&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;— মেরিনা মিতু&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.chaarcha.com/analysis/ch7yp1g0ugfl"&gt;চরচায় পড়ুন →&lt;/a&gt;&lt;/p&gt;
-&lt;a class="more_link" href="https://www.chaarcha.com/analysis/ch7yp1g0ugfl"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>এভিয়েশন হাব হতে প্রয়োজনীয় বাণিজ্যিক ও যাত্রীসেবার ইকোসিস্টেমও গড়তে হবে. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/gGvlevSsALuG8iQj</link>
+      <pubDate>Tue, 15 Sep 2026 19:55:52 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;এভিয়েশন হাবের কথা বলার আগে একটু বাস্তবতার দিকে তাকানো দরকার। বাংলাদেশের তুলনায় সিঙ্গাপুর আয়তনে প্রায় ২০০ গুণ ছোট, অথচ বিমানবন্দর অবকাঠামো ও যাত্রীসেবার চিন্তায় তাদের সঙ্গে আমাদের তুলনাই চলে না।
+&lt;a class="more_link" href="https://bonikbarta.com/editorial/gGvlevSsALuG8iQj"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>হুতিদের অগ্রযাত্রা ট্রাম্পের ইরান যুদ্ধকে জটিলতর করবে যেভাবে. [ ajkerpatrika ]</title>
-      <link>https://www.ajkerpatrika.com/analysis/ajpq4kfk8vdmc</link>
-      <pubDate>Mon, 14 Sep 2026 14:29:44 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://images.ajkerpatrika.com/original_images/bab-el-mandeb_XUBOjfK.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-ইরানের চাপে একই সঙ্গে বাব এল-মানদেব ও হরমুজ প্রণালিতে জ্বালানি সরবরাহ পরিস্থিতি ক্রমেই কঠিন হয়ে উঠছে। এমন পরিস্থিতিতে আগামী নভেম্বরের আগে যুক্তরাষ্ট্রে গ্যাসের দাম কমাতে ট্রাম্প প্রশাসনের ওপর চাপ বাড়ছে। ২০০১ সালের ১১ সেপ্টেম্বর যুক্তরাষ্ট্রে সন্ত্রাসী হামলার বার্ষিকীর পাশাপাশি গত শুক্রবার
-&lt;a class="more_link" href="https://www.ajkerpatrika.com/analysis/ajpq4kfk8vdmc"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>এনআইডিতে বয়স জালিয়াতি বন্ধে জন্মনিবন্ধন প্রক্রিয়া সুষ্ঠু হতে হবে. [ bonikbarta ]</title>
+      <link>https://bonikbarta.com/editorial/xh5ZEWIDv2UPlSX2</link>
+      <pubDate>Tue, 15 Sep 2026 19:53:51 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;সবচেয়ে বড় প্রশ্ন হলো বয়স পরিবর্তনে আবেদন করা হলে কিসের ভিত্তিতে সেটি গ্রহণ করা হবে। জন্মতারিখের প্রাথমিক সূত্র হলো জন্মনিবন্ধন। এর তথ্যের ভিত্তিতে পরবর্তী সময়ে শিক্ষা সনদ, এনআইডি ও পাসপোর্ট তৈরি হয়।
+&lt;a class="more_link" href="https://bonikbarta.com/editorial/xh5ZEWIDv2UPlSX2"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>এআই যুগের শ্রমবাজারের জন্য প্রস্তুতি কি বিশ্ববিদ্যালয়ে গিয়ে শুরু হবে. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/column/cj4p4t7xd4</link>
-      <pubDate>Mon, 14 Sep 2026 13:28:52 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://media.prothomalo.com/prothomalo-bangla/2024-02/faf2c189-5774-4b7b-be2d-53b25b87770c/27022024_cm_1.jpg?w=600&amp;auto=format" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-সাম্প্রতিক সময়ে শিক্ষিত বেকারত্বকে নিয়ে আমাদের নীতিগত আলোচনায় এটাকে প্রধানত বিশ্ববিদ্যালয়ের সমস্যা হিসেবে দেখা হচ্ছে।
-&lt;a class="more_link" href="https://www.prothomalo.com/opinion/column/cj4p4t7xd4"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>প্রবাসীদের মুদ্রা পাঠানোর ক্ষেত্র প্রসারিত করুন. [ agamirsomoy ]</title>
+      <link>https://www.agamirsomoy.com/opinion/column/f8ualnl8isr4</link>
+      <pubDate>Tue, 15 Sep 2026 17:22:43 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://files.agamirsomoy.com/bn-media/uploads/2026/09/8d99fd45-4bbe-49e3-89b5-5fd8df2df529.webp" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+গত কয়েক বছরে বিশ্বের
+    বিভিন্ন প্রান্ত—এমনকি মধ্যপ্রাচ্য থেকেও বেশি বৈদেশিক মুদ্রা
+    বা রেমিট্যান্স এসেছে আমেরিকা থেকে। দেশের সাম্প্রতিক পরিবর্তিত পরিস্থিতিতে রেমিট্যান্সের প্রবাহ এবং ডলার সংকট
+    নিয়ে নানা আলোচনা তৈরি
+    হয়েছে। নতুন সরকার ও
+    বর্তমান প্রশাসনকে একদিকে রাজনৈতিক মতভেদ, অন্যদিকে বৈশ্বিক পরাশক্তিগুলোর নানামুখী চাপ সামলে এগোতে
+    হচ্ছে। তদুপরি, আমেরিকার নতুন আরোপিত শুল্কনীতির
+    কারণে আমাদের বৈদেশিক মুদ্রা অর্জনের প্রধান হাতিয়ার তৈরি পোশাক রফতানি
+    খাতের ভবিষ্যৎ আজ প্রশ্ন...
+&lt;a class="more_link" href="https://www.agamirsomoy.com/opinion/column/f8ualnl8isr4"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>বিনা মূল্যের ওষুধ: অর্থ নয়, সদিচ্ছার অভাব. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/column/iyvqv0e2y2</link>
-      <pubDate>Mon, 14 Sep 2026 13:05:35 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://media.prothomalo.com/prothomalo-bangla/2025-12-16/lkqhyl55/headache-pain-pills-medication-159211.jpg?w=600&amp;auto=format" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-ক্যানসার শুধু মানুষের জীবনই কেড়ে নেয় না; অনেক সময় তাঁদের সঞ্চয় ও সম্পদও শেষ করে দেয়।
-&lt;a class="more_link" href="https://www.prothomalo.com/opinion/column/iyvqv0e2y2"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>সম্পত্তি হস্তান্তর আইনের সংশোধনী নিয়ে কী ভাবছেন তাঁরা. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/m2pdkgbida</link>
+      <pubDate>Tue, 15 Sep 2026 15:47:45 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://media.prothomalo.com/prothomalo-bangla/2026-09-15/sjise3uy/propertyf.jpg?w=600&amp;auto=format" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+সম্পত্তি দান করার পর দাতা নিজে জীবিত থাকা পর্যন্ত ওই সম্পত্তি ভোগ করতে পারবেন—এমন বিধান রেখে সম্পত্তি হস্তান্তর আইনের সংশোধনী জাতীয় সংসদে পাস হয়েছে।
+&lt;a class="more_link" href="https://www.prothomalo.com/opinion/column/m2pdkgbida"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>ভারত থেকে বাংলাদেশে টনে টনে ইলিশ আমদানি কেন হচ্ছে. [ bbc ]</title>
-      <link>https://www.bbc.com/bengali/articles/cmz7znp5477qo?at_medium=RSS&amp;at_campaign=rss</link>
-      <pubDate>Mon, 14 Sep 2026 12:22:51 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ff43/live/dc9d9670-b030-11f1-9ae0-e316eeb4632d.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-চলতি অর্থবছরের প্রথম দুই মাস অর্থাৎ জুলাই ও অগাস্টে মোট ৩ লাখ ৫২ হাজার ৪৮৪ কেজি ইলিশ ভারত থেকে বাংলাদেশে আমদানি করেছে ১৯টি আমদানিকারক প্রতিষ্ঠান। আমদানি করা এসব ইলিশের মূল্য প্রায় সাত কোটি টাকা। ভারত থেকে বাংলাদেশে কেন ইলিশ আমদানি হচ্ছে?
-&lt;a class="more_link" href="https://www.bbc.com/bengali/articles/cmz7znp5477qo?at_medium=RSS&amp;at_campaign=rss"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>মহাকাশে অস্ত্র মোতায়েন করেছে যুক্তরাষ্ট্র. [ bbc ]</title>
+      <link>https://www.bbc.com/bengali/articles/cw1l6zvgm0ngo?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Tue, 15 Sep 2026 15:14:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/1e20/live/0ac53810-b116-11f1-9754-4d2fea96a9ee.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+মার্কিন যুক্তরাষ্ট্র প্রথমবারের মতো নিশ্চিত করেছে যে তারা পৃথিবীর কক্ষপথে একটি মহাকাশ অস্ত্র মোতায়েন করেছে। চীন মঙ্গলবার প্রতিক্রিয়ায় মহাকাশে "অস্ত্র প্রতিযোগিতা" বিষয়ে সতর্ক করেছে।
+&lt;a class="more_link" href="https://www.bbc.com/bengali/articles/cw1l6zvgm0ngo?at_medium=RSS&amp;at_campaign=rss"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>সমকালীন প্রসঙ্গ /বাংলাদেশের আমদানি কূটনীতি. [ samakal ]</title>
-      <link>https://samakal.com/opinion/article/372796/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%AE%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%95%E0%A7%82%E0%A6%9F%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF</link>
-      <pubDate>Mon, 14 Sep 2026 12:07:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://samakal.com/media/imgAll/2026September/SM/bd-economy-1789387644.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-কিছুদিন আগে কাঁচামরিচের দাম ৪০০ টাকা হলে ভারত থেকে কাঁচামরিচ রপ্তানির সঙ্গে সঙ্গে হিলি স্থলবন্দরের পাইকারি বাজারে তা নেমে আসে ৮০ থেকে ১০০ টাকায়। ভারতের ঝাড়খণ্ডের গোড্ডায় বিদ্যুৎকেন্দ্রের দুটি ইউনিট থেকে এক হাজার ৫০০ মেগাওয়াট বিদ্যুৎ উৎপন্ন করে বাংলাদেশে সরবরাহ করা হচ্ছে।
-&lt;a class="more_link" href="https://samakal.com/opinion/article/372796/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%AE%E0%A6%A6%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%95%E0%A7%82%E0%A6%9F%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>কারখানায় সরবরাহ বেড়েছে, বাসাবাড়িতে গ্যাস বিদ্যুৎ সংকট কাটবে কবে?. [ bbc ]</title>
+      <link>https://www.bbc.com/bengali/articles/c60qx40dk7l4o?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Tue, 15 Sep 2026 14:18:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/e886/live/9d2b4aa0-b10c-11f1-a540-61c3f7fc4e6c.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+শিল্প কারখানায় গ্যাস-বিদ্যুৎ এর সংকট সমাধানের আশ্বাস দিয়েছে সরকার। অভ্যন্তরীণ উৎপাদনের পাশাপাশি ভাসমান এলএনজি টার্মিনালগুলো পুরোদমে কাজ শুরু করায় গ্যাসের সরবরাহও বেড়েছে। এমন প্রেক্ষাপটে বাসাবাড়িসহ অন্যান্য খাতে গ্যাস ও বিদ্যুতের সংকট কাটবে কবে, কী বলছে কর্তৃপক্ষ?
+&lt;a class="more_link" href="https://www.bbc.com/bengali/articles/c60qx40dk7l4o?at_medium=RSS&amp;at_campaign=rss"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>হুতির হামলায় মক্কা চুক্তি কি কার্যকর হবে. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/column/kyenugr62o</link>
-      <pubDate>Mon, 14 Sep 2026 10:31:30 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://media.prothomalo.com/prothomalo-bangla/2026-09-14/kj5pt2hx/houthiattack.jpg?w=600&amp;auto=format" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-তিনটি দেশ ইতিমধ্যে রিয়াাদে তাদের যৌথ সচিবালয় স্থাপন করেছে, যার প্রথম তিন বছরের মেয়াদে চেয়ারম্যানের দায়িত্ব পেয়েছে পাকিস্তান।
-&lt;a class="more_link" href="https://www.prothomalo.com/opinion/column/kyenugr62o"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>বিশ্বজুড়ে চলছে একনায়কতন্ত্রের ‘তৃতীয় ওয়েভ’,  যেভাবে ধসে পড়ছে গণতন্ত্র. [ chaarcha ]</title>
+      <link>https://www.chaarcha.com/analysis/ch9h28zjobrs</link>
+      <pubDate>Tue, 15 Sep 2026 13:58:13 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="বিশ্বজুড়ে চলছে একনায়কতন্ত্রের ‘তৃতীয় ওয়েভ’,  যেভাবে ধসে পড়ছে গণতন্ত্র" src="https://images.chaarcha.com/original_images/dictator.png" style="border-radius: 8px;" /&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;small&gt;প্রতীকী ছবি। ছবি: এআই দিয়ে তৈরি&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;বিশ্বে নাগরিকের গড় গণতান্ত্রিক অধিকারের স্তর এখন ১৯৭৮ সালের সমান। একনায়কতন্ত্রের তৃতীয় ওয়েভ নতুন মাত্রায় পৌঁছেছে এবং তা এখন পশ্চিমা গণতান্ত্রিক শক্তিশালী দেশগুলোকেও গ্রাস করছে।&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;— চরচা ডেস্ক&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.chaarcha.com/analysis/ch9h28zjobrs"&gt;চরচায় পড়ুন →&lt;/a&gt;&lt;/p&gt;
+&lt;a class="more_link" href="https://www.chaarcha.com/analysis/ch9h28zjobrs"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>‘পদত্যাগী’ শিক্ষকদের পদ ও মর্যাদা ফিরিয়ে দিন. [ chaarcha ]</title>
-      <link>https://www.chaarcha.com/thoughts/che6d2vndlsv</link>
-      <pubDate>Mon, 14 Sep 2026 15:05:40 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="‘পদত্যাগী’ শিক্ষকদের পদ ও মর্যাদা ফিরিয়ে দিন" src="https://images.chaarcha.com/original_images/NewsLabChaarchab52e8d5e-30d9-4e4f-9dd5-fdf4a3a8f218.jpg" style="border-radius: 8px;" /&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;small&gt;ছবি: এআই দিয়ে তৈরি&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;কয়েক দিন আগে উত্তরবঙ্গে অবস্থিত একটি বিশেষায়িত বেসরকারি বিশ্ববিদ্যালয়ের এক ‘পদত্যাগী’ শিক্ষকের সঙ্গে কথা হয়। তিনি ওই বিশ্ববিদ্যালয়ে সুনামের সঙ্গে এক যুগ কাজ করে আসছিলেন। কিন্তু চব্বিশের গণঅভ্যুত্থানের পর বিশ্ববিদ্যালয় কর্তৃপক্ষ তাকে পদত্যাগে বাধ্য করেন। ইংরেজি বিভাগের এই শিক্ষক একসময় সাংবাদিকতাও&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;— সোহরাব হাসান&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.chaarcha.com/thoughts/che6d2vndlsv"&gt;চরচায় পড়ুন →&lt;/a&gt;&lt;/p&gt;
-&lt;a class="more_link" href="https://www.chaarcha.com/thoughts/che6d2vndlsv"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>‘নক্ষত্র যুদ্ধের’ যুগে বিশ্বরাজনীতি, মহাকাশে কেমন অস্ত্র মোতায়েন করল যুক্তরাষ্ট্র. [ ajkerpatrika ]</title>
+      <link>https://www.ajkerpatrika.com/analysis/ajpnntyy110tj</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:12 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://images.ajkerpatrika.com/original_images/space-war.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+পৃথিবীর কক্ষপথে প্রথমবারের মতো সরাসরি আক্রমণাত্মক সমরাস্ত্র মোতায়েনের কথা আনুষ্ঠানিকভাবে স্বীকার করেছে যুক্তরাষ্ট্র। মার্কিন বিমানবাহিনী মন্ত্রী ট্রয় মেঙ্ক জানিয়েছেন, শত্রুভাবাপন্ন দেশের যেকোনো আক্রমণাত্মক পদক্ষেপ থেকে মার্কিন সামরিক বাহিনীকে সুরক্ষায় এই পদক্ষেপ নেওয়া হয়েছে।
+&lt;a class="more_link" href="https://www.ajkerpatrika.com/analysis/ajpnntyy110tj"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>প্রবাসীদের উদ্যোগকে পূর্ণ সমর্থন করা দেশের জন্য অপরিহার্য. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/column/o5o1nbvjvs</link>
-      <pubDate>Mon, 14 Sep 2026 10:15:43 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://media.prothomalo.com/prothomalo-bangla/2026-09-14/g94xi3om/Palocommon.png?w=600&amp;auto=format" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-কোভিড-১৯ মহামারির সময় প্রবাসী বাংলাদেশিদের কার্যকর ভূমিকার একটি গুরুত্বপূর্ণ দৃষ্টান্ত আমরা দেখেছি।
-&lt;a class="more_link" href="https://www.prothomalo.com/opinion/column/o5o1nbvjvs"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>মিত্র দেশের নিষেধাজ্ঞায় ক্ষিপ্ত ইসরাইল. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/editorial/X8q7cpQIaZlx</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;শত্রু ও মিত্রের আলোচনা বেশ পুরানো। তবে শত্রু মিত্র নির্ধারণের দৃষ্টিভঙ্গিতে তারতম্য লক্ষ্য করা গেছে। শত্রুর শত্রু, মিত্র হয়ে যায়, এ কথা আমরা জানি। শত্রু মিত্র নির্ধারণের দৃষ্টিভঙ্গি সবসময় সঠিক হয় না, অনেক সময় সঠিক ভিত্তিও খুঁজে পাওয়া যায় না।
+&lt;a class="more_link" href="https://dailysangram.com/opinion/editorial/X8q7cpQIaZlx"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>পর্যটন অর্থনীতি- ৮: বিদেশি বিনিয়োগ চাই, কিন্তু নিয়ন্ত্রণ হারিয়ে নয়. [ banglatribune ]</title>
-      <link>https://www.banglatribune.com/columns/968381/%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%9F%E0%A6%A8-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF-%E0%A7%AE-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%97-%E0%A6%9A%E0%A6%BE%E0%A6%87-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%81</link>
-      <pubDate>Mon, 14 Sep 2026 08:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;p&gt;
-												&lt;img src="https://cdn.banglatribune.net/contents/cache/images/300x300x1/uploads/media/2017/09/07/00f27f23c09d23ce5e83061dfc377b53-59b11d8a3ac5b.jpg?jadewits_media_id=247535" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-						একটি দেশের পর্যটন শিল্প যখন বড় হতে শুরু করে তখন একটি গুরুত্বপূর্ণ প্রশ্ন সামনে আসে—উন্নয়নের জন্য কি বিদেশি বিনিয়োগ অপরিহার্য? বিশ্বের অভিজ্ঞতা বলছে—হ্যাঁ। কিন্তু আরও গুরুত্বপূর্ণ একটি প্রশ্ন আছে—বিদেশি বিনিয়োগ আনতে গিয়ে কি রাষ্ট্রকে তার নিয়ন্ত্রণ, স্বার্থ এবং ভবিষ্যৎ মালিকানা ছেড়ে দিতে হবে? এর উত্তর হলো—না।
-আধুনিক বিশ্বের সফল পর্যটন রাষ্ট্রগুলো দেখিয়েছে, বিদেশি পুঁজি ও প্রযুক্তি গ্রহণ...						&lt;a class="more_link" href="https://www.banglatribune.com/columns/968381/%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%9F%E0%A6%A8-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF-%E0%A7%AE-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%97-%E0%A6%9A%E0%A6%BE%E0%A6%87-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%81"&gt;বিস্তারিত&lt;/a&gt;
-					&lt;/p&gt;&lt;/p&gt;</description>
+      <title>রেমিট্যান্স পাঠানোর খরচ কমানো জরুরি. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/editorial/Z82lIImLVvow</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;বাংলাদেশের অর্থনীতিতে রেমিট্যান্স বা প্রবাসী আয়ের ওপর নির্ভরতা অত্যন্ত গভীর এবং এটি দেশের সামষ্টিক অর্থনীতির অন্যতম মূল চালিকাশক্তি। পোশাক শিল্পের (RMG) পাশাপাশি রেমিট্যান্সই মূলত বাংলাদেশের বৈদেশিক মুদ্রার মূল ভিত্তি টিকিয়ে রেখেছে।
+&lt;a class="more_link" href="https://dailysangram.com/opinion/editorial/Z82lIImLVvow"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>বিশ্বের সবচেয়ে প্রাণঘাতী পথে রোহিঙ্গাদের সমুদ্রযাত্রা বাড়ছে. [ bonikbarta ]</title>
-      <link>https://bonikbarta.com/international/fkwe66SgXG5N0pIl</link>
-      <pubDate>Mon, 14 Sep 2026 07:55:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;গত কয়েক বছরে মিয়ানমারের গৃহযুদ্ধ এবং কক্সবাজারের শরণার্থী শিবিরগুলোর অবনতিশীল পরিস্থিতির কারণে এ ধরনের সমুদ্র যাত্রা বেড়েছে। পুরোনো মাছ ধরার ট্রলারের গাদাগাদি করা কার্গো হোলে নারী ও শিশুসহ হাজারো রোহিঙ্গা বাংলাদেশ বা মিয়ানমার থেকে বঙ্গোপসাগর ও আন্দামান সাগর পাড়ি দিয়ে ইন্দোনেশিয়া বা মালয়েশিয়া যাওয়ার চেষ্টা করেন। আর তাদের লক্ষ্য নিরাপত্তা কিংবা জীবিকার সন্ধান
-&lt;a class="more_link" href="https://bonikbarta.com/international/fkwe66SgXG5N0pIl"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>রুগ্ন শিল্প চালু করতে প্রয়োজন বাস্তবসম্মত পদক্ষেপ. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/readers-opinion/jwRQzVucREW0</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;রুগ্ন ও অকার্যকর বা বন্ধ হয়ে থাকা রাষ্ট্রীয় মালিকানাধীন প্রতিষ্ঠানগুলোকে পর্যায়ক্রমে উৎপাদন কার্যক্রমে ফিরিয়ে আনার জন্য উদ্যোগ গ্রহণ করা হচ্ছে। এ সংক্রান্ত কার্যক্রম বাস্তবায়নের লক্ষ্যে ইনভেস্ট বাংলাদেশ একটি খসড়া নীতিমালা প্রণয়ন করেছে।
+&lt;a class="more_link" href="https://dailysangram.com/opinion/readers-opinion/jwRQzVucREW0"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>গুদামে সার, মাঠে সংকট—সমস্যা কোথায়?. [ jagonews24 ]</title>
-      <link>https://www.jagonews24.com/m/opinion/article/1156952</link>
-      <pubDate>Mon, 14 Sep 2026 07:18:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://www.jagonews24.com/m/opinion/article/1156952"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>রাষ্ট্রীয় আয়-ব্যয়ের সুসমন্বয় জরুরি. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/readers-opinion/KqlMXSiADPGW</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;ইরানে মার্কিন হামলার কারণে বিশ^ অর্থনীতিতে বড় ধরনের নেতিবাচক প্রভাব পড়েছে।
+&lt;a class="more_link" href="https://dailysangram.com/opinion/readers-opinion/KqlMXSiADPGW"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>হুতিদের মোকাবিলায় চাপে সৌদি, যেসব কারণে বিকল্প মাত্র দুটি. [ ajkerpatrika ]</title>
-      <link>https://www.ajkerpatrika.com/analysis/ajp9zn5gn6jae</link>
-      <pubDate>Mon, 14 Sep 2026 07:17:51 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://images.ajkerpatrika.com/original_images/houthi_fFrjCMK.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-ইরানের সমর্থনপুষ্ট হুতিদের ইয়েমেনে দ্রুত অগ্রযাত্রা এবং সৌদি আরবে একের পর এক হামলার ঘটনায় পাল্টা জবাব দেওয়ার ক্ষেত্রে খুব বেশি বিকল্প হাতে নেই সৌদি আরবের। যে পথই তারা বেছে নিক, প্রতিটির সঙ্গেই রয়েছে বড় ধরনের ঝুঁকি ও ব্যয়।
-&lt;a class="more_link" href="https://www.ajkerpatrika.com/analysis/ajp9zn5gn6jae"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>ব্যাংক খাতে বিপর্যয় ও ঝুঁকিতে অর্থনীতি. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/column/QBPIgwejLuzY</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://dailysangram.com/opinion/column/QBPIgwejLuzY"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>ইরান যুদ্ধেই ব্রিকসের সীমাবদ্ধতা স্পষ্ট. [ dailynayadiganta ]</title>
-      <link>https://dailynayadiganta.com/international/asia/middle-east/Nif6idmOg4Dp</link>
-      <pubDate>Mon, 14 Sep 2026 06:56:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service
-&lt;a class="more_link" href="https://dailynayadiganta.com/international/asia/middle-east/Nif6idmOg4Dp"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>রাজস্ব আদায়ে সাফল্য নেই. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/column/MeHDasSAQvFp</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://dailysangram.com/opinion/column/MeHDasSAQvFp"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>মালাক্কা প্রণালী ও চীনের ‘চিকেন নেক’: যুক্তরাষ্ট্র-চীন দ্বন্দ্বে বাংলাদেশের নতুন ভূকৌশলগত গুরুত্ব. [ dailynayadiganta ]</title>
-      <link>https://dailynayadiganta.com/opinions/CnTHG0HSOtw2</link>
-      <pubDate>Mon, 14 Sep 2026 06:41:05 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;Delivered by PolitePaul service
-&lt;a class="more_link" href="https://dailynayadiganta.com/opinions/CnTHG0HSOtw2"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>অর্থনীতির বেহাল দশা. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/column/pCbqgXMyVcbw</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://dailysangram.com/opinion/column/pCbqgXMyVcbw"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>বাংলাদেশ ব্যাংকের বিপুল মুনাফার আড়ালে কী. [ prothomalo ]</title>
-      <link>https://www.prothomalo.com/opinion/column/imnk5dv644</link>
-      <pubDate>Mon, 14 Sep 2026 06:06:49 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://media.prothomalo.com/prothomalo-bangla/2026-09-07/do5tqcej/bb.jpg?w=600&amp;auto=format" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-কেন্দ্রীয় ব্যাংকের মুনাফা করা অস্বাভাবিক নয়। আর্থিকভাবে সক্ষম থাকাও কেন্দ্রীয় ব্যাংকের স্বাধীনতা ও কার্যকারিতার জন্য জরুরি। কিন্তু মুনাফা তার চূড়ান্ত উদ্দেশ্য নয়।
-&lt;a class="more_link" href="https://www.prothomalo.com/opinion/column/imnk5dv644"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>ক্যানসার চিকিৎসা ব্যয় নাগালের বাইরে. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/column/TgbNYAUXdxvC</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://dailysangram.com/opinion/column/TgbNYAUXdxvC"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>ব্রিকস: বদলে যাওয়া বিশ্বের নতুন বাস্তবতা. [ banglatribune ]</title>
-      <link>https://www.banglatribune.com/columns/968380/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B8-%E0%A6%AC%E0%A6%A6%E0%A6%B2%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A6%A4%E0%A6%BE%C2%A0</link>
-      <pubDate>Mon, 14 Sep 2026 06:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://cdn.banglatribune.net/contents/cache/images/1200x630x1xxxxx1/uploads/media/2021/03/25/69a9040bfca6a93cf0453d6dcef88fb4-605c261d7db5b.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-নরেন্দ্র মোদি যখন ভারত মণ্ডপমে শি জিনপিং ও ভ্লাদিমির পুতিনের মাঝখানে দাঁড়ালেন, তখন যৌথ ঘোষণাপত্র পড়ার আগেই সেই ছবিটি অনেক কিছু বলে দিয়েছিল। “স্থিতিস্থাপকতা, উদ্ভাবন, সহযোগিতা ও টেকসইতা গড়ে তোলা”—এই প্রতিপাদ্যে ১২-১৩ সেপ্টেম্বর নয়া দিল্লিতে অনুষ্ঠিত ১৮তম ব্রিকস শীর্ষ সম্মেলনে এমন এক জোটের নেতারা একত্রিত হয়েছেন, যা এখন বিশ্বের বড় একটি অংশের জনসংখ্যা ও অর্থনীতির প্রতিনিধিত্ব করে।
-ভারতের প্রধানমন্ত্রী, চীনের রাষ্ট্রপতি, রাশিয়ার রাষ্ট্রপতি ও ইরানের রাষ্ট্রপতির একসঙ্গে উপস্থিতিই ছিল সম্মেলনের সবচেয়ে গুরুত্বপূর্ণ দৃশ্য। যৌথ ঘোষণাপত্রের বিষয়বস্তু অবশ্যই গুরুত্বপূর্ণ, কিন্তু এই দৃশ্যও কম তাৎপর্যপূর্ণ নয়। আর দুটো বিষয়ই ওয়াশিংটনের জন্য উদ্বেগের কারণ হতে পারে।
-কূটনীতিতে সময় নির্বাচন গুরুত্বপূর্ণ। এই সম্মেলন এমন সময়ে অনুষ্ঠিত হয়েছে, যখন শি জিনপিংয়ের ২৪ সেপ্টেম্বর ডোনাল্ড ট্রাম্পের সঙ্গে বৈঠকের কথা রয়েছে। সেই বৈঠকের আগে নয়া দিল্লিতে শি জিনপিংয়ের অন্যান্য গ্লোবাল সাউথ নেতাদের সঙ্গে বৈঠক বিশেষ গুরুত্ব বহন করে। মস্কোর জন্যও এই সম্মেলন ছিল গুরুত্বপূর্ণ, কারণ এটি রাশিয়াকে একটি আন্তর্জাতিক মঞ্চ দিয়েছে। ইউরোপ ও যুক্তরাষ্ট্রের সঙ্গে রাশিয়ার সম্পর্ক যখন দীর্ঘদিনের মধ্যে সবচেয়ে বেশি উত্তেজনাপূর্ণ, তখন মোদি ও শি জিনপিংয়ের পাশে পুতিনের উপস্থিতি দেখিয়েছে যে রাশিয়া এখনও আন্তর্জাতিক অঙ্গনে সক্রিয় এবং পুরোপুরি বিচ্ছিন্ন নয়।
-ইউক্রেন যুদ্ধ শুরুর সাড়ে তিন বছরেরও বেশি সময় পরও রাশিয়া এই সম্মেলনে অংশ নিয়েছে। এই সময়ে দেশটি এমন পশ্চিমা নিষেধাজ্ঞার মুখে পড়েছে—যা তাকে পশ্চিমা পুঁজিবাজার, প্রযুক্তি এবং শিপিং ও বিমা ব্যবস্থার বড় অংশ থেকে বিচ্ছিন্ন করেছে। আন্তর্জাতিক অপরাধ আদালতের গ্রেফতারি পরোয়ানাও পুতিনের বিদেশ সফর সীমিত করেছে। এমন পরিস্থিতিতে নয়া দিল্লিতে অন্য বড় শক্তির নেতাদের পাশে পুতিনের উপস্থিতি নিছক কূটনৈতিক সৌজন্য ছিল না। এটি ওয়াশিংটন ও ব্রাসেলসের জন্য একটি বার্তা—রাশিয়াকে আন্তর্জাতিক অঙ্গন থেকে পুরোপুরি বিচ্ছিন্ন করে রাখা সম্ভব নয়।
-ভারত এখনও ছাড়ে রাশিয়ার অপরিশোধিত তেল কিনছে। অপরদিকে, চীন রাশিয়ার সবচেয়ে বড় বাণিজ্যিক অংশীদার এবং পশ্চিমা নিষেধাজ্ঞার কারণে ক্ষতিগ্রস্ত রুশ অর্থনীতির জন্য গুরুত্বপূর্ণ সহায়তা। ২০২২ সালের পর এই দুই দেশের সঙ্গে রাশিয়ার সম্পর্ক আরও গভীর হয়েছে। ব্রিকসে অংশগ্রহণের মাধ্যমে পুতিনের আরেকটি লক্ষ্য হলো— ডলারের ওপর নির্ভরতা কমিয়ে বিকল্প লেনদেন ব্যবস্থা গড়ে তোলা, যা ভবিষ্যতে পশ্চিমা নিষেধাজ্ঞার প্রভাব কমাতে পারে। তবে এর অর্থ এই নয় যে ব্রিকসে রাশিয়া শক্তিশালী বা সমমর্যাদার অংশীদার।
-অর্থনৈতিকভাবে এটি জোটের দুর্বল সদস্যদের একটি এবং চীনের ওপরও এর নির্ভরতা বাড়ছে। তারপরও নয়া দিল্লি সম্মেলন পুতিনকে এমন একটি মঞ্চ দিয়েছে, যেখানে তিনি নিজেকে বিচ্ছিন্ন বা সাহায্যপ্রার্থী নেতা হিসেবে নয়, বরং অন্য বড় শক্তির নেতাদের সমান কাতারে দাঁড়ানো একজন অংশীদার হিসেবে তুলে ধরতে পেরেছেন। এই দৃশ্যই তাঁর জন্য যৌথ ঘোষণাপত্রের অনেক বক্তব্যের চেয়ে বেশি গুরুত্বপূর্ণ।
-এরপর আসে ইরানের বিষয়টি। সাম্প্রতিক যুক্তরাষ্ট্র-ইসরায়েল-ইরান যুদ্ধের পরিপ্রেক্ষিতে প্রেসিডেন্ট মাসুদ পেজেশকিয়ানের সম্মেলনে উপস্থিতি বিশেষ গুরুত্ব বহন করে। ব্রিকসে ইরানের  অংশগ্রহণ পশ্চিমা দেশগুলোর উদ্দেশ্য নিয়ে তেহরানের সন্দেহ আরও বাড়িয়েছে এবং চীন ও রাশিয়ার সঙ্গে সম্পর্ক গভীর করার আগ্রহও জোরদার করেছে। নয়া দিল্লিতে পেজেশকিয়ানের উপস্থিতি দেখিয়েছে যে ব্রিকস এখন এমন একটি মঞ্চে পরিণত হয়েছে, যেখানে পশ্চিমা চাপের মুখে থাকা দেশগুলো একা নয়, বরং একসঙ্গে নিজেদের অবস্থান তুলে ধরতে পারে।
-সম্মেলনে নেতারা সর্বসম্মতভাবে একটি যৌথ ঘোষণাপত্র গ্রহণ করেন। এতে মধ্যপ্রাচ্যে উত্তেজনা কমানোর আহ্বান জানানো হয় এবং বৈশ্বিক বাণিজ্য, সরবরাহ ব্যবস্থা ও জ্বালানি সরবরাহ স্বাভাবিক রাখার ওপর গুরুত্ব দেওয়া হয়। গাজা থেকে ফিলিস্তিনিদের জোর করে বাস্তুচ্যুত করার বিরুদ্ধেও তারা দৃঢ় অবস্থান নেন। এই অবস্থান গ্লোবাল সাউথের জনমতের সঙ্গে ওয়াশিংটন ও তার ঘনিষ্ঠ মিত্রদের অবস্থানের তুলনায় বেশি সামঞ্জস্যপূর্ণ। অর্থনৈতিক বিষয়েও বাণিজ্য, অর্থায়ন ও কৃত্রিম বুদ্ধিমত্তার ব্যবহার ও নিয়ন্ত্রণ নিয়ে আলোচনা হয়েছে।
-পাশাপাশি, ব্রিকসের দীর্ঘদিনের দাবিও আবার উঠে এসেছে— বিশ্ব অর্থনীতি ও বৈশ্বিক রাজনীতিতে সদস্য দেশগুলোর ভূমিকার সঙ্গে সামঞ্জস্য রেখে বহুপাক্ষিক প্রতিষ্ঠানগুলোতে তাদের প্রতিনিধিত্ব বাড়ানো।
-এসব কিছুই কোনও আনুষ্ঠানিক পশ্চিমাবিরোধী জোট গঠনের অর্থ বহন করে না। ব্রিকসের সদস্য দেশগুলোর স্বার্থ এখনও অনেক ক্ষেত্রে ভিন্ন। ভারত ও চীনের সীমান্ত বিরোধ মেটেনি, রাশিয়া-চীন অংশীদারত্বও মূলত বেইজিংয়ের পক্ষে ভারসাম্যপূর্ণ। আবার সংযুক্ত আরব আমিরাত ও সৌদি আরবের মতো সদস্য দেশগুলো ব্রিকসের অংশ হয়েও ওয়াশিংটনের সঙ্গে ঘনিষ্ঠ নিরাপত্তা সম্পর্ক বজায় রেখেছে। তবে এত ভিন্ন স্বার্থের দেশ গাজা ও মধ্যপ্রাচ্যের মতো গুরুত্বপূর্ণ বিষয়ে একসঙ্গে অবস্থান নিতে পারছে—এটি পশ্চিমা নেতৃত্বাধীন বিশ্বব্যবস্থার প্রতি তাদের অভিন্ন অসন্তোষেরই একটি ইঙ্গিত। ওয়াশিংটনের জন্য অস্বস্তির কারণ এই নয় যে ব্রিকস রাতারাতি ডলারকে সরিয়ে দেবে বা যুদ্ধোত্তর প্রতিষ্ঠানগুলো ভেঙে ফেলবে। এত শক্তি ব্রিকসের নেই। তাছাড়া, ব্রিকসের সদস্য দেশগুলোর নিজেদের মধ্যেও নানা ধরনের প্রতিদ্বন্দ্বিতা ও মতপার্থক্য রয়েছে। তবে এর চেয়েও বড় বিষয় হলো, ব্রিকস এখন অনেক দেশের জন্য কোনও একটি শক্তি বা জোটের ওপর অতিরিক্ত নির্ভরতা কমানোর একটি বিকল্প পথ তৈরি করছে। মিসর, ইথিওপিয়া, ইন্দোনেশিয়া ও সংযুক্ত আরব আমিরাতসহ গত বছর যোগ দেওয়া ১০টি অংশীদার দেশও এই প্রক্রিয়ার অংশ।
-যুক্তরাষ্ট্রের নতুন শুল্ক, নিষেধাজ্ঞা বা বাণিজ্যনীতিতে হঠাৎ পরিবর্তন অনেক দেশকে তাদের অর্থনৈতিক ও কূটনৈতিক সম্পর্ক আরও বৈচিত্র্যময় করার কথা ভাবতে বাধ্য করছে। এই পরিস্থিতিতে ব্রিকস ধীরে ধীরে সেই বৈচিত্র্যময় সম্পর্ক গড়ে তোলার একটি গুরুত্বপূর্ণ প্ল্যাটফর্ম হয়ে উঠছে। জার্মান মার্শাল ফান্ডের ইয়ান লেসারের মতে, এই পরিস্থিতি রাশিয়া ও চীনকে একটি বিশেষ সুযোগ দিচ্ছে। তারা ওয়াশিংটনের অনিশ্চিত নীতির কারণে তৈরি হওয়া উদ্বেগকে কাজে লাগিয়ে নিজেদের প্রভাব আরও বাড়াতে পারে।
-ভারতের জন্য এই সম্মেলন ছিল ভারসাম্য রক্ষার একটি গুরুত্বপূর্ণ সুযোগ। ভারত একদিকে কোয়াড ও প্রতিরক্ষা সহযোগিতার মাধ্যমে যুক্তরাষ্ট্রের সঙ্গে ঘনিষ্ঠ সম্পর্ক বজায় রেখেছে, অপরদিকে রাশিয়ার সঙ্গে পুরোনো সম্পর্ক ধরে রেখেছে এবং চীনের সঙ্গেও কাজ করছে।
-ব্রিকসের সভাপতিত্ব করা এবং শি ও পুতিনকে নিজ দেশে স্বাগত জানিয়ে ভারত স্পষ্ট করেছে যে তার পররাষ্ট্রনীতি কোনও একক দেশের ওপর নির্ভরশীল নয়। এই বার্তা যুক্তরাষ্ট্র, চীন ও  রাশিয়া—তিন দেশের জন্যই গুরুত্বপূর্ণ।
-এই সম্মেলন দেখিয়েছে যে ব্রিকস কোনও নতুন বিশ্বব্যবস্থা তৈরি করছে না, বরং বিশ্বে এখন আর কোনও একক ব্যবস্থার ওপর নির্ভর করার প্রয়োজন নেই। ২০ বছর আগে চারটি দেশ নিয়ে শুরু হওয়া ব্রিকস এখন ১১ সদস্যে পরিণত হয়েছে, আর আরও অনেক দেশ এর সঙ্গে যুক্ত হতে আগ্রহী। এর একটি কারণ হলো, যুক্তরাষ্ট্র ও পশ্চিমা শক্তিগুলো দীর্ঘদিন গ্লোবাল সাউথের দেশগুলোর সঙ্গে সম্পর্ককে যথেষ্ট গুরুত্ব দেয়নি। নয়া দিল্লিতে চার বড় শক্তির একসঙ্গে উপস্থিতি তাই একটি স্পষ্ট বার্তা দেয়—বিশ্বের অনেক দেশ এখন নিজের স্বার্থে একাধিক শক্তির সঙ্গে সম্পর্ক গড়তে চায়। ব্রিকস এই ঐক্যকে কতটা কার্যকর প্রাতিষ্ঠানিক শক্তিতে রূপ দিতে পারবে, তা এখনও অনিশ্চিত—তবে এর প্রতীকী উত্থানই ওয়াশিংটনের জন্য অস্বস্তির কারণ হয়ে উঠেছে।
-লেখক: রাজশাহী বিশ্ববিদ্যালয়ের লোক প্রশাসন বিভাগের প্রফেসর
-&lt;a class="more_link" href="https://www.banglatribune.com/columns/968380/%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B8-%E0%A6%AC%E0%A6%A6%E0%A6%B2%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A6%A4%E0%A6%BE%C2%A0"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>পলিথিনের অনিয়ন্ত্রিত ব্যবহার বন্ধ করতে হবে. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/editorial/23MvEleH9NgD</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://dailysangram.com/opinion/editorial/23MvEleH9NgD"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>পরিবর্তিত বিশ্বব্যবস্থায় ব্রিকসের নতুন অঙ্গীকার. [ dhakapost ]</title>
-      <link>https://www.dhakapost.com/opinion/482708</link>
-      <pubDate>Mon, 14 Sep 2026 10:06:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://assets.dhakapost.com/media/imgAll/BG/2026September/farid-2026-brics-20260914100629.jpg?width=560&amp;height=315" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
-অনেক জল্পনা কল্পনার পর অবশেষে দিল্লিতে অনুষ্ঠিত ব্রিকস শীর্ষ সম্মেলন শেষে সব সদস্য দেশের ঐকমত্যের ভিত্তিতে একটি যৌথ ঘোষণাপত্র স্বাক্ষর...
-&lt;a class="more_link" href="https://www.dhakapost.com/opinion/482708"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>জাতির জন্য প্রয়োজন শিক্ষা সংস্কার. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/column/xPMOvRg9YFyr</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://dailysangram.com/opinion/column/xPMOvRg9YFyr"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>বিশ্ববাণিজ্যের শ্বাসনালী হরমুজ: ঘুঁটির হরতন ও টেক্কা. [ jagonews24 ]</title>
-      <link>https://www.jagonews24.com/m/opinion/article/1156964</link>
-      <pubDate>Mon, 14 Sep 2026 07:18:03 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://www.jagonews24.com/m/opinion/article/1156964"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+      <title>চরম হুমকিতে বিশ্ব জ্বালানি নিরাপত্তা. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/column/KEeuv3HDUrmC</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://dailysangram.com/opinion/column/KEeuv3HDUrmC"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>জ্বালানি নিরাপত্তা ও আমদানিনির্ভরতার ফাঁদ. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/editorial/rzvA4TVPRxH5</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://dailysangram.com/opinion/editorial/rzvA4TVPRxH5"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ইরান সদস্য, তবু ইরান যুদ্ধেই কেন নীরব ব্রিকস. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/58sswoce65</link>
+      <pubDate>Tue, 15 Sep 2026 12:05:14 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://media.prothomalo.com/prothomalo-bangla/2026-09-14/m9ml127a/2026-09-13T012744Z1095030876RC2NHNAI3RN3RTRMADP3BRICS-SUMMIT-1789264800.webp?w=600&amp;auto=format" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+মার্কিন-ইসরায়েল ও ইরানের মধ্যকার যুদ্ধ ব্রিকসের অধিকাংশকেই প্রভাবিত করলেও জোটের ঘোষণাপত্রে এটি সরাসরি স্পর্শ করা হয়নি।
+&lt;a class="more_link" href="https://www.prothomalo.com/opinion/column/58sswoce65"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সিলভার ইকোনমি: ট্রিলিয়ন ডলারের বাজারে কতটা প্রস্তুত বাংলাদেশ. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/47xqlrmi6a</link>
+      <pubDate>Tue, 15 Sep 2026 11:32:20 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://media.prothomalo.com/prothomalo-bangla/2026-09-15/l7h9566c/15092026-cm-5.jpg?w=600&amp;auto=format" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+সিলভার ইকোনমি কী? চীন, জাপান, ফিলিপাইনসহ বিভিন্ন দেশে কীভাবে এই অর্থনীতি কাজ করছে?
+&lt;a class="more_link" href="https://www.prothomalo.com/opinion/column/47xqlrmi6a"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বাংলাদেশে কি দুর্নীতি কমবে. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/y87ockrgfx</link>
+      <pubDate>Tue, 15 Sep 2026 11:17:16 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://media.prothomalo.com/prothomalo-bangla/2023-03/f7c3f6f4-ba19-41ad-8ebf-9d7f50825a2d/editorial_online____durniti_1.jpg?w=600&amp;auto=format" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+বিচারব্যবস্থার ক্ষেত্রেও একই কথা প্রযোজ্য। মানুষের শেষ আশ্রয় হওয়া উচিত আদালত।
+&lt;a class="more_link" href="https://www.prothomalo.com/opinion/column/y87ockrgfx"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>গণতন্ত্রের পশ্চাদ্‌যাত্রা, লড়াই চলছে দেশে দেশে. [ prothomalo ]</title>
+      <link>https://www.prothomalo.com/opinion/column/mji98m6qvb</link>
+      <pubDate>Tue, 15 Sep 2026 09:30:26 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://media.prothomalo.com/prothomalo-bangla/2026-09-15/tr8owlnh/MasukartWhatsApp-Image-2026-09-14-at-5.49.44-PMCMYK.jpg?w=600&amp;auto=format" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+চীন, রাশিয়া, উত্তর কোরিয়া, ইরান, মিয়ানমার, তাজিকিস্তান, বেলারুশের মতো দেশগুলোর মধ্যে গড়ে ওঠা সহযোগিতা এখন কেবল অর্থনৈতিক নয়, কৌশলগতও।
+&lt;a class="more_link" href="https://www.prothomalo.com/opinion/column/mji98m6qvb"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>টিকাদানে রেকর্ডের পরেও দেশে হামে এত মৃত্যু কেন?. [ chaarcha ]</title>
+      <link>https://www.chaarcha.com/analysis/chijhr2pkk0t</link>
+      <pubDate>Tue, 15 Sep 2026 08:36:29 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;figure&gt;&lt;img alt="টিকাদানে রেকর্ডের পরেও দেশে হামে এত মৃত্যু কেন?" src="https://images.chaarcha.com/original_images/measels.jpg" style="border-radius: 8px;" /&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;small&gt;হাম সংক্রমণের বিস্তার ঠেকাতে একটি জনগোষ্ঠীতে প্রায় ৯৫ শতাংশ টিকাদান কভারেজ প্রয়োজন। ছবি: চরচা&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;চলতি বছরের ১৫ মার্চ থেকে শুরু হওয়া এই প্রাদুর্ভাবে ১ হাজারের বেশি মানুষের মৃত্যু হয়েছে বলে তথ্য পাওয়া গেছে। অথচ মাত্র এক বছর আগে, ২০২৫ সালজুড়ে হাম শনাক্ত হয়েছিল ১৩২ শিশুর এবং কোনো মৃত্যুর ঘটনা ঘটেনি।&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;— চরচা ডেস্ক&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.chaarcha.com/analysis/chijhr2pkk0t"&gt;চরচায় পড়ুন →&lt;/a&gt;&lt;/p&gt;
+&lt;a class="more_link" href="https://www.chaarcha.com/analysis/chijhr2pkk0t"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সরকারি হাসপাতালের সেবা কি টাকার কাছে জিম্মি?. [ banglatribune ]</title>
+      <link>https://www.banglatribune.com/columns/968623/%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE-%E0%A6%95%E0%A6%BF-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A7%87-%E0%A6%9C%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%BF</link>
+      <pubDate>Tue, 15 Sep 2026 08:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, Compound Beta, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://cdn.banglatribune.net/contents/cache/images/1200x630x1xxxxx1/uploads/media/2026/06/27/0c86ef8eb68209f10e7df426b82cd789-6a3fc6e15f517.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+একজন রোগী সরকারি হাসপাতালে যান চিকিৎসা নিতে। তার হাতে টাকা কম। এই কারণেই তিনি সরকারি হাসপাতালে গেছেন। কিন্তু হাসপাতালের গেট পেরোনোর পর শুরু হয় আরেক হিসাব; হুইলচেয়ার লাগবে, টাকা; রোগীকে ওয়ার্ডে নিতে হবে, টাকা; বেড দেখিয়ে দিতে হবে, টাকা; পরীক্ষার কাগজ কোথায় জমা হবে, টাকা; রক্তের ব্যবস্থা করতে হবে, টাকা। সব জায়গায় টাকা নাও চাওয়া হতে পারে। কিন্তু বহু রোগীর অভিজ্ঞতায় এমন একটি সংস্কৃতি তৈরি হয়েছে, যেখানে ‘কাজটি দ্রুত হবে কিনা’, তার সঙ্গে অনানুষ্ঠানিক অর্থের সম্পর্ক তৈরি হয়েছে।
+এটি রাষ্ট্রের নাগরিক-সেবা ব্যবস্থার একটি গভীর ব্যর্থতা। বিশেষ করে হাসপাতালের সাধারণ কর্মচারী, ওয়ার্ডবয়, আয়া, পরিচ্ছন্নতাকর্মী, নিরাপত্তাকর্মী, স্ট্রেচার বহনকারী, কিছু সহায়ক কর্মী; যখন রোগীর দুর্বল অবস্থাকে ব্যবহার করে টাকা দাবি করেন, তখন সেটি ছোটখাটো অনিয়ম বলে এড়িয়ে যাওয়ার সুযোগ নেই। রোগী তখন দর-কষাকষির অবস্থায় থাকেন না। তিনি নির্ভরশীল। অনেক সময় মৃত্যুভয়ে, অপারেশনের আতঙ্কে বা অসুস্থ স্বজনকে বাঁচানোর তাড়নায় তিনি টাকা দেন। এই অর্থ তাই স্বেচ্ছায় দেওয়া ‘বকশিস’ নয়; অনেক ক্ষেত্রে এটি ক্ষমতার অসম সম্পর্ক থেকে তৈরি হওয়া অনানুষ্ঠানিক ফি।
+বাংলাদেশে এ সমস্যা নতুন নয়। প্রায় তিন দশক আগের গবেষণাতেও সরকারি স্বাস্থ্যকেন্দ্রে অনানুষ্ঠানিক ফি নেওয়াকে ঘুষ হিসেবে চিহ্নিত করা হয়েছিল। পরে জাতীয় পর্যায়ের গবেষণায় দেখা গেছে, সরকারি হাসপাতালে চিকিৎসা নিতে গিয়ে অনেক রোগী অনানুষ্ঠানিক অর্থ দিয়েছেন; দরিদ্ররা এ ধরনের অর্থনৈতিক চাপে তুলনামূলকভাবে বেশি ক্ষতিগ্রস্ত হন। একটি গবেষণায় সরকারি হাসপাতালে ৮২ শতাংশ রোগী দ্রুত চিকিৎসা পাওয়ার জন্য অনানুষ্ঠানিক অর্থ দেওয়ার খবর পাওয়া যায়। অন্য একটি গবেষণায় সরকারি প্রতিষ্ঠানে বিনা মূল্যের পরামর্শের জন্য ৪১ শতাংশ রোগীর অর্থ দেওয়ার প্রমাণ পাওয়া যায়।
+সবচেয়ে উদ্বেগজনক বিষয় হলো, এই সংস্কৃতি রোগীর আচরণও বদলে দেয়। রোগী ভাবেন, টাকা না দিলে কাজ হবে না। কর্মচারী ভাবেন, টাকা চাওয়া অস্বাভাবিক নয়। অন্য কর্মচারীরা দেখেন, সহকর্মী টাকা নিচ্ছেন অথচ শাস্তি হচ্ছে না। কর্তৃপক্ষ দেখেন, অভিযোগের সংখ্যা সীমিত। ফলে একটি নীরব সামাজিক চুক্তি তৈরি হয়: ‘আপনি টাকা দিন, আমরা কাজটি করে দেব।’ এই চুক্তি ভাঙা ছাড়া শুধু কর্মচারী বদলি করে সমস্যার সমাধান হবে না।
+সরকারকে এখানে একটি কঠিন সত্য স্বীকার করতে হবে। হাসপাতালের দুর্নীতি কেবল বড় কেনাকাটা, ঠিকাদারি বা ওষুধের টেন্ডারে হয় না। রোগীর পকেট থেকে নেওয়া ৫০, ১০০ বা ২০০ টাকার অর্থও দুর্নীতি। বরং এর সামাজিক ক্ষতি কখনো বড় দুর্নীতির চেয়েও গভীর।
+সামাজিক যোগাযোগমাধ্যমে সরকারি হাসপাতালের অভিজ্ঞতা নিয়ে মানুষের পোস্টগুলোও এই আস্থার সংকেত। একই ধরনের অভিযোগ বারবার দেখা যায়, কর্মচারীর রূঢ় ব্যবহার, রোগীর স্বজনকে অপমান, ‘চা-পানি’ চাওয়া, স্ট্রেচার বা বেডের জন্য টাকা চাওয়া, ওয়ার্ডে প্রবেশে অযৌক্তিক বাধা এবং অভিযোগ করলে উল্টো হয়রানির ভয়। সামাজিক যোগাযোগমাধ্যমের প্রতিটি অভিযোগ সত্য ধরে নেওয়া যাবে না। কিন্তু বহু বিচ্ছিন্ন অভিজ্ঞতার পুনরাবৃত্তিকে সম্পূর্ণ গুজব বলাও দায়িত্বশীল হবে না। সরকারের উচিত এসব পোস্টকে বিবেচনায় নিয়ে ব্যবস্থা গ্রহণ। এখানেই বাংলাদেশের বর্তমান ব্যবস্থার একটি বড় দুর্বলতা। অভিযোগ ব্যবস্থাকে আমরা এমনভাবে সাজিয়েছি যেন নাগরিককে প্রথমে সাহসী হতে হবে, তারপর প্রমাণ সংগ্রহ করতে হবে, তারপর অভিযোগ করতে হবে, তারপর তদন্তের অপেক্ষা করতে হবে। একজন দরিদ্র রোগী বা তার স্বজনের কাছে এটি বাস্তবসম্মত নয়। যে কর্মচারীর বিরুদ্ধে অভিযোগ করবেন— পরের এক ঘণ্টাতেই তার কাছ থেকে আবার সেবা নিতে হতে পারে। ফলে অভিযোগ না করাই নিরাপদ মনে হয়।
+ভারতের অভিজ্ঞতা এখানে গুরুত্বপূর্ণ। দেশটি রোগীর দৃশ্যমান অভিযোগ ব্যবস্থা, নির্ধারিত অভিযোগ কর্মকর্তা এবং হাসপাতাল পর্যায়ে গুরুত্বপূর্ণ কাঠামো তৈরি করেছে। ২০২৫ সালের হাসপাতাল ম্যানুয়ালে প্রতিটি হাসপাতালে অভিযোগ গ্রহণ এবং সমাধানের জন্য লোক নিয়োগ, প্রকাশ্য অভিযোগের ব্যবস্থা, অভিযোগ নথিভুক্তকরণ এবং সময়সীমাবদ্ধ নিষ্পত্তির কথা বলা হয়েছে। ভারতের শিক্ষা হলো ‘অভিযোগ করুন’ বলা যথেষ্ট নয়; অভিযোগ গ্রহণ, তদন্ত, জবাব এবং ঊর্ধ্বতন পর্যায়ে আপিল; পুরো শৃঙ্খলটি দৃশ্যমান করতে হয়।
+সিঙ্গাপুর থেকে আরও একটি গুরুত্বপূর্ণ শিক্ষা পাওয়া যেতে পারে। সেখানে স্বাস্থ্যসেবা নিয়ে অভিযোগের জন্য প্রথমে হাসপাতাল পর্যায়ে সমাধান, তারপর প্রয়োজন হলে মন্ত্রণালয় বা সংশ্লিষ্ট পেশাগত সংস্থায় যাওয়ার সুস্পষ্ট ধাপ আছে। হাসপাতালকে নির্দিষ্ট ধরনের অভিযোগে ৭ থেকে ২১ দিনের মধ্যে সমাধানের কাঠামো তৈরি করা হয়েছে। অভিযোগকে সেখানে প্রশাসনিক দয়া নয়, সেবা-মানের অংশ হিসেবে দেখা হয়েছে।
+রুয়ান্ডার অভিজ্ঞতা আরও কঠিন। সেখানে ২০০০-এর দশকে পারফরমেন্সের ওপর নির্ভার করে অর্থায়ন ব্যবস্থা চালু হয়। ২০০৫ সালে ৭৪টি স্বাস্থ্যকেন্দ্র দিয়ে শুরু করে ২০০৬ সালে আরও ৮৫টি কেন্দ্রে সম্প্রসারণ করা হয়; ২০০৮ সালে এটি জাতীয় কৌশলে পরিণত হয়। হাসপাতাল ও স্বাস্থ্যকেন্দ্রের কর্মক্ষমতা পরিমাপ, তদারকি এবং রোগীর সন্তুষ্টি যাচাইকে অর্থায়নের সঙ্গে যুক্ত করা হয়েছিল। পাঁচ বছরের মূল্যায়নে হাসপাতাল ব্যবস্থাপনা ও সেবার মানে উন্নতি দেখা যায়। অর্থাৎ কর্মচারীকে শুধু ‘ভালো আচরণ করুন’ বলা হয়নি; ভালো আচরণ ও ভালো সেবাকে ব্যবস্থাপনার ফলাফলের অংশ করা হয়েছিল।
+বাংলাদেশের জন্য এখানেই সবচেয়ে বড় শিক্ষা। কর্মচারীদের আচরণকে ‘নৈতিকতা’ হিসেবে রেখে দিলে হবে না; এটিকে কর্মসম্পাদনের সূচক করতে হবে। একজন ওয়ার্ডবয়ের দায়িত্ব শুধু রোগী বহন করা নয়। রোগীকে সম্মানজনক আচরণ করা, নির্ধারিত সেবা বিনা অনানুষ্ঠানিক অর্থে দেওয়া এবং অভিযোগ না তৈরি করা— এসবও তার চাকরির ফলাফল।
+সরকার চাইলে ছয় মাসের মধ্যে একটি বড় পরিবর্তন শুরু করতে পারে। প্রথমত, প্রতিটি সরকারি হাসপাতালে ‘কোন সেবার জন্য কত টাকা’ এই তালিকা বড় অক্ষরে টাঙাতে হবে। যে সেবা বিনামূল্যে, তার পাশে স্পষ্ট লিখতে হবে— ‘কোনো কর্মচারীকে টাকা দেবেন না।’ দ্বিতীয়ত, প্রতিটি ওয়ার্ডে কিউআর কোড ও ফোন নম্বর রাখতে হবে, যাতে রোগী বা স্বজন এক মিনিটে অভিযোগ করতে পারেন। তৃতীয়ত, অভিযোগের সঙ্গে হাসপাতাল, বিভাগ, সময় ও কর্মচারীর পরিচয় দেওয়ার সুযোগ থাকবে; পরিচয় গোপন রাখার ব্যবস্থাও থাকতে হবে। চতুর্থত, অভিযোগের ভিত্তিতে শুধু তদন্ত নয়, রোগী সেজে বিষয়গুলো খতিয়ে দেখার ব্যবস্থা চালু করতে হবে। স্বাস্থ্য অধিদফতরের স্বাধীন দল ছদ্মবেশে রোগী সেজে হাসপাতালের সেবা পরীক্ষা করবে। কোথায় টাকা চাওয়া হয়, কোথায় রোগীকে ঘোরানো হয়, কোথায় রূঢ় আচরণ করা হয়, এসব নিয়মিত পরীক্ষা করা সম্ভব।
+পঞ্চমত, টাকা নেওয়ার অভিযোগে প্রমাণ হলে শাস্তি হতে হবে দ্রুত। তিন বছর পর বদলি বা বিভাগীয় মামলা নয়। প্রথমবার সতর্কতা ও বাধ্যতামূলক প্রশিক্ষণ, পুনরাবৃত্তিতে বেতনবৃদ্ধি বা পদোন্নতি স্থগিত, গুরুতর বা ঘুষ দাবির ক্ষেত্রে বিভাগীয় শাস্তি; এমন একটি নির্দিষ্ট সিঁড়ি দরকার। জরুরি সেবা আটকে দিয়ে টাকা চাইলে সেটিকে গুরুতর অসদাচরণ হিসেবে গণ্য করা উচিত। ষষ্ঠত, ভালো কর্মচারীকেও পুরস্কৃত করতে হবে। রোগীর সন্তুষ্টি, অভিযোগের হার, সময়মতো সেবা এবং সহকর্মীদের মূল্যায়নের ভিত্তিতে হাসপাতাল ও ইউনিটকে র‌্যাংকিং করা যেতে পারে। বাংলাদেশের স্বাস্থ্যব্যবস্থায় এমন কর্মক্ষমতা মূল্যায়নের ভিত্তি তৈরির চেষ্টা আগে হয়েছে; এখন সেটিকে কাগজ থেকে বাস্তব ব্যবস্থাপনায় নিতে হবে।
+সবশেষে সবচেয়ে কঠিন কথাটি বলা দরকার। হাসপাতালের সাধারণ কর্মচারীর বেতন কম, এটি অনানুষ্ঠানিক টাকা নেওয়ার অজুহাত হতে পারে না। একইভাবে কর্মচারীকে ঘুষ না দিতে রোগীকেও দায়িত্বশীল হতে হবে। কিন্তু যখন সেবা না পাওয়ার ভয় দেখিয়ে টাকা নেওয়া হয়, তখন দায় প্রধানত সেই প্রতিষ্ঠানের, যে কর্মচারীকে সেই ক্ষমতা দিয়েছে এবং নিয়ন্ত্রণ করেনি।
+স্বাস্থ্য মন্ত্রণালয় ও স্বাস্থ্য অধিদপ্তরের সামনে এখন তাই একটি মৌলিক সিদ্ধান্তের প্রশ্ন। তারা কি হাসপাতালের সমস্যাকে শুধু চিকিৎসকসংকট, শয্যাসংকট ও যন্ত্রপাতির সংকট হিসেবে দেখবে? নাকি বুঝবে যে রাষ্ট্রের হাসপাতাল আসলে একটি সেবা প্রদানকারী প্রতিষ্ঠান, যেখানে আচরণও চিকিৎসার অংশ? একজন রোগীকে অপমান করা, তার স্বজনকে ঘোরানো, টাকা ছাড়া কাজ না করা; এসব চিকিৎসার বাইরে নয়। এগুলোই স্বাস্থ্যব্যবস্থার বিশ্বাসযোগ্যতার পরীক্ষা।
+সরকার যদি সত্যিই সরকারি হাসপাতালকে দরিদ্র মানুষের শেষ আশ্রয় হিসেবে রাখতে চায়, তাহলে ‘চিকিৎসা বিনামূল্যে’ কথাটি যথেষ্ট নয়। বিনামূল্যে চিকিৎসার দরজা দিয়ে ঢুকে যদি রোগীকে প্রতিটি ধাপে অনানুষ্ঠানিক অর্থ দিতে হয়, তাহলে রাষ্ট্র একটি ভুয়া বিনামূল্যের ব্যবস্থা চালাচ্ছে। এখন দরকার এমন হাসপাতাল, যেখানে রোগীর কাছে টাকা চাওয়া শুধু নিষিদ্ধ নয়; টাকা চাওয়ার ঝুঁকিও কর্মচারীর জন্য বাস্তব। সেবার মূল্য হবে সরকারের বাজেট; রোগীর মর্যাদা হবে রাষ্ট্রের দায়।
+লেখক: উন্নয়নকর্মী, গবেষক ও সাংবাদিক
+&lt;a class="more_link" href="https://www.banglatribune.com/columns/968623/%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE-%E0%A6%95%E0%A6%BF-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A7%87-%E0%A6%9C%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%BF"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বাব এল-মান্দেব: হরমুজের পর যেভাবে আরেক গুরুত্বপূর্ণ জলপথকে তুরুপের তাস বানাল ইরান. [ ajkerpatrika ]</title>
+      <link>https://www.ajkerpatrika.com/analysis/ajpwpowfankyh</link>
+      <pubDate>Tue, 15 Sep 2026 06:51:55 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Gemini-3-flash-preview, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://images.ajkerpatrika.com/original_images/bab-el-mandeb_XUBOjfK.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+বাব এল-মান্দেব প্রণালি আরব উপদ্বীপ ও আফ্রিকার মধ্যকার একটি সরু জলপথ। উত্তরে এটি লোহিত সাগরকে এডেন উপসাগর ও ভারত মহাসাগরের সঙ্গে যুক্ত করেছে। দক্ষিণে এটি সুয়েজ খালের মাধ্যমে ভূমধ্যসাগরে যাওয়ার পথ তৈরি করেছে।
+&lt;a class="more_link" href="https://www.ajkerpatrika.com/analysis/ajpwpowfankyh"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ডেঙ্গু নিয়ন্ত্রণে জন-দায়িত্ব. [ bangladesherkhabor ]</title>
+      <link>https://www.bangladesherkhabor.net/opinion/49025</link>
+      <pubDate>Tue, 15 Sep 2026 18:11:26 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://bangladesherkhabor.net/uploads/news_photos/2026/09/15/1-6a622ff3a5ba5-6a818fe66d886-6a9e8498e7ca9-6aa92647537af.gif" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+প্রথমেই বলা ভালো যে, ডেঙ্গু শুধুমাত্র আমাদের দেশের সমস্যা নয়, উষ্ণমণ্ডলীয় অঞ্চলগুলোতেই ডেঙ্গু মশার বিস্তার রয়েছে। ডেঙ্গু মশার প্রজনন নিয়ন্ত্রণে ...
+&lt;a class="more_link" href="https://www.bangladesherkhabor.net/opinion/49025"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>বাংলাদেশে সবচেয়ে বেশি দেখা যায় কোন ১০টি সাপ ও এর কতগুলো বিষধর?. [ bbc ]</title>
+      <link>https://www.bbc.com/bengali/articles/c9w0egg11zro?at_medium=RSS&amp;at_campaign=rss</link>
+      <pubDate>Tue, 15 Sep 2026 13:32:47 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;img src="https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/1a79/live/f2de60d0-9966-11f1-9712-2936f8c80214.jpg" style="float: left; margin: 0 10px 10px 0;" width="150" /&gt;
+আইইউসিএন বাংলাদেশের ২০১৫ সালের রেড লিস্টে ৮১ প্রজাতি সাপের মূল্যায়ন করা হয়েছে। এর মধ্যে কিছু প্রজাতি বিরল হলেও কিছু সাপ দেশের বিভিন্ন এলাকায় তুলনামূলক বেশি দেখা যায়। আইইউসিএন বাংলাদেশ এমন ১০টি সাপের নাম জানিয়েছে।
+&lt;a class="more_link" href="https://www.bbc.com/bengali/articles/c9w0egg11zro?at_medium=RSS&amp;at_campaign=rss"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>সুখের নাম রেমিট্যান্স আর কষ্টের নাম প্রবাস জীবন. [ dailysangram ]</title>
+      <link>https://dailysangram.com/opinion/column/7jfYs5vfdC2c</link>
+      <pubDate>Tue, 15 Sep 2026 12:18:01 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;[Priority]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Systemic Significance&lt;/i&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;Selected by: Compound Beta, GPT-OSS-120B, GPT-OSS-20B&lt;/small&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;a class="more_link" href="https://dailysangram.com/opinion/column/7jfYs5vfdC2c"&gt;বিস্তারিত&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
